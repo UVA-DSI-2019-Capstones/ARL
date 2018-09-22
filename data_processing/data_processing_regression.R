@@ -55,10 +55,14 @@ Next we normalize the texts in the reviews using a series of pre-processing step
 1. Switch to lower case 
 2. Remove punctuation marks 
 3. Remove extra whitespaces
+4. Remove stop words
+5. Stemmatize the words
 "
 test.corpus <- tm_map(test.corpus, content_transformer(tolower))
 test.corpus <- tm_map(test.corpus, removePunctuation)
 test.corpus <- tm_map(test.corpus, stripWhitespace)
+test.corpus <- tm_map(test.corpus, removeWords, c("the", "and", stopwords("english")))
+test.corpus <- tm_map(test.corpus, stemDocument, language = "english")
 
 "
 To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
@@ -69,4 +73,10 @@ test.corpus.dtm
 #Inspecting the first 5 documents and the first 5 words in the corpus
 inspect(test.corpus.dtm[1:5, 1:5])
 
+#Getting the 5 most frequent words
+freq <- data.frame(sort(colSums(as.matrix(test.corpus.dtm)), decreasing=TRUE))
+freq.df <- head(freq, 5)
+colnames(freq.df) <- c('frequency')
 
+#Barplot to get most frequent words
+barplot(freq.df$frequency, names.arg=rownames(freq.df), col=c("beige","orange"), ylab="Count of words", ylim = c(0, 160), main = 'Most frequent words')
