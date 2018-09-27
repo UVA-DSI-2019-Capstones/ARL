@@ -33,36 +33,34 @@ post.clean.rating.data <- subset(post.rating.data, select = names(post.rating.da
 
 #Getting overall score dataframe of each author
 overall.score <- subset(post.data[19,], select = names(post.data) %ni% nums)
-#Overall score vector
-overall.score.vector <- as.numeric(overall.score)
 
-threshold <- 12
-
-which()
-
-as.numeric(overall.score)
-
+threshold <- 10
+higher.threshold <- c()
 for (i in 1:ncol(overall.score)){
-  score <- as.vector(overall.score[[i]])
-  
+  if (as.numeric(as.vector(overall.score[[i]])) >= threshold)
+    higher.threshold <- c(higher.threshold, i)
 }
 
+#Authors with greater than or equal to threshold scores
+high.scoring.authors <- names(post.clean.test.data)[higher.threshold]
+high.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %in% high.scoring.authors)
+
+#Authors with less than threshold scores
+low.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %ni% high.scoring.authors)
 
 
-master.data <- setNames(data.frame(matrix(ncol = ncol(post.clean.test.data), nrow = 3)), names(post.clean.test.data))
-  
-#Starting author wise analysis
-for (i in 1:ncol(post.clean.test.data)){
+Get.Document.Term.Matrix <- function(x) {
   #Extracting all the entries from the data frame 
-  test.entries <- as.vector(unlist(post.clean.test.data[,i]))
-  rating.entries <- as.vector(unlist(post.clean.rating.data[,i]))
-  
+  test.entries <- as.vector(unlist(x))
+
+  #Extracting all the numerical entries from the test data
   numerical.indices <- c()
-  for (j in 1:length(test.entries)) {
-    if (vector.is.numeric(test.entries[j]) == TRUE) {
-      numerical.indices <- c(numerical.indices, j)
+  for (i in 1:length(test.entries)) {
+    if (vector.is.numeric(test.entries[i]) == TRUE) {
+      numerical.indices <- c(numerical.indices, i)
     }
   }
+  
   #Removing the numerical entries from the test data and their corresponding ratings
   test.entries <- test.entries[-numerical.indices]
   rating.entries <- rating.entries[-numerical.indices]
@@ -88,21 +86,13 @@ for (i in 1:ncol(post.clean.test.data)){
   To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
   "
   test.corpus.dtm <- DocumentTermMatrix(test.corpus)
-  
-  output.column <- c(test.corpus, test.corpus.dtm, as.numeric(overall.score[i]))
-  
-  master.data[[names(post.clean.test.data)[i]]] <- output.column
+  return (test.corpus.dtm)
 }
 
-
-
-
-
-
-
-
-
-
+#Document term matrix for high scoring authors
+high.dtm <- Get.Document.Term.Matrix(high.clean.test.data)
+#Document term matrix for low scoring authors
+low.dtm <- Get.Document.Term.Matrix(low.clean.test.data)
 
 
 
