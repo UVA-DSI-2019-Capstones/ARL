@@ -2,6 +2,9 @@
 library(tm)
 library(SnowballC)
 library(wordcloud)
+library(tidyverse)
+library(tidytext)
+
 
 post.data <- read.csv('dataframes\\post_data.csv')
 post.rating.data <- data.frame()
@@ -34,39 +37,31 @@ post.clean.rating.data <- subset(post.rating.data, select = names(post.rating.da
 #Getting overall score dataframe of each author
 overall.score <- subset(post.data[19,], select = names(post.data) %ni% nums)
 
-threshold <- 10
-higher.threshold <- c()
-for (i in 1:ncol(overall.score)){
-  if (as.numeric(as.vector(overall.score[[i]])) >= threshold)
-    higher.threshold <- c(higher.threshold, i)
+
+
+#Extracting all the entries from the data frame 
+test.entries <- as.vector(unlist(post.clean.test.data))
+rating.entries <- as.vector(unlist(post.clean.rating.data))
+
+#Extracting all the numerical entries from the test data
+numerical.indices <- c()
+for (i in 1:length(test.entries)) {
+  if (vector.is.numeric(test.entries[i]) == TRUE) {
+    numerical.indices <- c(numerical.indices, i)
+  }
 }
 
-#Authors with greater than or equal to threshold scores
-high.scoring.authors <- names(post.clean.test.data)[higher.threshold]
-high.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %in% high.scoring.authors)
+#Removing the numerical entries from the test data and their corresponding ratings
+test.entries <- test.entries[-numerical.indices]
+rating.entries <- rating.entries[-numerical.indices]
 
-#Authors with less than threshold scores
-low.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %ni% high.scoring.authors)
+master.df <- data.frame(matrix(ncol = 4, nrow = 0))
+x <- c("document", "term", "count", "rating")
+colnames(master.df) <- x
 
-
-Get.Document.Term.Matrix <- function(x) {
-  #Extracting all the entries from the data frame 
-  test.entries <- as.vector(unlist(x))
-
-  #Extracting all the numerical entries from the test data
-  numerical.indices <- c()
-  for (i in 1:length(test.entries)) {
-    if (vector.is.numeric(test.entries[i]) == TRUE) {
-      numerical.indices <- c(numerical.indices, i)
-    }
-  }
+for (i in 1 : length(test.entries)) {
   
-  #Removing the numerical entries from the test data and their corresponding ratings
-  test.entries <- test.entries[-numerical.indices]
-  rating.entries <- rating.entries[-numerical.indices]
-  
-  #Creating a corpus from the testing data
-  test.corpus <- Corpus(VectorSource(test.entries))
+  test.corpus <- Corpus(VectorSource(test.entries[i]))
   
   "
   Next we normalize the texts in the reviews using a series of pre-processing steps: 
@@ -86,62 +81,136 @@ Get.Document.Term.Matrix <- function(x) {
   To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
   "
   test.corpus.dtm <- DocumentTermMatrix(test.corpus)
-  return (test.corpus.dtm)
+  
+  new.entry <- cbind(data.frame(tidy(test.corpus.dtm)), data.frame('rating' = rating.entries[i]))
+  master.df <- rbind(master.df, new.entry)
 }
 
-#Document term matrix for high scoring authors
-high.dtm <- Get.Document.Term.Matrix(high.clean.test.data)
-#Document term matrix for low scoring authors
-low.dtm <- Get.Document.Term.Matrix(low.clean.test.data)
 
 
 
-#Extracting all the entries from the data frame 
-test.entries <- as.vector(unlist(post.clean.test.data))
-rating.entries <- as.vector(unlist(post.clean.rating.data))
 
-#Extracting all the numerical entries from the test data
-numerical.indices <- c()
-for (i in 1:length(test.entries)) {
-  if (vector.is.numeric(test.entries[i]) == TRUE) {
-    numerical.indices <- c(numerical.indices, i)
-  }
-}
 
-#Removing the numerical entries from the test data and their corresponding ratings
-test.entries <- test.entries[-numerical.indices]
-rating.entries <- rating.entries[-numerical.indices]
 
-#Creating a corpus from the testing data
-test.corpus <- Corpus(VectorSource(test.entries))
 
-"
-Next we normalize the texts in the reviews using a series of pre-processing steps: 
-1. Switch to lower case 
-2. Remove punctuation marks 
-3. Remove extra whitespaces
-4. Remove stop words
-5. Stemmatize the words
-"
-test.corpus <- tm_map(test.corpus, content_transformer(tolower))
-test.corpus <- tm_map(test.corpus, removePunctuation)
-test.corpus <- tm_map(test.corpus, stripWhitespace)
-test.corpus <- tm_map(test.corpus, removeWords, c("the", "and", stopwords("english")))
-test.corpus <- tm_map(test.corpus, stemDocument, language = "english")
 
-"
-To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
-"
-test.corpus.dtm <- DocumentTermMatrix(test.corpus)
-test.corpus.dtm
 
-#Inspecting the first 5 documents and the first 5 words in the corpus
-inspect(test.corpus.dtm[1:5, 1:5])
 
-#Getting the 5 most frequent words
-freq <- data.frame(sort(colSums(as.matrix(test.corpus.dtm)), decreasing=TRUE))
-freq.df <- head(freq, 5)
-colnames(freq.df) <- c('frequency')
 
-#Barplot to get most frequent words
-barplot(freq.df$frequency, names.arg=rownames(freq.df), col=c("beige","orange"), ylab="Count of words", ylim = c(0, 160), main = 'Most frequent words')
+
+
+
+
+
+# 
+# threshold <- 10
+# higher.threshold <- c()
+# for (i in 1:ncol(overall.score)){
+#   if (as.numeric(as.vector(overall.score[[i]])) >= threshold)
+#     higher.threshold <- c(higher.threshold, i)
+# }
+# 
+# #Authors with greater than or equal to threshold scores
+# high.scoring.authors <- names(post.clean.test.data)[higher.threshold]
+# high.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %in% high.scoring.authors)
+# 
+# #Authors with less than threshold scores
+# low.clean.test.data <- subset(post.clean.test.data, select = names(post.clean.test.data) %ni% high.scoring.authors)
+# 
+# 
+# Get.Document.Term.Matrix <- function(x) {
+#   #Extracting all the entries from the data frame 
+#   test.entries <- as.vector(unlist(x))
+# 
+#   #Extracting all the numerical entries from the test data
+#   numerical.indices <- c()
+#   for (i in 1:length(test.entries)) {
+#     if (vector.is.numeric(test.entries[i]) == TRUE) {
+#       numerical.indices <- c(numerical.indices, i)
+#     }
+#   }
+#   
+#   #Removing the numerical entries from the test data and their corresponding ratings
+#   test.entries <- test.entries[-numerical.indices]
+#   rating.entries <- rating.entries[-numerical.indices]
+#   
+#   #Creating a corpus from the testing data
+#   test.corpus <- Corpus(VectorSource(test.entries))
+#   
+#   "
+#   Next we normalize the texts in the reviews using a series of pre-processing steps: 
+#   1. Switch to lower case 
+#   2. Remove punctuation marks 
+#   3. Remove extra whitespaces
+#   4. Remove stop words
+#   5. Stemmatize the words
+#   "
+#   test.corpus <- tm_map(test.corpus, content_transformer(tolower))
+#   test.corpus <- tm_map(test.corpus, removePunctuation)
+#   test.corpus <- tm_map(test.corpus, stripWhitespace)
+#   test.corpus <- tm_map(test.corpus, removeWords, c("the", "and", stopwords("english")))
+#   test.corpus <- tm_map(test.corpus, stemDocument, language = "english")
+#   
+#   "
+#   To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
+#   "
+#   test.corpus.dtm <- DocumentTermMatrix(test.corpus)
+#   return (test.corpus.dtm)
+# }
+# 
+# #Document term matrix for high scoring authors
+# high.dtm <- Get.Document.Term.Matrix(high.clean.test.data)
+# #Document term matrix for low scoring authors
+# low.dtm <- Get.Document.Term.Matrix(low.clean.test.data)
+# 
+# 
+# 
+# #Extracting all the entries from the data frame 
+# test.entries <- as.vector(unlist(post.clean.test.data))
+# rating.entries <- as.vector(unlist(post.clean.rating.data))
+# 
+# #Extracting all the numerical entries from the test data
+# numerical.indices <- c()
+# for (i in 1:length(test.entries)) {
+#   if (vector.is.numeric(test.entries[i]) == TRUE) {
+#     numerical.indices <- c(numerical.indices, i)
+#   }
+# }
+# 
+# #Removing the numerical entries from the test data and their corresponding ratings
+# test.entries <- test.entries[-numerical.indices]
+# rating.entries <- rating.entries[-numerical.indices]
+# 
+# #Creating a corpus from the testing data
+# test.corpus <- Corpus(VectorSource(test.entries))
+# 
+# "
+# Next we normalize the texts in the reviews using a series of pre-processing steps: 
+# 1. Switch to lower case 
+# 2. Remove punctuation marks 
+# 3. Remove extra whitespaces
+# 4. Remove stop words
+# 5. Stemmatize the words
+# "
+# test.corpus <- tm_map(test.corpus, content_transformer(tolower))
+# test.corpus <- tm_map(test.corpus, removePunctuation)
+# test.corpus <- tm_map(test.corpus, stripWhitespace)
+# test.corpus <- tm_map(test.corpus, removeWords, c("the", "and", stopwords("english")))
+# test.corpus <- tm_map(test.corpus, stemDocument, language = "english")
+# 
+# "
+# To analyze the textual data, we use a Document-Term Matrix (DTM) representation: documents as the rows, terms/words as the columns, frequency of the term in the document as the entries. Because the number of unique words in the corpus the dimension can be large.
+# "
+# test.corpus.dtm <- DocumentTermMatrix(test.corpus)
+# test.corpus.dtm
+# 
+# #Inspecting the first 5 documents and the first 5 words in the corpus
+# inspect(test.corpus.dtm[1:5, 1:5])
+# 
+# #Getting the 5 most frequent words
+# freq <- data.frame(sort(colSums(as.matrix(test.corpus.dtm)), decreasing=TRUE))
+# freq.df <- head(freq, 5)
+# colnames(freq.df) <- c('frequency')
+# 
+# #Barplot to get most frequent words
+# barplot(freq.df$frequency, names.arg=rownames(freq.df), col=c("beige","orange"), ylab="Count of words", ylim = c(0, 160), main = 'Most frequent words')
