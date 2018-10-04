@@ -227,7 +227,8 @@ for (i in 1: ncol(post.clean.test.data)) {
 </div>
 <div id="final-data-frame" class="section level4">
 <h4>Final data frame</h4>
-<pre class="r"><code>View(master.df)</code></pre>
+<pre class="r"><code>View(master.df)
+write.csv(master.df, 'dialogue.csv', row.names = F)</code></pre>
 </div>
 </div>
 

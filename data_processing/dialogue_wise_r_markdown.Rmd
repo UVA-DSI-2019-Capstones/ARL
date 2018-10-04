@@ -116,4 +116,5 @@ for (i in 1: ncol(post.clean.test.data)) {
 ####Final data frame
 ```{r view.final.data, include = TRUE}
 View(master.df)
+write.csv(master.df, 'dialogue.csv', row.names = F)
 ```
