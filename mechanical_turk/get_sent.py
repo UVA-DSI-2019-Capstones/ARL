@@ -1,4 +1,5 @@
 import os
+import csv
 
 #Move to the directory of the dataset
 os.chdir("..")
@@ -25,11 +26,13 @@ def flat_chunks(list_of_sents):
 			entry = sent.split('?', 1)
 			entry[0] = entry[0] + "?"
 			f_chunks.append(entry[0])
+			testee.append(post_file[i][:4])
 			flat_chunks(entry[1:])
 		else:
 			entry = sent + '.'
 			f_chunks.append(entry)
-	return(f_chunks)
+			testee.append(post_file[i][:4])
+	return(f_chunks, testee)
 
 #Get the names of the text files
 file = open('correct_listwav.txt', 'r')
@@ -41,6 +44,7 @@ for line in file:
 
 #Create the overall list
 f_chunks = []
+testee = []
 #Loop over files
 for i in range(0,len(post_file)):
 	testee_text = []
@@ -62,14 +66,17 @@ for i in range(0,len(post_file)):
 		#Split each paragraph 
 		lines = lines.split('.')
 		#Use flat_chunks to make sure questions are split (see above)
-		f_chunks = flat_chunks(lines)
+		f_chunks, testee = flat_chunks(lines)
+
 
 #Remove sentences that are just periods
 f_chunks = [x for x in f_chunks if x != '.' and x != ' .']
 
 #Save to a text file containing a list of every sentence
+#Turn our list into a list of tuples to write to the columns of the csv
+rows = zip(testee, f_chunks)
 os.chdir("..")
-f = open('sent.txt', '+w')
-for line in f_chunks:
-	f.write(line + '\n')
-f.close()
+with open('sent.csv', 'w', newline = '') as csvf:
+	writer = csv.writer(csvf, delimiter=',', quoting = csv.QUOTE_ALL)
+	for row in rows:
+		writer.writerow(row)
