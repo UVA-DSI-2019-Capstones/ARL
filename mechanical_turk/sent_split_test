@@ -1,0 +1,3 @@
+string = 'This is a string. It contains multiple sentences. Do you understand them? I think that is great.'
+chunks = string.split('.')
+print(chunks)
