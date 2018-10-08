@@ -6,7 +6,7 @@ library(tidytext)
 library(topicmodels)
 
 
-post.data <- read.csv('dataframes\\post_data.csv')
+post.data <- read.csv('..\\dataframes\\post_data.csv')
 post.rating.data <- data.frame()
 post.test.data <- data.frame()
 
@@ -35,12 +35,14 @@ post.clean.test.data <- subset(post.test.data, select = names(post.test.data) %n
 post.clean.rating.data <- subset(post.rating.data, select = names(post.rating.data) %ni% nums)
 
 test.entries = as.vector(unlist(post.clean.test.data, use.names=FALSE))
+
 test.entries = test.entries[-which(as.numeric(as.vector(test.entries)) == 0)]
 
 
 
 test.corpus <- Corpus(VectorSource(test.entries))
 
+#test.corpus <- tm_map(test.corpus, removeNumbers)
 test.corpus <- tm_map(test.corpus, content_transformer(tolower))
 test.corpus <- tm_map(test.corpus, removePunctuation)
 test.corpus <- tm_map(test.corpus, stripWhitespace)
@@ -50,7 +52,7 @@ test.corpus <- tm_map(test.corpus, stemDocument, language = 'english')
 
 
 writeLines(as.character(test.corpus[[21]]))
-dtm = DocumentTermMatrix(test.corpus)
+dtm = DocumentTermMatrix(test.corpus, control = list(weighting = weightTf))
 freq = colSums(as.matrix(dtm))
 length(freq)
 ord = order(freq, decreasing = TRUE)
@@ -81,5 +83,24 @@ topicProbabilities = as.data.frame(ldaOut@gamma)
 topicProbabilities$Topic = ldaOut.topics
 topicProbabilities$Docs = test.entries
 
-write.csv(topicProbabilities, "3_topic_LDA.csv")
+write.csv(topicProbabilities, "3_topic_LDA_tfIDF.csv")
+
+# cluster documents in topic space
+document.topic.probabilities = ldaOut@gamma  # topic distribution for each document
+topic.space.kmeans.clusters = kmeans(document.topic.probabilities, 3)
+topic.space.clustered.news = split(test.corpus, topic.space.kmeans.clusters$cluster)
+topic.space.clustered.news[[1]][[99]]$content
+
+document.vector = c()
+topic.vector = c()
+for (i in 1:length(topic.space.clustered.news)){
+  for(j in 1:length(topic.space.clustered.news[[i]])){
+    document.vector = c(document.vector, topic.space.clustered.news[[i]][[j]]$content)
+    topic.vector = c(topic.vector, i)
+  }
+  }
+
+df.kmeans = data.frame("topic" = topic.vector, "document" = document.vector)
+
+write.csv(df.kmeans, 'k_means_clustering.csv')
 
