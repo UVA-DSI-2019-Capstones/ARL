@@ -22,17 +22,19 @@ def getText(filename):
 #sentences
 def flat_chunks(list_of_sents):
 	for sent in list_of_sents:
-		if '?' in sent:
-			entry = sent.split('?', 1)
-			entry[0] = entry[0] + "?"
-			f_chunks.append(entry[0])
-			testee.append(post_file[i][:4])
-			flat_chunks(entry[1:])
-		else:
-			entry = sent + '.'
-			f_chunks.append(entry)
-			testee.append(post_file[i][:4])
-	return(f_chunks, testee)
+		sent = sent.strip()
+		# Don't add sentences that are just periods
+		if sent != '':
+			if '?' in sent:
+				entry = sent.split('?', 1)
+				entry[0] = entry[0] + "?"
+				f_chunks.append(entry[0])
+				testee.append(post_file[i][:4])
+				flat_chunks(entry[1:])
+			else:
+				entry = sent + '.'
+				f_chunks.append(entry)
+				testee.append(post_file[i][:4])
 
 #Get the names of the text files
 file = open('correct_listwav.txt', 'r')
@@ -66,11 +68,9 @@ for i in range(0,len(post_file)):
 		#Split each paragraph 
 		lines = lines.split('.')
 		#Use flat_chunks to make sure questions are split (see above)
-		f_chunks, testee = flat_chunks(lines)
+		flat_chunks(lines)
 
 
-#Remove sentences that are just periods
-f_chunks = [x for x in f_chunks if x != '.' and x != ' .']
 
 #Save to a text file containing a list of every sentence
 #Turn our list into a list of tuples to write to the columns of the csv
