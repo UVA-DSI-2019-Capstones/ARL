@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as Soup, NavigableString, Tag
-
+import os
 import pandas as pd
+
 
 #HTML template for individual questions on AMT
 html = """
@@ -51,6 +52,9 @@ finaldf = newdf.loc[:,['Dialogue Text', 'Feedback', 'Identifier']]
 finaldf = finaldf.reset_index(drop=True)
 print(finaldf.head(20))
 dflen = finaldf.shape[0]
+
+dir = os.getcwd()
+os.chdir(dir + '\\html_files')
 
 #Function for writing a label and inserting the text to the HTML file
 def write_label(i, soup):
