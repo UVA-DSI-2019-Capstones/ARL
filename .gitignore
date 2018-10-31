@@ -48,3 +48,5 @@ vignettes/*.pdf
 # ignore database files
 *.db
 
+#ignorig R history files
+*.Rhistory
