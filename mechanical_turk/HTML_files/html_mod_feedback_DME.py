@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as Soup, NavigableString, Tag
 import os
 import pandas as pd
 
+
 #HTML template for individual questions on AMT
 html = """
 <!-- Bootstrap v3.0.3 -->
@@ -11,10 +12,9 @@ html = """
 <div class="panel panel-primary">
 <div class="panel-heading"><strong>Instructions</strong></div>
 <div class="panel-body">
-<p><u>Context:</u> You are an American soldier that is meeting with a commander of a Chinese army platoon to discuss important business. [insert more context]</p>
-<p><u>Your instructions, given that context:</u> Please re-word the following prompts in your own words. While doing so, please also:</p>
+<p><u>Context:</u> You are an American soldier who is meeting with the commander of a Chinese army platoon to discuss important business. <context></context></p>
+<p><u>Your instructions, given that context:</u> Please provide a response in your own words that matches the feedback that is above each text box:</p>
 <ul>
-    <li>Maintain the meaning of the prompt.</li>
     <li>Try to match the tone of the prompt.</li>
     <li>Check spelling and grammar.</li>
 </ul>
@@ -53,6 +53,13 @@ finaldf = finaldf.reset_index(drop=True)
 print(finaldf.head(20))
 dflen = finaldf.shape[0]
 
+#Open the Excel with context
+file = "Context_DME.xlsx"
+ctxt_df = pd.read_excel(open(file, 'rb'))
+
+dir = os.getcwd()
+os.chdir(dir + '\\HTML_DME')
+
 # dir = os.getcwd()
 # os.chdir(dir + '\\html_files')
 
@@ -60,7 +67,7 @@ dflen = finaldf.shape[0]
 def write_label(i, soup):
     tag_name = 'label' + str(i)
     tag = soup.new_tag(tag_name)
-    tag.string = finaldf.loc[i,['Dialogue Text']][0]
+    tag.string = finaldf.loc[i,['Feedback']][0]
     in_tag = soup.new_tag("input")
     in_tag["class"] = "form-control"
     in_tag["name"] = "Q5FreeTextInput"
@@ -83,7 +90,10 @@ for i in range(0,dflen):
         write_label(i, soup)
     #If the number does not match, j is updated, and the function is called to write the first entry to the next HTML file
     else:
-        file = "test" + str(j) + ".html"
+        ctxt = soup.find('context')
+        ctxt_txt = ctxt_df[ctxt_df['Identifier'] == j]['Context'][j-1]
+        ctxt.insert(0, NavigableString(ctxt_txt))
+        file = "DME_feedback_" + str(j) + ".html"
         j  += 1
         html_test = open(file, "w")
         html_test.write(str(soup))
@@ -94,7 +104,7 @@ for i in range(0,dflen):
 j=16
 
 #Else statement will not be called when i==16, so the final HTML file must be written outside of the loop
-file = "test" + str(j) + ".html"
+file = "DME_feedback_" + str(j) + ".html"
 html_test = open(file, "w")
 html_test.write(str(soup))
 html_test.close()

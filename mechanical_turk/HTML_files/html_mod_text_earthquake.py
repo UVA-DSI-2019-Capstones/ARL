@@ -11,7 +11,7 @@ html = """
 <div class="panel panel-primary">
 <div class="panel-heading"><strong>Instructions</strong></div>
 <div class="panel-body">
-<p><u>Context:</u> You are an American soldier that is meeting with a commander of a Chinese army platoon to discuss important business. [insert more context]</p>
+<p><u>Context:</u> <context></context></p>
 <p><u>Your instructions, given that context:</u> Please re-word the following prompts in your own words. While doing so, please also:</p>
 <ul>
     <li>Maintain the meaning of the prompt.</li>
@@ -43,7 +43,7 @@ soup = Soup(html)
 #Open the Excel file with the dialogue 
 file = "Dialogue.xlsx"
 #Pick a sheet 
-df = pd.read_excel(open(file, 'rb'), sheet_name = 'DME')
+df = pd.read_excel(open(file, 'rb'), sheet_name = 'Earthquake')
 #Only include resonses that the player can control
 newdf = df[(df.Speaker == 'Player') & (df.Identifier != 'no')]
 #Create a new dataframe with only the feedback, indentifier, and dialogue text
@@ -51,10 +51,16 @@ finaldf = newdf.loc[:,['Dialogue Text', 'Feedback', 'Identifier']]
 #Reset indicies
 finaldf = finaldf.reset_index(drop=True)
 print(finaldf.head(20))
+print(finaldf.loc[50,['Feedback']][0])
 dflen = finaldf.shape[0]
+print(dflen)
 
-# dir = os.getcwd()
-# os.chdir(dir + '\\html_files')
+#Open the Excel with context
+file = "Context_earthquake.xlsx"
+ctxt_df = pd.read_excel(open(file, 'rb'))
+
+dir = os.getcwd()
+os.chdir(dir + '\\HTML_earthquake')
 
 #Function for writing a label and inserting the text to the HTML file
 def write_label(i, soup):
@@ -83,7 +89,10 @@ for i in range(0,dflen):
         write_label(i, soup)
     #If the number does not match, j is updated, and the function is called to write the first entry to the next HTML file
     else:
-        file = "test" + str(j) + ".html"
+        ctxt = soup.find('context')
+        ctxt_txt = ctxt_df[ctxt_df['Identifier'] == j]['Context'][j-1]
+        ctxt.insert(0, NavigableString(' ' + ctxt_txt))
+        file = "earthquake_text" + str(j) + ".html"
         j  += 1
         html_test = open(file, "w")
         html_test.write(str(soup))
@@ -91,10 +100,13 @@ for i in range(0,dflen):
         soup = Soup(html)
         write_label(i, soup)
 
-j=16
+j=23
 
-#Else statement will not be called when i==16, so the final HTML file must be written outside of the loop
-file = "test" + str(j) + ".html"
+#Else statement will not be called at the end, so the final HTML file must be written outside of the loop
+ctxt = soup.find('context')
+ctxt_txt = ctxt_df[ctxt_df['Identifier'] == j]['Context'][j-1]
+ctxt.insert(0, NavigableString(ctxt_txt))
+file = "earthquake_text" + str(j) + ".html"
 html_test = open(file, "w")
 html_test.write(str(soup))
 html_test.close()
