@@ -13,7 +13,7 @@ db = create_connection("database.db")
 
 create_avatar_prompt = """
 CREATE TABLE IF NOT EXISTS avatar_prompt (
- id integer PRIMARY KEY,
+ id integer PRIMARY KEY AUTO_INCREMENT,
  avatar_name text NOT NULL,
  experiment text NOT NULL,
  sub_section integer NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS avatar_prompt (
 
 create_trainee_response = """
 CREATE TABLE IF NOT EXISTS trainee_response (
- id integer PRIMARY KEY,
+ id integer PRIMARY KEY AUTO_INCREMENT,
  avatar_prompt_id int NOT NULL,
  identifier text NOT NULL,
  response_text text NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS trainee_response (
 
 create_turk_response = """
 CREATE TABLE IF NOT EXISTS turk_response (
- id integer PRIMARY KEY,
+ id integer PRIMARY KEY AUTO_INCREMENT,
  trainee_response_id int NOT NULL,
  turk_id text NOT NULL,
  turk_response_text text NOT NULL,
