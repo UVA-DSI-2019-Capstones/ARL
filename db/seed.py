@@ -13,8 +13,8 @@ def create_connection(db_file):
 
 path = '../mechanical_turk/Dialogue.xlsx'
 dme = pd.ExcelFile(path)
-sheet = dme.parse('DME')
-avatar_text = sheet[sheet['Speaker'] != 'Player']
+dme_sheet = dme.parse('DME')
+avatar_text = dme_sheet[dme_sheet['Speaker'] != 'Player']
 
 avatar_prompt_data = []
 
