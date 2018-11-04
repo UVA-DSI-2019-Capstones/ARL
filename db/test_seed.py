@@ -20,17 +20,17 @@ for index, row in dme_scores.iterrows():
     response_text = row['Dialogue Text']
     response_score = row['Average']
     sheet_row = dme_sheet[dme_sheet['Identifier'] == identifier]
-    if sheet_row['Feedback'].empty:
+
+    if sheet_row is None or sheet_row['Feedback']is None or sheet_row['Feedback'].empty:
         feedback = ''
     else:
-        feedback = sheet_row['Feedback']
+        feedback = sheet_row['Feedback'].values[0]
     comment = ''
-    trainee_response_data.append((avatar_prompt_id, identifier, response_text, round(float(response_score),2), str(feedback), comment))
+    trainee_response_data.append((avatar_prompt_id, identifier, response_text, round(float(response_score), 2), feedback, comment))
 
 def create_connection(db_file):
     try:
         conn = sqlite3.connect(db_file)
-        print(sqlite3.version)
         return(conn)
     except Error as e:
         print(e)
