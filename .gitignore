@@ -45,3 +45,8 @@ vignettes/*.pdf
 # System files
 *.DS_Store
 
+# ignore database files
+*.db
+
+#ignorig R history files
+*.Rhistory
