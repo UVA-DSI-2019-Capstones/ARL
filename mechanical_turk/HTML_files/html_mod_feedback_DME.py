@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as Soup, NavigableString, Tag
 import os
 import pandas as pd
+from pathlib import Path
 
 
 #HTML template for individual questions on AMT
@@ -57,8 +58,8 @@ dflen = finaldf.shape[0]
 file = "Context_DME.xlsx"
 ctxt_df = pd.read_excel(open(file, 'rb'))
 
-dir = os.getcwd()
-os.chdir(dir + '\\HTML_DME')
+dir = Path(os.getcwd())
+os.chdir(dir / 'HTML_DME')
 
 # dir = os.getcwd()
 # os.chdir(dir + '\\html_files')

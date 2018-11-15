@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as Soup, NavigableString, Tag
 import os
 import pandas as pd
+from pathlib import Path
 
 #HTML template for individual questions on AMT
 html = """
@@ -59,8 +60,8 @@ print(dflen)
 file = "Context_earthquake.xlsx"
 ctxt_df = pd.read_excel(open(file, 'rb'))
 
-dir = os.getcwd()
-os.chdir(dir + '\\HTML_earthquake')
+dir = Path(os.getcwd())
+os.chdir(dir / 'HTML_earthquake')
 
 #Function for writing a label and inserting the text to the HTML file
 def write_label(i, soup):
