@@ -11,7 +11,7 @@ html = """
 <div class="panel panel-primary">
 <div class="panel-heading"><strong>Instructions</strong></div>
 <div class="panel-body">
-<p><u>Context:</u> You are an American soldier who is meeting with the commander of a Chinese army platoon to discuss important business. <context></context></p>
+<p><u>Context:</u> <context></context></p>
 <p><u>Your instructions, given that context:</u> Please re-word the following prompts in your own words. While doing so, please also:</p>
 <ul>
     <li>Maintain the meaning of the prompt.</li>
@@ -98,7 +98,7 @@ for i in range(0,dflen):
         soup = Soup(html)
         write_label(i, soup)
 
-j=17
+j=24
 
 #Else statement will not be called when i==16, so the final HTML file must be written outside of the loop
 file = "DME_text_" + str(j) + ".html"

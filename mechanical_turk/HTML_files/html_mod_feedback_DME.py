@@ -102,7 +102,7 @@ for i in range(0,dflen):
         soup = Soup(html)
         write_label(i, soup)
 
-j=17
+j=dflen
 
 #Else statement will not be called when i==16, so the final HTML file must be written outside of the loop
 file = "DME_feedback_" + str(j) + ".html"
