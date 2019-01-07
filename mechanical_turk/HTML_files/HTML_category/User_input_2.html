@@ -1,0 +1,31 @@
+<!-- You must include this JavaScript file --><html><head><script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+<!-- The crowd-classifier element will create a tool for the Worker to select the
+           correct answer to your question -->
+<crowd-classifier categories="['Adresses problem but does not offer solutions', 'Casual and does not adress problem', &quot;Doesn't offer to do something directly, but offers to work together&quot;, 'Directly offering to help and using a polite tone', 'Other']" header="Which category best describes the text?" name="classify">
+<classification-target>
+ew rwe  f sdjf esifjs</classification-target>
+<!-- Use the short-instructions section for quick instructions that the Worker
+            will see while working on the task. Including some basic examples of 
+            good and bad answers here can help get good results. You can include 
+            any HTML here. -->
+<short-instructions>
+<intro>The text is from an American army officer talking to Chinese army officer.</intro>
+<context>
+Context given to American: You want to politely broach the subject of the plane delay to make sure the mission goes smoothly. You can offer supplies, but you need Chinese soldiers to complete the mission.
+</context>
+</short-instructions>
+
+      &lt;
+
+      
+      <full-instructions header="Text categorization instructions">
+<p><other>Other</other>: when the text cannot be understood (i.e. nonsensical answer) or none of the categories match at all</p>
+<p></p>
+</full-instructions>
+</crowd-classifier>
+</crowd-form>
+</head></html>
