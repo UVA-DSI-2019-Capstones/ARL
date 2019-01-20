@@ -13,3 +13,10 @@ class TraineeResponseModel(models.Model):
     db_table = 'trainee_response'
 
 
+class MediaModel(models.Model):
+  #This will upload the files in media
+  file = models.FileField(blank=False, null=False, upload_to='uploads/')
+  identifier = models.TextField(max_length=20)
+
+  class Meta:
+    db_table = 'media_table'

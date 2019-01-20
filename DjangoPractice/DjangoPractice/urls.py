@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import *
 from .views import *
+from django.conf import settings
+from django.conf.urls.static import static
 
 admin.autodiscover()
 
@@ -24,5 +26,8 @@ urlpatterns = [
      url(r'^users/', UserList.as_view()),
      url(r'^trainee/', TraineeList.as_view()),
      url(r'^gettraineeresponse/(?P<identifier>[0-9]+[a-zA-Z]+)/$', TraineeResponse.as_view()),
-
+     url(r'^upload/', MediaFileView.as_view(), name='file-upload')
      ]
+
+if settings.DEBUG:
+  urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
