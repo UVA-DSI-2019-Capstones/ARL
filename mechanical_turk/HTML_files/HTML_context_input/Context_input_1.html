@@ -1,0 +1,41 @@
+<!-- You must include this JavaScript file --><html><head><script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+<crowd-instructions link-text="View instructions" link-type="button">
+<short-summary>
+<p>Collect utterances for intent</p>
+</short-summary>
+<detailed-instructions>
+<h3>Collect utterances for intent</h3>
+<p>
+              Given a context and an intent, write how you would express the intent using natural language. 
+              Simply write what you would say if you were in the given situation.
+        </p>
+</detailed-instructions>
+<positive-example>
+<h3>Context</h3>
+<p>You bought a pair of shoes online but they don't fit</p>
+<h3>Intent</h3>
+<p>You want to try to return the shoes via an online customer service chat bot</p>
+<h3>Response</h3>
+<p>I would like to return a pair of shoes</p>
+</positive-example>
+<negative-example>
+<h3>Context</h3>
+<p>You bought a pair of shoes online but they don't fit</p>
+<h3>Intent</h3>
+<p>You want to try to return the shoes via an online customer service chat bot</p>
+<h3>Response</h3>
+<p>Don't fit</p>
+</negative-example>
+</crowd-instructions>
+<p>Write what you would say in the given situation:</p>
+<!-- Your contexts and intents will be substituted for the ${context} and ${intent} variables when you 
+           publish a batch with an input file containing multiple contexts and intents -->
+<p><context>Context: You are an American soldier who is meeting with the commander of a Chinese army platoon to discuss important business. Upon meeting the commander of the Chinese team for the first time, he looks slightly discouraged when he sees your rank. You approach him to introduce yourself.</context></p>
+<p><intent>Intent: Tell Captain Wang good morning</intent></p>
+<crowd-input name="utterance" placeholder="Type what you would say here..." required=""></crowd-input>
+</crowd-form>
+</head></html>
