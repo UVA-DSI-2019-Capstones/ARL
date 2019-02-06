@@ -1,5 +1,4 @@
 # ARL
 
 ## Setup DB
-    python db/setup.py
-    python db/seed.py
+    python db/setup_db.py
