@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS trainee_response (
  identifier text NOT NULL,
  response_text text NOT NULL,
  response_score real NOT NULL,
+ response_rank int NOT NULL,
  response_feedback text NOT NULL,
  comment text,
  FOREIGN KEY(avatar_prompt_id) REFERENCES avatar_prompt(id)
@@ -40,12 +41,12 @@ CREATE TABLE IF NOT EXISTS trainee_response (
 create_turk_response = """
 CREATE TABLE IF NOT EXISTS turk_response (
  id integer PRIMARY KEY,
- trainee_response_id int NOT NULL,
- turk_id text NOT NULL,
  turk_response_text text NOT NULL,
  prompt_type text NOT NULL,
+ assignment text NOT NULL,
+ identifier text NOT NULL,
  comment text,
- FOREIGN KEY(trainee_response_id) REFERENCES trainee_response(id)
+ FOREIGN KEY(identifier) REFERENCES trainee_response(identifier)
 );
 """
 
