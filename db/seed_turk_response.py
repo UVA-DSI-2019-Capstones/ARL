@@ -5,8 +5,6 @@ from sqlite3 import Error
 from os import listdir, path
 import os
 
-#turk_file = "./turk_data/Batch_3413977_batch_results.csv"
-
 def create_connection(db_file):
         try:
             conn = sqlite3.connect(db_file)
@@ -14,19 +12,20 @@ def create_connection(db_file):
         except Error as e:
             print(e)
 
-
-
 def diff(first, second):
             second = set(second)
             return [item for item in first if item not in second]
     
 
-def find_csv_filenames( path_to_dir, suffix=".csv" ):
+def find_csv_filenames(path_to_dir, suffix=".csv" ):
     filenames = listdir(path_to_dir)
     return [ filename for filename in filenames if filename.endswith( suffix ) ]
 
-
-  #print(pd.read_csv(turk_csv).head())
+def spell_check_sentence(sentence):
+    split_string = sentence.split(" ")
+    checked_words = [spell.correction(word) for word in split_string]
+    #checked_words = [spell(word) for word in split_string]
+    return(" ".join(checked_words))
 
 db = create_connection("database.db")
 c = db.cursor()
@@ -37,13 +36,14 @@ def insert_csv_data_into_db(file_name):
     
     for index, row in turk_data.iterrows():
         keywords = row['Keywords']
+    
         prompt_number = [int(s) for s in keywords.split() if s.isdigit()][0]
         assignment = row['AssignmentId']
+    
         if 'rewrite' in row['Title'].lower():
             prompt_type = 'rewrite'
         else:
             prompt_type = 'feedback'
-        
         responses = row['Answer.Q5FreeTextInput'].split('|')
         first_character = 97
         for response in responses:
@@ -51,9 +51,7 @@ def insert_csv_data_into_db(file_name):
             new_assignment += chr(first_character)
             data_to_insert.append((response, prompt_type, new_assignment, str(prompt_number) + chr(first_character),''))
             first_character += 1
-    
-    
-    
+
     assignments = c.execute("SELECT assignment FROM turk_response").fetchall()
     
     assignments = [thing[0] for thing in assignments]

@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS trainee_response (
  identifier text NOT NULL,
  response_text text NOT NULL,
  response_score real NOT NULL,
+ response_rank int NOT NULL,
  response_feedback text NOT NULL,
  comment text,
  FOREIGN KEY(avatar_prompt_id) REFERENCES avatar_prompt(id)
