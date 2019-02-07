@@ -1,4 +1,5 @@
 # ARL
 
 ## Setup DB
-    python db/setup_db.py
+    cd db
+    python setup_db.py
