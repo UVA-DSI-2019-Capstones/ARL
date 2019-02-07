@@ -2,11 +2,11 @@ from django.contrib.auth.models import User
 from django.http import Http404, JsonResponse
 
 from .models import TraineeResponseModel
-from .serializers import UserSerializer, TraineeSerializer
+from .serializers import UserSerializer, TraineeSerializer, MediaFileSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-
+from rest_framework.parsers import MultiPartParser, FormParser
 
 class TraineeList(APIView):
   """
@@ -59,7 +59,7 @@ class UserList(APIView):
 
 
   def post(self, request, format=None):
-    serializer = UserSerializer(data=request.DATA)
+    serializer = UserSerializer(data=request.data)
     if serializer.is_valid():
       serializer.save()
       return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -90,7 +90,7 @@ class UserDetail(APIView):
 
   def put(self, request, pk, format=None):
     user = self.get_object(pk)
-    serializer = UserSerializer(user, data=request.DATA)
+    serializer = UserSerializer(user, data=request.data)
     if serializer.is_valid():
       serializer.save()
       return Response(serializer.data)
@@ -101,3 +101,19 @@ class UserDetail(APIView):
     user.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)
 
+
+class MediaFileView(APIView):
+  parser_classes = (MultiPartParser, FormParser)
+  def post(self, request, *args, **kwargs):
+    file_serializer = MediaFileSerializer(data=request.data)
+    files = request.FILES['file']
+
+
+    print(files)
+    if file_serializer.is_valid():
+      print('Valid')
+
+      file_serializer.save()
+      return Response(file_serializer.data, status=status.HTTP_201_CREATED)
+    else:
+      return Response(file_serializer.errors, status=status.HTTP_400_BAD_REQUEST)

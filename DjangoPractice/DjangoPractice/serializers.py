@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from .models import TraineeResponseModel
+from .models import TraineeResponseModel, MediaModel
 from rest_framework import serializers
 
 class UserSerializer(serializers.ModelSerializer):
@@ -14,3 +14,7 @@ class TraineeSerializer(serializers.ModelSerializer):
     fields = ('id', 'avatar_prompt_id', 'identifier',
               'response_text', 'response_score', 'response_feedback', 'comment')
 
+class MediaFileSerializer(serializers.ModelSerializer):
+  class Meta():
+    model = MediaModel
+    fields = ('file', 'identifier')
