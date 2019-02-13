@@ -50,8 +50,18 @@ CREATE TABLE IF NOT EXISTS turk_response (
 );
 """
 
+create_media_storage = """
+CREATE TABLE IF NOT EXISTS media_table (
+  id	INTEGER, 
+  file	BLOB NOT NULL,
+  identifier	TEXT NOT NULL,
+  PRIMARY KEY(id)
+);
+"""
+
 db.execute(create_avatar_prompt)
 db.execute(create_trainee_response)
 db.execute(create_turk_response)
+db.execute(create_media_storage)
 db.commit()
 db.close()

@@ -1,0 +1,401 @@
+LDA random forests:
+
+Number of topics 2
+[[446  64   0]
+ [518  55   0]
+ [393  24   0]]
+C:\Users\marti\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+          1       0.33      0.87      0.48       510
+          3       0.38      0.10      0.15       573
+          5       0.00      0.00      0.00       417
+
+avg / total       0.26      0.33      0.22      1500
+
+Score: 0.334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 3
+[[382 110  18]
+ [469 104   0]
+ [298  97  22]]
+             precision    recall  f1-score   support
+
+          1       0.33      0.75      0.46       510
+          3       0.33      0.18      0.24       573
+          5       0.55      0.05      0.10       417
+
+avg / total       0.39      0.34      0.27      1500
+
+Score: 0.33866666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 4
+[[469  41   0]
+ [458 115   0]
+ [298 119   0]]
+C:\Users\marti\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+          1       0.38      0.92      0.54       510
+          3       0.42      0.20      0.27       573
+          5       0.00      0.00      0.00       417
+
+avg / total       0.29      0.39      0.29      1500
+
+Score: 0.3893333333333333
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 5
+[[390  91  29]
+ [223 350   0]
+ [163 146 108]]
+             precision    recall  f1-score   support
+
+          1       0.50      0.76      0.61       510
+          3       0.60      0.61      0.60       573
+          5       0.79      0.26      0.39       417
+
+avg / total       0.62      0.57      0.55      1500
+
+Score: 0.5653333333333334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 6
+[[435  75   0]
+ [292 281   0]
+ [136 281   0]]
+C:\Users\marti\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+          1       0.50      0.85      0.63       510
+          3       0.44      0.49      0.46       573
+          5       0.00      0.00      0.00       417
+
+avg / total       0.34      0.48      0.39      1500
+
+Score: 0.47733333333333333
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 7
+[[352  50 108]
+ [194 212 167]
+ [114  96 207]]
+             precision    recall  f1-score   support
+
+          1       0.53      0.69      0.60       510
+          3       0.59      0.37      0.46       573
+          5       0.43      0.50      0.46       417
+
+avg / total       0.53      0.51      0.51      1500
+
+Score: 0.514
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 8
+[[390 120   0]
+ [215 358   0]
+ [169 248   0]]
+C:\Users\marti\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+          1       0.50      0.76      0.61       510
+          3       0.49      0.62      0.55       573
+          5       0.00      0.00      0.00       417
+
+avg / total       0.36      0.50      0.42      1500
+
+Score: 0.49866666666666665
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 9
+[[359 151   0]
+ [237 336   0]
+ [189 175  53]]
+             precision    recall  f1-score   support
+
+          1       0.46      0.70      0.55       510
+          3       0.51      0.59      0.54       573
+          5       1.00      0.13      0.23       417
+
+avg / total       0.63      0.50      0.46      1500
+
+Score: 0.49866666666666665
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 10
+[[316 194   0]
+ [131 442   0]
+ [163 201  53]]
+             precision    recall  f1-score   support
+
+          1       0.52      0.62      0.56       510
+          3       0.53      0.77      0.63       573
+          5       1.00      0.13      0.23       417
+
+avg / total       0.66      0.54      0.49      1500
+
+Score: 0.5406666666666666
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 11
+[[312 177  21]
+ [105 468   0]
+ [158 180  79]]
+             precision    recall  f1-score   support
+
+          1       0.54      0.61      0.58       510
+          3       0.57      0.82      0.67       573
+          5       0.79      0.19      0.31       417
+
+avg / total       0.62      0.57      0.54      1500
+
+Score: 0.5726666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 12
+[[330 180   0]
+ [238 335   0]
+ [140 224  53]]
+             precision    recall  f1-score   support
+
+          1       0.47      0.65      0.54       510
+          3       0.45      0.58      0.51       573
+          5       1.00      0.13      0.23       417
+
+avg / total       0.61      0.48      0.44      1500
+
+Score: 0.4786666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 13
+[[417  93   0]
+ [240 333   0]
+ [163 201  53]]
+             precision    recall  f1-score   support
+
+          1       0.51      0.82      0.63       510
+          3       0.53      0.58      0.55       573
+          5       1.00      0.13      0.23       417
+
+avg / total       0.65      0.54      0.49      1500
+
+Score: 0.5353333333333333
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 14
+[[386 124   0]
+ [139 434   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.56      0.76      0.64       510
+          3       0.59      0.76      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.69      0.60      0.56      1500
+
+Score: 0.5993333333333334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 15
+[[359 151   0]
+ [162 383  28]
+ [141 153 123]]
+             precision    recall  f1-score   support
+
+          1       0.54      0.70      0.61       510
+          3       0.56      0.67      0.61       573
+          5       0.81      0.29      0.43       417
+
+avg / total       0.62      0.58      0.56      1500
+
+Score: 0.5766666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 16
+[[332 178   0]
+ [154 419   0]
+ [163 148 106]]
+             precision    recall  f1-score   support
+
+          1       0.51      0.65      0.57       510
+          3       0.56      0.73      0.64       573
+          5       1.00      0.25      0.41       417
+
+avg / total       0.67      0.57      0.55      1500
+
+Score: 0.5713333333333334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 17
+[[313 197   0]
+ [157 409   7]
+ [118 221  78]]
+             precision    recall  f1-score   support
+
+          1       0.53      0.61      0.57       510
+          3       0.49      0.71      0.58       573
+          5       0.92      0.19      0.31       417
+
+avg / total       0.63      0.53      0.50      1500
+
+Score: 0.5333333333333333
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 18
+[[332 178   0]
+ [144 429   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.52      0.65      0.58       510
+          3       0.55      0.75      0.63       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.66      0.56      0.53      1500
+
+Score: 0.56
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 19
+[[386 124   0]
+ [139 434   0]
+ [152 186  79]]
+             precision    recall  f1-score   support
+
+          1       0.57      0.76      0.65       510
+          3       0.58      0.76      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.69      0.60      0.56      1500
+
+Score: 0.5993333333333334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 20
+[[352 158   0]
+ [145 428   0]
+ [136 202  79]]
+             precision    recall  f1-score   support
+
+          1       0.56      0.69      0.62       510
+          3       0.54      0.75      0.63       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.67      0.57      0.54      1500
+
+Score: 0.5726666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 21
+[[382 128   0]
+ [182 391   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.53      0.75      0.62       510
+          3       0.56      0.68      0.62       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.67      0.57      0.53      1500
+
+Score: 0.568
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 22
+[[359 151   0]
+ [140 433   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.54      0.70      0.61       510
+          3       0.57      0.76      0.65       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.55      1500
+
+Score: 0.5806666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 23
+[[344 166   0]
+ [114 459   0]
+ [135 229  53]]
+             precision    recall  f1-score   support
+
+          1       0.58      0.67      0.62       510
+          3       0.54      0.80      0.64       573
+          5       1.00      0.13      0.23       417
+
+avg / total       0.68      0.57      0.52      1500
+
+Score: 0.5706666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 24
+[[332 178   0]
+ [113 460   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.55      0.65      0.59       510
+          3       0.57      0.80      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.54      1500
+
+Score: 0.5806666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 25
+[[332 178   0]
+ [113 460   0]
+ [159 179  79]]
+             precision    recall  f1-score   support
+
+          1       0.55      0.65      0.60       510
+          3       0.56      0.80      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.54      1500
+
+Score: 0.5806666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 26
+[[388 122   0]
+ [138 435   0]
+ [135 203  79]]
+             precision    recall  f1-score   support
+
+          1       0.59      0.76      0.66       510
+          3       0.57      0.76      0.65       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.70      0.60      0.56      1500
+
+Score: 0.6013333333333334
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 27
+[[353 157   0]
+ [140 433   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.54      0.69      0.61       510
+          3       0.57      0.76      0.65       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.54      1500
+
+Score: 0.5766666666666667
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 28
+[[332 178   0]
+ [114 459   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.55      0.65      0.59       510
+          3       0.57      0.80      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.54      1500
+
+Score: 0.58
+[(2, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+Number of topics 29
+[[332 178   0]
+ [113 460   0]
+ [163 175  79]]
+             precision    recall  f1-score   support
+
+          1       0.55      0.65      0.59       510
+          3       0.57      0.80      0.66       573
+          5       1.00      0.19      0.32       417
+
+avg / total       0.68      0.58      0.54      1500
+
+Score: 0.5806666666666667
