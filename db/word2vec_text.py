@@ -42,12 +42,17 @@ def get_word_2_vec_df(corpus, dim = 100):
   # access vector for one word
   # print(model['think'])
 
-  return pd.DataFrame(corpus.apply(lambda x: np.mean(model[x], axis=0)))
+  mean_corpus = pd.DataFrame(corpus.apply(lambda x: np.mean(model[x], axis=0)))
+
+  return pd.DataFrame(mean_corpus['processed'].values.tolist(), index = mean_corpus.index)
 
 dir = os.getcwd()
 for dim in range(100, 501, 50):
   train_set = get_word_2_vec_df(train_corpus, dim)
   test_set = get_word_2_vec_df(test_corpus, dim)
+
+  train_set = pd.concat([train_set, train['response_round_score']], axis=1)
+  test_set = pd.concat([test_set, test['response_round_score']], axis=1)
 
   train_file = "word_2_vec_train{}.csv".format(dim)
   test_file = "word_2_vec_test{}.csv".format(dim)
