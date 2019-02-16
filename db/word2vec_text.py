@@ -60,4 +60,17 @@ for dim in range(100, 501, 50):
   train_set.to_csv(os.path.join(dir, 'word2vecmodels', train_file))
   test_set.to_csv(os.path.join(dir, 'word2vecmodels', test_file))
 
+for dim in range(10, 91, 20):
+  train_set = get_word_2_vec_df(train_corpus, dim)
+  test_set = get_word_2_vec_df(test_corpus, dim)
+
+  train_set = pd.concat([train_set, train['response_round_score']], axis=1)
+  test_set = pd.concat([test_set, test['response_round_score']], axis=1)
+
+  train_file = "word_2_vec_train{}.csv".format(dim)
+  test_file = "word_2_vec_test{}.csv".format(dim)
+
+  train_set.to_csv(os.path.join(dir, 'word2vecmodels', train_file))
+  test_set.to_csv(os.path.join(dir, 'word2vecmodels', test_file))
+
 
