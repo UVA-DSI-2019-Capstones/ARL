@@ -26,6 +26,7 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from keras.layers.embeddings import Embedding
 from keras.preprocessing import sequence
+import os
 
 #%%
 nlp = spacy.load('en')
@@ -69,6 +70,14 @@ def syn_DicCreator (X_train_new, POS):
                     syns_Dic[word] = syns_Name
     return syns_Dic
 
+#%%
+import os
+import os.path
+os.chdir('..')
+print( os.path.basename(os.getcwd()) )
+#%%
+os.chdir('..')
+os.chdir(os.path.join(dir, 'db'))
 #%% Read Data
 df = pd.read_csv("C:\\Users\\Erfaneh\\Google Drive\\Projects\\Army\\Database\\response.csv", delimiter = '\t')
 df = df.fillna(" ")
