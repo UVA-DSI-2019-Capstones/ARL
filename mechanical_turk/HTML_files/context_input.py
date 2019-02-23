@@ -1,74 +1,54 @@
+#%%
 from bs4 import BeautifulSoup as Soup, NavigableString, Tag
 import os
 import pandas as pd
 from pathlib import Path
 
-
+#%%
 #HTML template for individual questions on AMT
 html = """
-<!-- You must include this JavaScript file -->
-<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+<div class="panel-body">
+<p><u><b>Context:</u></b> You are an American soldier who is meeting with the commander of a Chinese army platoon to discuss important business. <context></context></p>
 
-<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
-      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<p><u><b>Intent:</u></b>  <intent></intent></p>
 
-<!-- You must include crowd-form so that your task submits answers to MTurk -->
-<crowd-form answer-format="flatten-objects">
+<p><u>Your instructions, given that context:</u> You are the American soldier. Please provide a response in your own words from the perspective of the American soldier that you feel matches the feedback above each text box.</p>
 
-    <crowd-instructions link-text="View instructions" link-type="button">
-        <short-summary>
-            <p>Collect utterances for intent</p>
-        </short-summary>
-
-        <detailed-instructions>
-            <h3>Collect utterances for intent</h3>
-            <p>
-              Given a context and an intent, write how you would express the intent using natural language. 
-              Simply write what you would say if you were in the given situation.
-        </p>
-        </detailed-instructions>
-
-        <positive-example>
-            <h3>Context</h3>
-            <p>You bought a pair of shoes online but they don't fit</p>
-
-            <h3>Intent</h3>
-            <p>You want to try to return the shoes via an online customer service chat bot</p>
-
-            <h3>Response</h3>
-            <p>I would like to return a pair of shoes</p>
-        </positive-example>
-
-
-        <negative-example>
-            <h3>Context</h3>
-            <p>You bought a pair of shoes online but they don't fit</p>
-
-            <h3>Intent</h3>
-            <p>You want to try to return the shoes via an online customer service chat bot</p>
-
-            <h3>Response</h3>
-            <p>Don't fit</p>
-         </negative-example>
-    </crowd-instructions>
-
-    <p>Write what you would say in the given situation:</p>
-
-    <!-- Your contexts and intents will be substituted for the ${context} and ${intent} variables when you 
-           publish a batch with an input file containing multiple contexts and intents -->
-    <p><context>Context: </context></p>
-    <p><intent>Intent: </intent></p>
-
-    <crowd-input name="utterance" placeholder="Type what you would say here..." required></crowd-input>
-</crowd-form>
+</div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+<section>
+<fieldset>
+<div class="input-group"></div>
+</fieldset>
+<!-- End Content Body --></section>
+</div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+   padding: 10px;
+   background:#fbfbfb;
+   border-radius:5px;
+   margin-bottom:5px;
+}
+</style>
 """
-
+#%%
 soup = Soup(html, features="lxml")
 
 #Open the Excel file with the categories
-file = "context_categories.xlsx"
+dir = os.path.join(os.path.dirname(os.getcwd()), 'mechanical_turk', 'HTML_files')
+file = os.path.join(dir, "context_categories.xlsx")
 #Pick a sheet 
 finaldf = pd.read_excel(open(file, 'rb'))
+
+#%%
 # #Only include resonses that the player can control
 # newdf = df[(df.Speaker == 'Player') & (df.Identifier != 'no')]
 # #Create a new dataframe with only the feedback, indentifier, and dialogue text
@@ -83,31 +63,93 @@ finaldf = pd.read_excel(open(file, 'rb'))
 # ctxt_df = pd.read_excel(open(file, 'rb'))
 
 
-#Get context for game
+#
+#%% Get context for game
 file_1 = "Context_DME_edited.xlsx"
-context_df = pd.read_excel(open(file_1, 'rb'))
-print(context_df.head())
+file = os.path.join(dir, file_1)
+ctxt_df = pd.read_excel(open(file, 'rb'))
+print(ctxt_df.head())
+
+#%%
+file_1 = "final context categories.xlsx"
+file = os.path.join(dir, file_1)
+description_df = pd.read_excel(open(file, 'rb'))
+print(description_df.head())
+
+
+#%%
 #Get context for input
 file_2 = "In-game context edited.xlsx"
-intent_df = pd.read_excel(open(file_2, 'rb'))
+file = os.path.join(dir, file_2)
+intent_df = pd.read_excel(open(file, 'rb'))
 print(intent_df.head())
 
-dir = Path(os.getcwd())
-os.chdir(dir / 'HTML_context_input')
+#%%
+os.chdir(os.path.join(dir, 'HTML_new_feedback_input'))
 
-
+#%%
 #Function for writing a label and inserting the text to the HTML file
-def write_label(cat, soup):
-    soup.find('crowd-classifier')['categories'] = str(cat)
+def write_label(i, soup, rank):
+    tag_name = 'label' + str(i)
+    tag = soup.new_tag(tag_name)
+    tag.string = description_df.loc[i,['Category Description']][0]
+    in_tag = soup.new_tag("input")
+    in_tag["class"] = "form-control"
+    in_tag["name"] = str(rank)
+    in_tag["size"] = "120"
+    in_tag["type"] = "text"
+    soup.find("div", {"class": "input-group"}).append(tag)
+    soup.find("div", {"class": "input-group"}).append(in_tag)
 
 #Loop over the dialogue entries
-for i in range(0,len(context_df)):
-    intent = intent_df.loc[i,['On-screen context:']][0]
-    soup.find('intent').append(intent)
-    context = context_df.loc[i,['Context']][0]
-    soup.find('context').append(context)
-    file = "Context_input_" + str(i+1) + ".html"
-    html_test = open(file, "w") 
-    html_test.write(str(soup))
-    html_test.close()
-    soup = Soup(html, features="lxml")
+#%%
+j = 1
+unique_rank = set()
+soup = Soup(html)
+for i in range(len(description_df)):
+    #Dialogue entries are formatted 1a-16c for DMC scenario, 
+    #this try except handles converting these alphanumeric sequenes to ints
+    try:
+        cur_num = int(description_df.loc[i,['Section:']][0])
+    except:
+        cur_num = int(description_df.loc[i,['Section:']][0][0:1])
+    cur_rank = description_df.loc[i,['Ranking:']][0]
+    #If the number for the dialogue matches the number we are currently writing to the HTML file, the function is called
+    if cur_num == j:
+        print(j)
+        print(' ')
+        print('Unique rank ' + str(unique_rank))
+        print('Current rank ' + str(cur_rank))
+        if cur_rank not in unique_rank:
+            write_label(i, soup, cur_rank)
+            unique_rank.add(cur_rank)
+    #If the number does not match, j is updated, and the function is called to write the first entry to the next HTML file
+    else:
+        ctxt = soup.find('context')
+        ctxt_txt = ctxt_df[ctxt_df['Identifier'] == j]['Context'][j-1]
+        ctxt.insert(0, NavigableString(ctxt_txt))
+        
+        intent = soup.find('intent')
+        intent_txt = intent_df[intent_df['Section:'] == j]['On-screen context:'][j-1]
+        intent.insert(0, NavigableString(intent_txt))
+
+        file = "new_feedback_" + str(j) + ".html"
+        j  += 1
+        html_test = open(file, "w")
+        html_test.write(str(soup))
+        html_test.close()
+        
+        soup = Soup(html)
+        if cur_rank not in unique_rank:
+            write_label(i, soup, cur_rank)
+        unique_rank = set()
+
+j=19
+
+#Else statement will not be called when i==16, so the final HTML file must be written outside of the loop
+file = "new_feedback_" + str(j) + ".html"
+html_test = open(file, "w")
+html_test.write(str(soup))
+html_test.close()
+soup = Soup(html)
+#%%
