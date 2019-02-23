@@ -44,7 +44,7 @@ print(os.path.join(dir, 'test'))
 for number_of_topics in range(lower_bound,upper_bound):
 	# model = ldamodel.LdaModel(bow_corpus, id2word=dictionary, num_topics=number_of_topics)
 	temp_file = "LDA_{}_topic.model".format(number_of_topics)
-	print(os.path.join(dir, temp_file)
+	print(os.path.join(dir, temp_file))
 	# model.save(os.path.join(dir, temp_file))
 	# print('Loop for {} topics complete'.format(number_of_topics))
 
