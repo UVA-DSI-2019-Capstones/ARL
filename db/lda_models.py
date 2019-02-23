@@ -21,7 +21,7 @@ bow_corpus_test = [dict_test.doc2bow(doc) for doc in test_corpus]
 
 
 #Create training set corpus
-train = pd.read_csv('train_set.csv')
+train = pd.read_csv('C:\\Users\\vaibhav\\Documents\\UVA\\Fall\\Capstone\\Code\\ARL\\db\\train_set.csv')
 train['processed'] = train['response_text'].apply(pre)
 train_corpus = train['processed'].apply(lambda x : x.split(' '))
 dict_train = Dictionary(train_corpus)

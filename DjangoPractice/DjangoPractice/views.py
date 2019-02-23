@@ -1,12 +1,37 @@
 from django.contrib.auth.models import User
 from django.http import Http404, JsonResponse
-
+from gensim.models import LdaModel
+import os
+from shorttext.utils import standard_text_preprocessor_1
+pre = standard_text_preprocessor_1()
 from .models import TraineeResponseModel
 from .serializers import UserSerializer, TraineeSerializer, MediaFileSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.parsers import MultiPartParser, FormParser
+from gensim.corpora.dictionary import Dictionary
+pre = standard_text_preprocessor_1()
+
+from gensim.models import LdaModel
+import os
+
+dir = os.getcwd()
+dir = os.path.dirname(dir)
+dir = os.path.join(dir, 'db')
+
+print('restarting views')
+print('\n'* 5)
+print(os.getcwd())
+
+
+# Load LDA model
+number_of_topics = 2
+name = 'LDA_{}_topic'.format(number_of_topics)
+temp_file = 'LDA_{}_topic.model'.format(number_of_topics)
+temp_file = os.path.join(dir, 'LDA_models', temp_file)
+LDA_2_topic  = LdaModel.load(temp_file)
+
 
 class TraineeList(APIView):
   """
@@ -29,6 +54,15 @@ class TraineeResponse(APIView):
       serializer = TraineeSerializer(TraineeResponseModel.objects.get(identifier=identifier))
       json_response = serializer.data
       json_response['success'] = True
+
+      new_text = 'How many species of animals are there in Russia and in the US, and where are the biggest oceans?'
+      tokens = [pre(new_text).split()]
+
+      dict_test = Dictionary(tokens)
+      bow_corpus_test = [dict_test.doc2bow(doc) for doc in tokens]
+
+      LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001)
+
       return json_response
     except TraineeResponseModel.DoesNotExist:
       #The identifier doesn't exist in the database
