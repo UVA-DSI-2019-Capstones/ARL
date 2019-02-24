@@ -1,3 +1,4 @@
+#%%
 from django.contrib.auth.models import User
 from django.http import Http404, JsonResponse
 from gensim.models import LdaModel
@@ -11,11 +12,12 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.parsers import MultiPartParser, FormParser
 from gensim.corpora.dictionary import Dictionary
-pre = standard_text_preprocessor_1()
-
+# pre = standard_text_preprocessor_1()
+import pandas as pd
 from gensim.models import LdaModel
 import os
 
+#%%
 dir = os.getcwd()
 dir = os.path.dirname(dir)
 dir = os.path.join(dir, 'db')
@@ -61,8 +63,10 @@ class TraineeResponse(APIView):
       dict_test = Dictionary(tokens)
       bow_corpus_test = [dict_test.doc2bow(doc) for doc in tokens]
 
-      LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001)
-
+      json_response['probs'] = str(LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001))
+      print('Probs ')
+      print(LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001))
+      print(pd.DataFrame(LDA_2_topic.get_document_topics(bow = bow_corpus_test, minimum_probability=0.000001)))
       return json_response
     except TraineeResponseModel.DoesNotExist:
       #The identifier doesn't exist in the database
