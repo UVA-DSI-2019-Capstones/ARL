@@ -1,3 +1,4 @@
+#%%
 from sklearn.linear_model import LogisticRegressionCV
 from gensim.corpora.dictionary import Dictionary
 from gensim.models import LdaModel
@@ -5,8 +6,11 @@ from shorttext.utils import standard_text_preprocessor_1
 import pandas as pd
 import os
 
-dir = os.getcwd()
+#%%
+print(os.getcwd())
 
+
+#%%
 
 
 #Create test set corpus
@@ -27,9 +31,11 @@ train_corpus = train['processed'].apply(lambda x : x.split(' '))
 dict_train = Dictionary(train_corpus)
 bow_corpus_train = [dict_train.doc2bow(doc) for doc in train_corpus]
 
+#%%
 
+#%%
 #Load LDA model
-for number_of_topics in range(2,30):
+for number_of_topics in range(2,3):
     temp_file = 'LDA_{}_topic.model'.format(number_of_topics)
     temp_file = os.path.join(dir, 'LDA_models', temp_file)
     lda = LdaModel.load(temp_file)
@@ -40,7 +46,7 @@ for number_of_topics in range(2,30):
     test_df = pd.DataFrame()
     train_df = pd.DataFrame()
     
-    print(bow_corpus_test[1])
+    
     for i in range(0, len(bow_corpus_test)):
         test_df = pd.concat([test_df, pd.DataFrame(lda.get_document_topics(bow = bow_corpus_test[i], minimum_probability=0.000001))[1]], axis = 1)
         
