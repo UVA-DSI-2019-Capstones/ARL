@@ -44,8 +44,8 @@ ratings_map = {
     },
     5: {
         1: 'b',
-        2: 'a',
-        3: 'c'
+        2: 'c',
+        3: 'a'
     },
     6: {
         1: 'c',
@@ -149,6 +149,14 @@ def insert_csv_data_into_db(file_name):
     c.executemany('INSERT INTO turk_response(turk_response_text, prompt_type, assignment, identifier, comment) VALUES (?,?,?,?,?) ', final_data_tuples)
     db.commit()
 
+def find_csv_filenames(path_to_dir, suffix=".csv" ): 
+    filenames = listdir(path_to_dir)
+    return [ filename for filename in filenames if filename.endswith( suffix ) ]
 
-insert_csv_data_into_db(context_file_path)
+filenames = find_csv_filenames("./turk_data/context_data/")
+
+for name in filenames:
+  turk_csv = os.path.join(os.getcwd(), 'turk_data/context_data', name)
+  insert_csv_data_into_db(turk_csv)
+
 db.close()
