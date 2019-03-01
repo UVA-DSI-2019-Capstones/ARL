@@ -1,4 +1,9 @@
 import os
+
+try:
+    os.system('rm database.db')
+except:
+    pass
 try:
     os.system('python ./setup.py')
     print('database created')
