@@ -3,7 +3,7 @@ import numpy as np
 import sqlite3
 from sqlite3 import Error
 
-path = '../mechanical_turk/Dialogue_copy.xlsx'
+path = '../mechanical_turk/DME_Dialogue_corrected.xlsx'
 dme = pd.ExcelFile(path)
 dme_scores = dme.parse('DME Score')
 dme_sheet = dme.parse('DME')

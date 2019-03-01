@@ -1,4 +1,10 @@
 import os
+
+try:
+    os.system('rm database.db')
+except:
+    print("couldn't remove database, please contact administrator")
+
 try:
     os.system('python ./setup.py')
     print('database created')
