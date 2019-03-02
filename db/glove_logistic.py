@@ -43,20 +43,20 @@ def docAveraging(sent, WV, dim):
     return summ;
 
 #%%
-dim = 200
+dim = [50, 100, 200, 300]
 #%% Set path to Glove word vector folder
 dir = Path(os.getcwd())
-wvpack = "glove.6B."+str(dim)+"d.txt"
-file_1 = dir / "glove.6B" / wvpack
 
-df = pd.read_csv(file_1, sep=" ", quoting=3, header=None, index_col=0)
-WV = {key: val.values for key, val in df.T.items()}
+for i in range(len(dim)):
+    wvpack = "glove.6B."+str(dim[i])+"d.txt"
+    file_1 = dir / "glove.6B" / wvpack
 
-#%%
-np.save('wv_dic_200.npy', WV) 
+    df = pd.read_csv(file_1, sep=" ", quoting=3, header=None, index_col=0)
+    WV = {key: val.values for key, val in df.T.items()}
+    file_2 = 'wv_dic_{}.npy'.format(dim[i])
+    np.save(file_2, WV) 
 
-#%%
-WV = np.load('wv_dic_200.npy').item()
+
 
 #%%
 #Create test set corpus
@@ -139,19 +139,24 @@ Y_test = test['response_round_score']
 # #%%
 
 #%%
-trainingMatrix = np.zeros((0, dim))
-testMatrix = np.zeros((0, dim))
+for i in range(len(dim)):
+    file_2 = 'wv_dic_{}.npy'.format(dim[i])
+    WV = np.load(file_2).item() 
+    trainingMatrix = np.zeros((0, dim[i]))
+    testMatrix = np.zeros((0, dim[i]))
 
-for train_doc in X_train:
-    trainingMatrix = np.append(trainingMatrix, [np.asarray(docAveraging(train_doc, WV, dim))], axis=0)#.decode('utf8').strip()), WV, dim))], axis=0)
+    for train_doc in X_train:
+        trainingMatrix = np.append(trainingMatrix, [np.asarray(docAveraging(train_doc, WV, dim[i]))], axis=0)#.decode('utf8').strip()), WV, dim))], axis=0)
 
-for test_doc in X_test:
-    testMatrix = np.append(testMatrix, [np.asarray(docAveraging(test_doc, WV, dim))], axis=0)#.decode('utf8').strip()), WV, dim))], axis=0)
-
+    for test_doc in X_test:
+        testMatrix = np.append(testMatrix, [np.asarray(docAveraging(test_doc, WV, dim[i]))], axis=0)#.decode('utf8').strip()), WV, dim))], axis=0)
+    file_3 = 'trainingMatrix{}.npy'.format(dim[i])
+    file_4 = 'testMatrix{}.npy'.format(dim[i])
+    np.save(file_3, trainingMatrix) 
+    np.save(file_4, testMatrix)
 
 #%%
-np.save('trainingMatrix.npy', trainingMatrix) 
-np.save('testMatrix.npy', testMatrix)
+np.load('trainingMatrix.npy', trainingMatrix) 
 
 #%%
 X_train = scale(trainingMatrix, axis = 1)
@@ -220,73 +225,28 @@ y_pred = neigh.predict(X_test)
 print(y_pred)
 
 #%%
-df_results = pd.DataFrame(columns = ['n_estimaters', 'depth', 'accuracy', 'f1'])
+df_results = pd.DataFrame(columns = ['n_estimaters', 'depth', 'accuracy', 'f1', 'glove dimension'])
 print('Start of Tree')
-for m_depth in range(2, 30, 2):
-    print(m_depth)
-    for n_est in range(100,300,50):
-        print(str(m_depth) + ' - ' + str(n_est))
-        clf = RandomForestClassifier(n_estimators=n_est, max_depth=m_depth, random_state=3214)
-        clf.fit(trainingMatrix, Y_train)   
-        y_pred = clf.predict(testMatrix)
-        f1 = f1_score(Y_test, y_pred, average = 'weighted')
-        accuracy = accuracy_score(Y_test, y_pred)
-        print('Score: {}'.format(accuracy_score(Y_test, y_pred)))
-        df_results = pd.concat([df_results, pd.DataFrame([n_est, m_depth, accuracy, f1])], axis = 0)
+for i in range(len(dim)):
+    # file_2 = 'wv_dic_{}.npy'.format(dim[i])
+    # WV = np.load(file_2).item() 
+    file_3 = 'trainingMatrix{}.npy'.format(dim[i])
+    file_4 = 'testMatrix{}.npy'.format(dim[i])
+    trainingMatrix = np.load(file_3) 
+    testMatrix = np.load(file_4)
+    for m_depth in range(2, 30, 2):
+        print(m_depth)
+        for n_est in range(100,300,50):
+            print(str(m_depth) + ' - ' + str(n_est))
+            clf = RandomForestClassifier(n_estimators=n_est, max_depth=m_depth, random_state=3214)
+            clf.fit(trainingMatrix, Y_train)   
+            y_pred = clf.predict(testMatrix)
+            f1 = f1_score(Y_test, y_pred, average = 'weighted')
+            accuracy = accuracy_score(Y_test, y_pred)
+            print('Score: {}'.format(accuracy_score(Y_test, y_pred)))
+            new_row = pd.DataFrame([n_est, m_depth, accuracy, f1, dim[i]])
+            df_results = pd.concat([df_results, new_row.transpose()], axis = 0)
+
 
 #%%
-
-# f1 = f1_score(test['response_round_score'], y_pred, average = 'weighted')
-accuracy = accuracy_score(Y_test, y_pred])
-
-#%%
-print(accuracy)
-#%%
-
-
-# #Create training set corpus
-# train = pd.read_csv('train_set.csv')
-# train['processed'] = train['response_text'].apply(pre)
-# train_corpus = train['processed'].apply(lambda x : x.split(' '))
-# dict_train = Dictionary(train_corpus)
-# bow_corpus_train = [dict_train.doc2bow(doc) for doc in train_corpus]
-
-df_results = pd.DataFrame(columns = ['number_of_topics', 'n_neigh', 'accuracy', 'f1'])
-
-#Load LDA model
-for number_of_topics in range(2,30):
-    temp_file = 'LDA_{}_topic.model'.format(number_of_topics)
-    temp_file = os.path.join(dir, 'LDA_models', temp_file)
-    lda = LdaModel.load(temp_file)
-    
-    
-    
-    
-    test_df = pd.DataFrame()
-    train_df = pd.DataFrame()
-    
-    print(bow_corpus_test[1])
-    for i in range(0, len(bow_corpus_test)):
-        test_df = pd.concat([test_df, pd.DataFrame(lda.get_document_topics(bow = bow_corpus_test[i], minimum_probability=0.000001))[1]], axis = 1)
-        
-    
-    for i in range(0, len(bow_corpus_train)):
-        train_df = pd.concat([train_df, pd.DataFrame(lda.get_document_topics(bow = bow_corpus_train[i], minimum_probability=0.000001))[1]], axis = 1)   
-        
-    print('Start')
-    
-    test_df = test_df.transpose()
-    train_df = train_df.transpose()
-    
-    for n_neigh in range(3,number_of_topics):
-        neigh = KNeighborsClassifier(n_neighbors=n_neigh)
-        neigh.fit(test_df, test['response_round_score']) 
-        
-        y_pred = neigh.predict(test_df)
-        print('Number of topics {}'.format(number_of_topics))
-        f1 = f1_score(test['response_round_score'], y_pred, average = 'weighted')
-        accuracy = accuracy_score(test['response_round_score'], y_pred)
-            
-        df_results = pd.concat([df_results, pd.DataFrame([[number_of_topics, n_neigh, accuracy, f1]], columns = ['number_of_topics', 'n_neigh', 'accuracy', 'f1'])], axis = 0)
-
-df_results.to_csv('k_nn_results.csv')
+df_results.to_csv('glove_random_forests results.csv')
