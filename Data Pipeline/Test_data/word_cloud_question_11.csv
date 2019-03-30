@@ -1,0 +1,888 @@
+,Words,Index,Dialogue,"Does not question the need to meet in private (e.g. does not say “Why do we need to meet in private?”)
+ 
+_1","Does not question the need to meet in private (e.g. does not say “Why do we need to meet in private?”)
+ 
+_2",labels_1,labels_2,length,uniq_length
+0,wont,0,this wont take too long,1,1,1,1,5,5
+0,take,0,this wont take too long,1,1,1,1,5,5
+0,long,0,this wont take too long,1,1,1,1,5,5
+0,dont,1,we dont have much time does this have to be in private,0,0,0,0,12,11
+0,much,1,we dont have much time does this have to be in private,0,0,0,0,12,11
+0,time,1,we dont have much time does this have to be in private,0,0,0,0,12,11
+0,private,1,we dont have much time does this have to be in private,0,0,0,0,12,11
+0,would,2,it would not be long at all,1,1,1,1,7,7
+0,long,2,it would not be long at all,1,1,1,1,7,7
+0,need,3,this does not need to be in private we do not have time for this,0,0,0,0,15,13
+0,private,3,this does not need to be in private we do not have time for this,0,0,0,0,15,13
+0,time,3,this does not need to be in private we do not have time for this,0,0,0,0,15,13
+0,wont,4,it wont take much time,1,1,1,1,5,5
+0,take,4,it wont take much time,1,1,1,1,5,5
+0,much,4,it wont take much time,1,1,1,1,5,5
+0,time,4,it wont take much time,1,1,1,1,5,5
+0,cant,5,why cant it happen here we dont have much time,0,0,0,0,10,10
+0,happen,5,why cant it happen here we dont have much time,0,0,0,0,10,10
+0,dont,5,why cant it happen here we dont have much time,0,0,0,0,10,10
+0,much,5,why cant it happen here we dont have much time,0,0,0,0,10,10
+0,time,5,why cant it happen here we dont have much time,0,0,0,0,10,10
+0,shouldnt,6,shouldnt take a long tiime,1,1,1,1,5,5
+0,take,6,shouldnt take a long tiime,1,1,1,1,5,5
+0,long,6,shouldnt take a long tiime,1,1,1,1,5,5
+0,tiime,6,shouldnt take a long tiime,1,1,1,1,5,5
+0,private,7,do we have to do this in private time is running out,0,0,0,0,12,11
+0,time,7,do we have to do this in private time is running out,0,0,0,0,12,11
+0,running,7,do we have to do this in private time is running out,0,0,0,0,12,11
+0,quick,8,it will be very quick,1,1,1,1,5,5
+0,time,9,time is of the essence here why is there a need to talk in private,0,0,0,0,15,14
+0,essence,9,time is of the essence here why is there a need to talk in private,0,0,0,0,15,14
+0,need,9,time is of the essence here why is there a need to talk in private,0,0,0,0,15,14
+0,talk,9,time is of the essence here why is there a need to talk in private,0,0,0,0,15,14
+0,private,9,time is of the essence here why is there a need to talk in private,0,0,0,0,15,14
+0,lengthy,10,it will not be lengthy,1,1,1,1,5,5
+0,must,11,why must we meet alone we are short on time,0,0,0,0,10,9
+0,meet,11,why must we meet alone we are short on time,0,0,0,0,10,9
+0,alone,11,why must we meet alone we are short on time,0,0,0,0,10,9
+0,short,11,why must we meet alone we are short on time,0,0,0,0,10,9
+0,time,11,why must we meet alone we are short on time,0,0,0,0,10,9
+0,shouldnt,12,it shouldnt take much of your time,1,1,1,1,7,7
+0,take,12,it shouldnt take much of your time,1,1,1,1,7,7
+0,much,12,it shouldnt take much of your time,1,1,1,1,7,7
+0,time,12,it shouldnt take much of your time,1,1,1,1,7,7
+0,must,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,discuss,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,private,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,dont,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,much,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,time,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,spare,13,why must we discuss this in private we dont have much time to spare,0,0,0,0,14,13
+0,wont,14,this wont be long,1,1,1,1,4,4
+0,long,14,this wont be long,1,1,1,1,4,4
+0,private,15,why is it in private were short on time,0,0,0,0,9,9
+0,short,15,why is it in private were short on time,0,0,0,0,9,9
+0,time,15,why is it in private were short on time,0,0,0,0,9,9
+0,brief,16,it will be brief no worries,1,1,1,1,6,6
+0,worries,16,it will be brief no worries,1,1,1,1,6,6
+0,must,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,private,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,sooner,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,fix,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,problem,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,better,17,must this be in private the sooner we fix this problem the better,0,0,0,0,13,11
+0,wont,18,i wont keep you long,1,1,1,1,5,5
+0,keep,18,i wont keep you long,1,1,1,1,5,5
+0,long,18,i wont keep you long,1,1,1,1,5,5
+0,must,19,why must it be privately time is short,0,0,0,0,8,8
+0,privately,19,why must it be privately time is short,0,0,0,0,8,8
+0,time,19,why must it be privately time is short,0,0,0,0,8,8
+0,short,19,why must it be privately time is short,0,0,0,0,8,8
+0,take,20,it will not take much time,1,1,1,1,6,6
+0,much,20,it will not take much time,1,1,1,1,6,6
+0,time,20,it will not take much time,1,1,1,1,6,6
+0,need,21,why does it need to be in private we do not have much time,0,0,0,0,14,14
+0,private,21,why does it need to be in private we do not have much time,0,0,0,0,14,14
+0,much,21,why does it need to be in private we do not have much time,0,0,0,0,14,14
+0,time,21,why does it need to be in private we do not have much time,0,0,0,0,14,14
+0,take,22,it will only take a couple minutes,1,1,1,1,7,7
+0,couple,22,it will only take a couple minutes,1,1,1,1,7,7
+0,minutes,22,it will only take a couple minutes,1,1,1,1,7,7
+0,privately,23,do we have to do this privately we only have a couple minutes,0,0,0,0,13,10
+0,couple,23,do we have to do this privately we only have a couple minutes,0,0,0,0,13,10
+0,minutes,23,do we have to do this privately we only have a couple minutes,0,0,0,0,13,10
+0,wont,24,this wont be long,1,1,1,1,4,4
+0,long,24,this wont be long,1,1,1,1,4,4
+0,need,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,private,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,isnt,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,much,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,time,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,available,25,why does it need to be private there isnt much time available,0,0,0,0,12,12
+0,itll,26,itll be quick,1,1,1,1,3,3
+0,quick,26,itll be quick,1,1,1,1,3,3
+0,reason,27,for what reason can it not be public there isnt enough time,0,0,0,0,12,12
+0,public,27,for what reason can it not be public there isnt enough time,0,0,0,0,12,12
+0,isnt,27,for what reason can it not be public there isnt enough time,0,0,0,0,12,12
+0,enough,27,for what reason can it not be public there isnt enough time,0,0,0,0,12,12
+0,time,27,for what reason can it not be public there isnt enough time,0,0,0,0,12,12
+0,require,28,it will not require much time,1,1,1,1,6,6
+0,much,28,it will not require much time,1,1,1,1,6,6
+0,time,28,it will not require much time,1,1,1,1,6,6
+0,must,29,why must it be private time is of the essence,0,0,0,0,10,10
+0,private,29,why must it be private time is of the essence,0,0,0,0,10,10
+0,time,29,why must it be private time is of the essence,0,0,0,0,10,10
+0,essence,29,why must it be private time is of the essence,0,0,0,0,10,10
+0,shouldnt,30,this shouldnt be long at all,1,1,1,1,6,6
+0,long,30,this shouldnt be long at all,1,1,1,1,6,6
+0,dont,31,we dont have a lot of time so why does this need to be just us,0,0,0,0,16,16
+0,lot,31,we dont have a lot of time so why does this need to be just us,0,0,0,0,16,16
+0,time,31,we dont have a lot of time so why does this need to be just us,0,0,0,0,16,16
+0,need,31,we dont have a lot of time so why does this need to be just us,0,0,0,0,16,16
+0,us,31,we dont have a lot of time so why does this need to be just us,0,0,0,0,16,16
+0,quick,32,this will be quick,1,1,1,1,4,4
+0,dont,33,we dont have a lot of time can we do it here,0,0,0,0,12,11
+0,lot,33,we dont have a lot of time can we do it here,0,0,0,0,12,11
+0,time,33,we dont have a lot of time can we do it here,0,0,0,0,12,11
+0,isnt,34,it isnt going to take too much time,1,1,1,1,8,8
+0,going,34,it isnt going to take too much time,1,1,1,1,8,8
+0,take,34,it isnt going to take too much time,1,1,1,1,8,8
+0,much,34,it isnt going to take too much time,1,1,1,1,8,8
+0,time,34,it isnt going to take too much time,1,1,1,1,8,8
+0,tell,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,must,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,done,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,private,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,beause,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,dont,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,lot,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,time,35,can you tell me why it must be done in private beause we dont have a lot of time,0,0,0,0,19,19
+0,thanks,36,thanks this wont take long,1,1,1,1,5,5
+0,wont,36,thanks this wont take long,1,1,1,1,5,5
+0,take,36,thanks this wont take long,1,1,1,1,5,5
+0,long,36,thanks this wont take long,1,1,1,1,5,5
+0,unless,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,feel,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,necessary,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,doesnt,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,private,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,dont,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,lot,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,time,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,dont,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,want,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,cause,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,delays,37,unless you feel its necessary it doesnt have to be in private we dont have a lot of time and i dont want to cause further delays,0,0,0,0,27,24
+0,take,38,it should not take long at all,1,1,1,1,7,7
+0,long,38,it should not take long at all,1,1,1,1,7,7
+0,wait,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,discuss,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,private,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,dont,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,much,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,time,39,we should not wait to discuss in private we dont have much time,0,0,0,0,13,12
+0,itll,40,itll be quick,1,1,1,1,3,3
+0,quick,40,itll be quick,1,1,1,1,3,3
+0,reason,41,is there a reason it has to be private we dont have much time,0,0,0,0,14,14
+0,private,41,is there a reason it has to be private we dont have much time,0,0,0,0,14,14
+0,dont,41,is there a reason it has to be private we dont have much time,0,0,0,0,14,14
+0,much,41,is there a reason it has to be private we dont have much time,0,0,0,0,14,14
+0,time,41,is there a reason it has to be private we dont have much time,0,0,0,0,14,14
+0,fast,42,it will be fast,1,1,1,1,4,4
+0,ill,43,ill just be a few minutes,1,1,1,1,6,6
+0,minutes,43,ill just be a few minutes,1,1,1,1,6,6
+0,plenty,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,time,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,speak,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,anywhere,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,would,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,like,44,there is plenty of time to speak with me anywhere you would like,1,1,1,1,13,13
+0,wont,45,this wont take much time,1,1,1,1,5,5
+0,take,45,this wont take much time,1,1,1,1,5,5
+0,much,45,this wont take much time,1,1,1,1,5,5
+0,time,45,this wont take much time,1,1,1,1,5,5
+0,must,46,why must this be done privately were short on time here,0,0,0,0,11,11
+0,done,46,why must this be done privately were short on time here,0,0,0,0,11,11
+0,privately,46,why must this be done privately were short on time here,0,0,0,0,11,11
+0,short,46,why must this be done privately were short on time here,0,0,0,0,11,11
+0,time,46,why must this be done privately were short on time here,0,0,0,0,11,11
+0,itll,47,itll be done quickly,1,1,1,1,4,4
+0,done,47,itll be done quickly,1,1,1,1,4,4
+0,quickly,47,itll be done quickly,1,1,1,1,4,4
+0,secretly,48,why do you have to do it so secretly we dont have much time you know,0,0,0,0,16,13
+0,dont,48,why do you have to do it so secretly we dont have much time you know,0,0,0,0,16,13
+0,much,48,why do you have to do it so secretly we dont have much time you know,0,0,0,0,16,13
+0,time,48,why do you have to do it so secretly we dont have much time you know,0,0,0,0,16,13
+0,know,48,why do you have to do it so secretly we dont have much time you know,0,0,0,0,16,13
+0,going,49,its not going to take much time,1,1,1,1,7,7
+0,take,49,its not going to take much time,1,1,1,1,7,7
+0,much,49,its not going to take much time,1,1,1,1,7,7
+0,time,49,its not going to take much time,1,1,1,1,7,7
+0,dont,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,need,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,alone,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,discuss,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,dont,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,enough,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,time,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,anyway,50,we dont need to be alone to discuss it we dont have enough time anyway,0,0,0,0,15,12
+0,make,51,i will make it quick,1,1,1,1,5,5
+0,quick,51,i will make it quick,1,1,1,1,5,5
+0,privately,52,do we have to do this privately we are short of time,0,0,0,0,12,10
+0,short,52,do we have to do this privately we are short of time,0,0,0,0,12,10
+0,time,52,do we have to do this privately we are short of time,0,0,0,0,12,10
+0,need,53,i only need a few minutes of your time,1,1,1,1,9,9
+0,minutes,53,i only need a few minutes of your time,1,1,1,1,9,9
+0,time,53,i only need a few minutes of your time,1,1,1,1,9,9
+0,discuss,54,can we discuss this here time is of the essence,0,0,0,0,10,10
+0,time,54,can we discuss this here time is of the essence,0,0,0,0,10,10
+0,essence,54,can we discuss this here time is of the essence,0,0,0,0,10,10
+0,take,55,it will take a short time,1,1,1,1,6,6
+0,short,55,it will take a short time,1,1,1,1,6,6
+0,time,55,it will take a short time,1,1,1,1,6,6
+0,private,56,does this have to be in private we have little time,0,0,0,0,11,10
+0,little,56,does this have to be in private we have little time,0,0,0,0,11,10
+0,time,56,does this have to be in private we have little time,0,0,0,0,11,10
+0,need,57,i just need a minute,1,1,1,1,5,5
+0,minute,57,i just need a minute,1,1,1,1,5,5
+0,much,58,we are in too much of a rush why cant we speak about it in public now,0,0,0,0,17,15
+0,rush,58,we are in too much of a rush why cant we speak about it in public now,0,0,0,0,17,15
+0,cant,58,we are in too much of a rush why cant we speak about it in public now,0,0,0,0,17,15
+0,speak,58,we are in too much of a rush why cant we speak about it in public now,0,0,0,0,17,15
+0,public,58,we are in too much of a rush why cant we speak about it in public now,0,0,0,0,17,15
+0,shouldnt,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,take,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,much,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,time,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,need,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,talk,59,this shouldnt take much time and we need to talk about this now,1,1,1,1,13,12
+0,dont,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,much,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,time,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,talk,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,need,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,private,60,we dont have much time why does this talk need to be private,0,0,0,0,13,13
+0,message,61,my message is brief but critical,1,1,1,1,6,6
+0,brief,61,my message is brief but critical,1,1,1,1,6,6
+0,critical,61,my message is brief but critical,1,1,1,1,6,6
+0,given,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,urgency,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,mission,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,wish,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,know,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,must,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,speak,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,private,62,given the urgency of our mission i wish to know why we must speak in private,0,0,0,0,16,16
+0,let,63,let him know that it wont take long,1,1,1,1,8,8
+0,know,63,let him know that it wont take long,1,1,1,1,8,8
+0,wont,63,let him know that it wont take long,1,1,1,1,8,8
+0,take,63,let him know that it wont take long,1,1,1,1,8,8
+0,long,63,let him know that it wont take long,1,1,1,1,8,8
+0,explain,64,i will explain it now we have no time and it is important,1,0,1,0,13,12
+0,time,64,i will explain it now we have no time and it is important,1,0,1,0,13,12
+0,important,64,i will explain it now we have no time and it is important,1,0,1,0,13,12
+0,talk,65,why talk in private we have no time,0,0,0,0,8,8
+0,private,65,why talk in private we have no time,0,0,0,0,8,8
+0,time,65,why talk in private we have no time,0,0,0,0,8,8
+0,promise,66,i promise not to take up much of your time sir,1,1,1,1,11,11
+0,take,66,i promise not to take up much of your time sir,1,1,1,1,11,11
+0,much,66,i promise not to take up much of your time sir,1,1,1,1,11,11
+0,time,66,i promise not to take up much of your time sir,1,1,1,1,11,11
+0,sir,66,i promise not to take up much of your time sir,1,1,1,1,11,11
+0,due,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,respect,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,sir,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,time,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,short,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,need,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,privacy,67,with all due respect sir time is short why the need for privacy,0,0,0,0,13,13
+0,tell,68,i can tell you about this issue quickly,1,1,1,1,8,8
+0,issue,68,i can tell you about this issue quickly,1,1,1,1,8,8
+0,quickly,68,i can tell you about this issue quickly,1,1,1,1,8,8
+0,time,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,wait,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,speak,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,privateis,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,good,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,reason,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,privacy,69,i do not have time to wait to speak in privateis there a good reason for the privacy,0,0,0,0,18,17
+0,dont,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,think,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,need,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,talk,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,private,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,really,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,wont,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,take,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,long,70,i dont think we need to talk in private this really wont take long at all,1,0,1,0,16,16
+0,special,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,reason,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,need,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,talk,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,private,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,isnt,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,much,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,time,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,mission,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,supposed,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,start,71,is there a special reason we need to talk in private there isnt much time before the mission is supposed to start,0,0,0,0,22,19
+0,commander,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,considering,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,urgency,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,situation,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,discuss,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,issue,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,hand,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,wont,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,take,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,much,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,time,72,commander considering the urgency of the situation we should discuss the issue at hand now it wont take up much of your time,1,0,1,0,23,20
+0,commander,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,reason,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,want,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,speak,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,private,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,time,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,running,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,mission,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,starting,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,soon,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,people,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,waiting,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,aid,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,isnt,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,much,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,time,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,left,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,perhaps,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,discuss,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,right,73,commander is there a reason you want to speak in private time is running our and the mission is starting very soon people are waiting for our aid and there isnt much time left perhaps we can discuss this right now,0,0,0,0,41,35
+0,want,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,reassure,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,conversation,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,take,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,long,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,need,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,moments,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,time,74,i just want to reassure you that the conversation will not take long i only need but a few moments of your time,1,0,1,0,23,22
+0,understand,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,youd,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,like,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,speak,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,private,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,later,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,much,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,time,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,mission,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,begins,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,urgent,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,speak,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,soon,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,possible,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,reason,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,youd,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,like,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,speak,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,private,75,i understand youd like to speak in private later but i do not have much time before our mission begins and it is urgent that we speak as soon as possible is there a reason youd like to speak in private,0,0,0,0,41,31
+0,quick,76,this will be quick and discrete,1,1,1,1,6,6
+0,discrete,76,this will be quick and discrete,1,1,1,1,6,6
+0,need,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,one,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,one,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,time,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,time,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,crunch,77,why do you need one on one time when we are in a time crunch,0,0,0,0,15,13
+0,wont,78,it wont take a minute,1,1,1,1,5,5
+0,take,78,it wont take a minute,1,1,1,1,5,5
+0,minute,78,it wont take a minute,1,1,1,1,5,5
+0,secrecy,79,why the secrecy im in a big rush here,0,0,0,0,9,9
+0,im,79,why the secrecy im in a big rush here,0,0,0,0,9,9
+0,big,79,why the secrecy im in a big rush here,0,0,0,0,9,9
+0,rush,79,why the secrecy im in a big rush here,0,0,0,0,9,9
+0,wont,80,it wont take long to discuss the matter,1,1,1,1,8,8
+0,take,80,it wont take long to discuss the matter,1,1,1,1,8,8
+0,long,80,it wont take long to discuss the matter,1,1,1,1,8,8
+0,discuss,80,it wont take long to discuss the matter,1,1,1,1,8,8
+0,matter,80,it wont take long to discuss the matter,1,1,1,1,8,8
+0,reason,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,need,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,us,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,talk,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,private,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,tight,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,schedule,81,is there a reason you need us to talk in private i am on a very tight schedule,0,0,0,0,18,17
+0,long,82,i will not be a long wait sir,1,1,1,1,8,8
+0,wait,82,i will not be a long wait sir,1,1,1,1,8,8
+0,sir,82,i will not be a long wait sir,1,1,1,1,8,8
+0,want,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,speak,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,private,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,line,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,sir,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,running,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,time,83,why do you want to speak in a private line sir i am running out of time here,0,0,0,0,18,18
+0,understand,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,youd,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,like,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,meet,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,later,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,questions,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,id,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,like,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,go,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,thats,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,okay,84,i understand that youd like to meet later but i have just a few questions that id like to go over now if thats okay with you,1,0,1,0,27,23
+0,reason,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,feel,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,discussion,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,needs,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,held,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,private,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,would,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,willing,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,speak,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,could,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,save,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,time,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,schedule,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,bit,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,rushed,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,today,85,is there a reason that you feel our discussion needs to be held in private or would you be willing to speak now so we could save time as my schedule is a bit rushed today,0,0,0,0,36,31
+0,understand,86,i understand your concerns it wont take long,1,1,1,1,8,8
+0,concerns,86,i understand your concerns it wont take long,1,1,1,1,8,8
+0,wont,86,i understand your concerns it wont take long,1,1,1,1,8,8
+0,take,86,i understand your concerns it wont take long,1,1,1,1,8,8
+0,long,86,i understand your concerns it wont take long,1,1,1,1,8,8
+0,matters,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,need,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,discuss,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,private,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,im,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,fairly,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,busy,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,moment,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,lot,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,time,87,what matters do you need to discuss in private im fairly busy at the moment and do not have a lot of time,0,0,0,0,23,22
+0,okay,88,okay this wont take long at all,1,1,1,1,7,7
+0,wont,88,okay this wont take long at all,1,1,1,1,7,7
+0,take,88,okay this wont take long at all,1,1,1,1,7,7
+0,long,88,okay this wont take long at all,1,1,1,1,7,7
+0,sure,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,need,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,speak,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,private,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,dont,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,much,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,time,89,i am not sure why we need to speak in private i dont have much time at all,0,0,0,0,18,17
+0,everything,90,i have everything checked it will not take long,1,1,1,1,9,9
+0,checked,90,i have everything checked it will not take long,1,1,1,1,9,9
+0,take,90,i have everything checked it will not take long,1,1,1,1,9,9
+0,long,90,i have everything checked it will not take long,1,1,1,1,9,9
+0,time,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,running,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,much,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,time,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,want,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,get,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,speaking,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,private,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,authorization,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,forget,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,focus,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,mission,91,time is running out i do not have much time what do you want to get by speaking in private i do not have authorization to do it so forget it and focus on the mission,0,0,0,0,36,27
+0,really,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,wont,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,take,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,long,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,discuss,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,issues,92,i really wont take long at all to discuss the issues,1,1,1,1,11,11
+0,dont,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,much,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,time,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,mission,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,begins,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,want,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,talk,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,private,93,i dont have much time at all before the mission begins why do you want to talk in private,0,0,0,0,19,19
+0,quick,94,this will be quick,1,1,1,1,4,4
+0,dont,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,much,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,spare,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,time,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,please,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,tell,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,want,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,speak,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,privately,95,i dont have much spare time so can you please tell me why you want to speak privately,0,0,0,0,18,17
+0,believe,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,handle,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,right,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,instead,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,waiting,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,wont,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,take,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,long,96,i believe we can handle it right now instead of waiting it wont take long,1,0,1,0,15,14
+0,reason,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,need,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,delay,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,speak,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,private,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,bit,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,strapped,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,time,97,is there any reason why we need to delay this and speak in private were a bit strapped for time,0,0,0,0,20,20
+0,wont,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,take,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,long,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,work,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,issues,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,plan,98,it wont take long t work out the issues with the plan,1,1,1,1,12,11
+0,wont,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,much,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,time,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,accomplish,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,talk,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,private,99,we wont have much time to accomplish this if we have to talk in private,0,0,0,0,15,12
+0,take,100,this will take little time to do,1,1,1,1,7,7
+0,little,100,this will take little time to do,1,1,1,1,7,7
+0,time,100,this will take little time to do,1,1,1,1,7,7
+0,need,101,i only need a few minutes,1,1,1,1,6,6
+0,minutes,101,i only need a few minutes,1,1,1,1,6,6
+0,reason,102,is there a reason we need to speak privately i only have a few minutes,0,0,0,0,15,14
+0,need,102,is there a reason we need to speak privately i only have a few minutes,0,0,0,0,15,14
+0,speak,102,is there a reason we need to speak privately i only have a few minutes,0,0,0,0,15,14
+0,privately,102,is there a reason we need to speak privately i only have a few minutes,0,0,0,0,15,14
+0,minutes,102,is there a reason we need to speak privately i only have a few minutes,0,0,0,0,15,14
+0,take,103,this will not take too much of your time,1,1,1,1,9,9
+0,much,103,this will not take too much of your time,1,1,1,1,9,9
+0,time,103,this will not take too much of your time,1,1,1,1,9,9
+0,want,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,speak,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,privately,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,dont,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,sufficient,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,time,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,right,104,why to you want to speak privately i dont have sufficient time right now,0,0,0,0,14,13
+0,commander,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,time,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,essence,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,confident,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,wont,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,take,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,long,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,us,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,discuss,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,concerns,105,commander time is of the essence and i am confident that it wont take long for us to discuss my concerns,1,0,1,0,21,21
+0,believe,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,need,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,discuss,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,matters,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,private,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,mission,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,start,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,soon,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,try,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,address,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,plan,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,quickly,106,why do you believe we need to discuss these matters in private the mission will start soon so we should try to address the plan quickly,0,0,0,0,26,23
+0,need,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,speak,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,briefly,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,couple,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,problems,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,plan,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,wont,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,take,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,long,107,i just need to speak with you briefly about a couple of problems with the plan it wont take long,1,1,1,1,20,19
+0,dont,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,much,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,time,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,mission,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,starts,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,need,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,speak,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,private,108,we dont have much time before the mission starts why do we need to speak in private,0,0,0,0,17,16
+0,sir,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,urgent,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,wont,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,take,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,minute,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,time,109,sir this is urgent it wont take but a minute of your time,1,1,1,1,13,13
+0,sir,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,dont,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,understand,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,need,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,privacy,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,dont,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,time,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,waste,110,sir i dont understand the need for privacy i dont have time to waste,0,0,0,0,14,12
+0,think,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,good,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,alternative,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,plan,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,couple,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,concerns,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,plan,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,major,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,concerns,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,take,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,long,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,discuss,111,i think that is a good alternative plan i do have a couple of concerns about the plan they are not major concerns and will not take long to discuss,1,0,1,0,30,25
+0,nothing,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,discussed,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,front,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,constituants,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,needed,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,base,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,soon,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,think,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,need,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,addressed,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,present,112,it is nothing that cannot be discussed in front of our constituants i am needed at the base soon and think these need to be addressed at present,0,0,0,0,29,27
+0,wont,113,it wont take long,1,1,1,1,4,4
+0,take,113,it wont take long,1,1,1,1,4,4
+0,long,113,it wont take long,1,1,1,1,4,4
+0,would,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,please,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,let,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,know,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,prefer,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,talk,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,private,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,dont,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,much,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,time,114,would you please let me know why do you prefer talk in private we dont have much time,0,0,0,0,18,17
+0,sir,115,sir i only require a few minutes of your time,1,1,1,1,10,10
+0,require,115,sir i only require a few minutes of your time,1,1,1,1,10,10
+0,minutes,115,sir i only require a few minutes of your time,1,1,1,1,10,10
+0,time,115,sir i only require a few minutes of your time,1,1,1,1,10,10
+0,need,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,discuss,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,private,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,sir,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,dont,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,much,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,time,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,would,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,like,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,discuss,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,matter,116,is there a need to discuss this in private sir i dont have much time and would like to discuss this matter now,0,0,0,0,23,20
+0,wont,117,it wont take much to talk this out,1,1,1,1,8,8
+0,take,117,it wont take much to talk this out,1,1,1,1,8,8
+0,much,117,it wont take much to talk this out,1,1,1,1,8,8
+0,talk,117,it wont take much to talk this out,1,1,1,1,8,8
+0,reason,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,cant,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,speak,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,openly,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,dont,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,lot,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,time,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,get,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,started,118,is there a reason you cant speak openly about this we dont have a lot of time to get this started,0,0,0,0,21,19
+0,would,119,it would only take a minute of your time,1,1,1,1,9,9
+0,take,119,it would only take a minute of your time,1,1,1,1,9,9
+0,minute,119,it would only take a minute of your time,1,1,1,1,9,9
+0,time,119,it would only take a minute of your time,1,1,1,1,9,9
+0,dont,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,much,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,time,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,left,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,want,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,talk,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,private,120,i dont have much time left why do you want to talk in private,0,0,0,0,14,14
+0,take,121,it will only take a minute,1,1,1,1,6,6
+0,minute,121,it will only take a minute,1,1,1,1,6,6
+0,need,122,why does this need to be in private we are running out of time,0,0,0,0,14,14
+0,private,122,why does this need to be in private we are running out of time,0,0,0,0,14,14
+0,running,122,why does this need to be in private we are running out of time,0,0,0,0,14,14
+0,time,122,why does this need to be in private we are running out of time,0,0,0,0,14,14
+0,dont,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,much,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,time,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,must,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,talk,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,private,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,later,123,we dont have much time why must we talk in private later,0,0,0,0,12,11
+0,urgent,124,its urgent and it wont take long to discuss,1,1,1,1,9,9
+0,wont,124,its urgent and it wont take long to discuss,1,1,1,1,9,9
+0,take,124,its urgent and it wont take long to discuss,1,1,1,1,9,9
+0,long,124,its urgent and it wont take long to discuss,1,1,1,1,9,9
+0,discuss,124,its urgent and it wont take long to discuss,1,1,1,1,9,9
+0,want,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,discuss,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,private,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,issue,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,much,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,time,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,decide,125,why do you want to discuss in private what is the issue with here  we do not have much time to decide,0,0,0,0,22,20
+0,wont,126,it wont take long,1,1,1,1,4,4
+0,take,126,it wont take long,1,1,1,1,4,4
+0,long,126,it wont take long,1,1,1,1,4,4
+0,want,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,talk,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,private,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,dont,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,much,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,time,127,why do you want to talk in private i dont have much time,0,0,0,0,13,13
+0,sir,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,discussing,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,problems,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,plan,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,take,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,long,128,sir discussing a few problems with the plan will not take long,1,1,1,1,12,12
+0,need,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,talk,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,private,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,mission,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,starts,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,soon,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,dont,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,much,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,time,129,why do we need to talk in private my mission starts soon and i dont have much time,0,0,0,0,18,18
+0,commander,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,need,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,speak,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,regarding,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,important,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,business,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,matter,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,regarding,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,alternative,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,plan,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,talked,130,commander i need to speak to you regarding an important business matter regarding the alternative plan that you have talked about,1,1,1,1,21,18
+0,need,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,talk,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,private,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,commander,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,dont,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,alot,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,time,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,next,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,plan,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,must,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,talk,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,situation,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,leave,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,would,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,ok,131,why do you need to talk to me in private commander i dont have alot of time before my next plan and we must talk about this situation before i leave if that would be ok,0,0,0,0,36,32
+0,oh,132,oh dont you worry this will only take a minute,1,1,1,1,10,10
+0,dont,132,oh dont you worry this will only take a minute,1,1,1,1,10,10
+0,worry,132,oh dont you worry this will only take a minute,1,1,1,1,10,10
+0,take,132,oh dont you worry this will only take a minute,1,1,1,1,10,10
+0,minute,132,oh dont you worry this will only take a minute,1,1,1,1,10,10
+0,dont,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,much,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,time,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,important,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,speak,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,private,133,we dont have much time here why is it so important we speak in private,0,0,0,0,15,14
+0,need,134,i just need a minute we need to talk now,1,0,1,0,10,9
+0,minute,134,i just need a minute we need to talk now,1,0,1,0,10,9
+0,need,134,i just need a minute we need to talk now,1,0,1,0,10,9
+0,talk,134,i just need a minute we need to talk now,1,0,1,0,10,9
+0,us,135,does this have to be just between us the clocks ticking,0,0,0,0,11,11
+0,clocks,135,does this have to be just between us the clocks ticking,0,0,0,0,11,11
+0,ticking,135,does this have to be just between us the clocks ticking,0,0,0,0,11,11
+0,keep,136,i will keep my questions brief so that we can discuss this now,1,0,1,0,13,13
+0,questions,136,i will keep my questions brief so that we can discuss this now,1,0,1,0,13,13
+0,brief,136,i will keep my questions brief so that we can discuss this now,1,0,1,0,13,13
+0,discuss,136,i will keep my questions brief so that we can discuss this now,1,0,1,0,13,13
+0,dont,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,much,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,time,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,mission,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,starts,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,want,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,talk,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,private,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,rather,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,discuss,137,we dont have much time until the mission starts so why do you want to talk in private rather than discuss this now,0,0,0,0,23,23
+0,meeting,138,this meeting will be very quick soldier,1,1,1,1,7,7
+0,quick,138,this meeting will be very quick soldier,1,1,1,1,7,7
+0,soldier,138,this meeting will be very quick soldier,1,1,1,1,7,7
+0,im,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,strapped,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,time,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,reason,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,meet,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,privately,139,im strapped for time so is there a reason to meet privately,0,0,0,0,12,12
+0,wont,140,it wont take long sir this is very important,1,1,1,1,9,9
+0,take,140,it wont take long sir this is very important,1,1,1,1,9,9
+0,long,140,it wont take long sir this is very important,1,1,1,1,9,9
+0,sir,140,it wont take long sir this is very important,1,1,1,1,9,9
+0,important,140,it wont take long sir this is very important,1,1,1,1,9,9
+0,dont,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,enough,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,time,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,sir,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,private,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,right,141,we dont have enough time sir why should it be in private and not right here,0,0,0,0,16,16
+0,concerns,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,need,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,address,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,immediately,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,wont,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,take,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,long,142,my concerns need to be address immediately and wont take long,1,1,1,1,11,11
+0,isnt,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,much,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,time,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,want,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,discuss,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,concerns,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,private,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,later,143,there isnt much time why do you want to discuss my concerns in private later,0,0,0,0,15,15
+0,dont,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,see,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,cant,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,talk,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,quickly,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,shouldnt,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,take,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,long,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,discuss,144,i dont see why we cant talk about this quickly it shouldnt take long to discuss this,1,1,1,1,17,16
+0,dont,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,time,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,wait,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,whats,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,going,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,would,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,need,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,secret,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,discussion,145,we dont have the time to wait whats going on why would we need to have a secret discussion,0,0,0,0,19,16
+0,take,146,this will only take a minute,1,1,1,1,6,6
+0,minute,146,this will only take a minute,1,1,1,1,6,6
+0,need,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,talk,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,private,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,isnt,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,much,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,time,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,mission,147,why do you need to talk in private there isnt much time before the mission,0,0,0,0,15,15
+0,much,148,there is not much tome can you please converse,0,0,0,0,9,9
+0,tome,148,there is not much tome can you please converse,0,0,0,0,9,9
+0,please,148,there is not much tome can you please converse,0,0,0,0,9,9
+0,converse,148,there is not much tome can you please converse,0,0,0,0,9,9
+0,sir,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,think,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,would,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,better,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,discuss,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,cause,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,time,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,crunch,149,sir i think that it would be better to discuss this now cause we are under a time crunch,0,0,0,0,19,19
+0,talk,150,can we just talk here because were running out of time,1,0,1,0,11,11
+0,running,150,can we just talk here because were running out of time,1,0,1,0,11,11
+0,time,150,can we just talk here because were running out of time,1,0,1,0,11,11
+0,need,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,talk,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,right,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,mission,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,starting,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,soon,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,almost,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,time,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,issues,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,plan,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,need,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,address,151,i need to talk to you right now the mission is starting soon and we are almost out of time there are some issues with the plan that we need to address now,0,0,0,0,33,26
+0,way,152,is there any way we can have our discussion now because i feel time is of the essence,1,0,1,0,18,17
+0,discussion,152,is there any way we can have our discussion now because i feel time is of the essence,1,0,1,0,18,17
+0,feel,152,is there any way we can have our discussion now because i feel time is of the essence,1,0,1,0,18,17
+0,time,152,is there any way we can have our discussion now because i feel time is of the essence,1,0,1,0,18,17
+0,essence,152,is there any way we can have our discussion now because i feel time is of the essence,1,0,1,0,18,17
+0,captain,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,limited,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,time,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,implement,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,plan,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,need,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,resolve,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,details,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,almost,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,time,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,need,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,speak,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,immediately,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,unless,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,problem,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,need,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,know,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,immediately,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30
+0,continue,153,captain we have limited time to implement the plan we need to resolve some details and we are almost out of time we need to speak immediately unless there is some problem and if so i need to know immediately can i continue,0,0,0,0,43,30

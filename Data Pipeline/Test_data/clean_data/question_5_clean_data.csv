@@ -1,0 +1,279 @@
+,Type,Dialogue,Answers the question (e.g. does not say “I’d really just prefer to wait until the brief”),"Gives detailed information (e.g. “We have food, water, etc.” rather than “We have the basic loadout for a humanitarian aid mission”)",labels,length,uniq_length
+0,context,i have the basic supplies for a humanitarian aid mission and i will elaborate on the exact supplies i have at our meeting this afternoon,1,0,10,25,20
+1,context,lets wait for the brief,0,0,00,5,5
+2,context,i apologize but i prefer to wait for our scheduled meeting to discuss the supplies we have for the mission,0,0,00,20,16
+3,context,i can give you full details at the briefing this afternoon as of now i know that we will have some basic supplies when we meet this afternoon i will have full details for you,1,0,10,35,25
+4,context,i would prefer to wait until the meeting but i have some things that you need and can use,1,0,10,19,18
+5,context,i would just say that food water  medical equipment would be included but i prefer go into all the details after the brief,1,1,11,23,20
+6,context,we have brought what is needed to help the people here  food water equipment for your hospital,1,1,11,17,17
+7,context,i have with me some basic supplies to help in the mission,1,0,10,12,12
+8,context,if we wait until the meeting i will have time to inventory the supplies so i will have the information you want,1,0,10,22,17
+9,context,i do know that we will have at least a basic loadout for a humanitarian aid mission but i would prefer to wait until the brief to give a more detailed explanation,1,0,10,32,28
+10,context,i think it would be best to wait until out meeting later i would like to be informed fully before i give wrong information to you please be assured that we will discuss fully about all supplies and intentions at our later brief,1,0,10,43,34
+11,context,i have some basics for aid missions but i will go into further detail when we brief on the mission later this afternoon,1,0,10,23,22
+12,context,i would rather wait until we get briefed i will know then what we need to do,0,0,00,17,15
+13,context,we are here on a mission of peace and humanitarian aid we have basic essentials such as food water and medical equipment,1,1,11,22,20
+14,context,why dont we wait until our meeting this afternoon i can assure that you will be pleased with the supplies,0,0,00,20,20
+15,context,i would prefer to wait until the brief to give a detailed summary of our supplies however the supplies are primarily for humanitarian aid purposes,1,0,10,25,22
+16,context,i have brought some supplies to fulfill the basic needs of the soldiers to provide first aid and nutrition i will further list the items supplied at the meeting this afternoon to ensure that i can provide a full inventory,1,1,11,40,32
+17,context,i am not at liberty to discuss any of this until my whole team here i am sure you can understand that,0,0,00,22,20
+18,context,i would ask the commander to provide the information regarding his platoon and supplies initially if he is also reluctant then i would suggest we meet in the middle and wait until the end of our meeting to reveal what each party will be able to supply,0,0,00,47,39
+19,context,i have brought some basic humanitarian provisions,1,0,10,7,7
+20,context,i have brought some basic supplies but i would like to wait until we have the meeting to get into specific details,1,0,10,22,19
+21,context,i assure you that i have the basic supplies in bulk for survival,1,0,10,13,12
+22,context,sorry i am not permitted to speak about the mission until everyone is present for the briefing,0,0,00,17,16
+23,context,i would say to the chinese commander i dont currently have the list of supplies with me but i glanced at the list and it witch mostly consisted of humanitarian aid sorry i cant help further i will have the complete list of supplies for the mission this afternoon at the briefing,1,0,10,52,36
+24,context,sir i can tell you that we have all the basic supplies needed to complete this mission but i will have a more precise allotment at the 1600hrs briefing where our quartermaster will be present with inventories and specifics to answer your questions,1,0,10,43,38
+25,context,i understand your concern and need for information on the types of supplies however in order for me to give you adequate information i would appreciate a little more patience a least until the meeting would have conclude after the brief i assure you that i will have most of the necessary utilitiesneeded thank you,1,0,10,55,41
+26,context,sir what i can tell is is that we have compliments for humanitarian aid i wll relay the specifics later this afternoon during the brief at this time i wll have accurate and up to day information which will be of assistance to both of us,1,0,10,46,37
+27,context,sir i can tell you that we do have some help coming for you however i cannot talk about anything more specific at this point after our meeting i would love to go into details with you,1,0,10,38,33
+28,context,proper procedure would be to wait for the meeting this afternoon i assure you we have the basic loadout for a humanitarian aid mission and will expand further on that later this afternoon,1,0,10,33,29
+29,context,the basic supplies we brought are food water and medical equipment however more details will be shared during the briefing later in the afternoon,1,1,11,24,22
+30,context,we bought a lot of supplies for this mission but one thing we have for sure is the necessities such as food water and medical supplies,1,1,11,26,23
+31,context,i will discuss all these details during the meeting this afternoon we have basic supplies needed for a humanitarian aid mission,1,0,10,21,21
+32,context,i dont want to give details before being briefed but there will definitely be a basic loadout for a food water and hospital needs,1,1,11,24,23
+33,context,i need to confirm the details at the briefing but i do know beforehand that our basic plans include a simple loadout for a humanitarian aid mission at the very least,1,0,10,31,26
+34,context,were expecting the usual allotment of supplies for this type of mission,1,0,10,12,11
+35,context,i will tell you this afternoon until the meeting,0,0,00,9,9
+36,context,id prefer to wait until the brief to talk about this but i do know that ill have at least a basic load out  including food water and hospital equipment  for a loadout,1,1,11,33,31
+37,context,i understand knowing some basic information now would be helpful and im not trying to make anything more difficult but i am going to have to wait until our meeting this afternoon to discuss anything further,0,0,00,36,31
+38,context,since i have not been to the briefing yet i can not say for certain what most of the supplies will be i do know that we have basic supplies such as food water and hospital equipment that will be distributed however beyond that i will have to attend the briefing session before i can provide you with any more information,1,1,11,61,43
+39,context,i would prefer to wait until the brief this afternoon,0,0,00,10,10
+40,context,we can discuss the details during the meeting but we have a basic loadout of food water and hospital equiptment,1,1,11,20,18
+41,context,i have important information but i want to tell everyone at the meeting,0,0,00,13,12
+42,context,i would would rather wait to discuss the full exact details later this afternoon but i know that i will be bring food water and hospital equipment for the mission,1,1,11,30,26
+43,context,i would prefer to wait until the meeting to on discuss the supplies in detail later we do have the basic necessities available for the mission,1,0,10,26,22
+44,context,i rather wait and see what my commander has to say,0,0,00,11,11
+45,context,we will discuss our humanitarian aid efforts during the meeting,0,0,00,10,10
+46,context,i cannot disclosed the our full load out until i speak to my superiors the meeting is this afternoon will clear up the details for you and we will try to be accomodating as possible to provide you a list of our supplies at that time,0,0,00,47,39
+47,context,i know we have at least the basic loadout for a humanitarian aid mission however i would prefer to wait and continue discussing this after my brief,1,0,10,27,26
+48,rewrite,if you dont mind i feel we should continue to wait until the meeting this afternoon to discuss the matter,0,0,00,20,18
+49,rewrite,for the locals the we brought them food water and hospital equipment,1,1,11,12,11
+50,rewrite,this is our basic loadout for humanitarian aid missions  nothing more and nothing less,1,0,10,14,13
+51,rewrite,i think it would be best if we waited until the brief and i hope you agree,0,0,00,17,16
+52,rewrite,at this time we will be chiefly giving the locals boxes of items such as food water and hospital equipment,1,1,11,20,20
+53,rewrite,we have our typical loadout for missions of humanitarian aid and that is about all i can say,1,0,10,18,18
+54,rewrite,if you dont mind i want to wait for the brief to discuss this,0,0,00,14,13
+55,rewrite,we have plenty of food water and medical supplies for now thats what well be giving the locals,1,1,11,18,18
+56,rewrite,theres not much to say pretty basic aid mission stuff,1,0,10,10,10
+57,rewrite,i think that it would be best if we wait for the brief,0,0,00,13,13
+58,rewrite,we are supplying a great deal of needed items for the locals we have crates of supplies like food water and hospital equipment that we deliver to them,1,1,11,28,25
+59,rewrite,to make it short and sweet it will be our basic loadout for humanitarian aid missions,1,0,10,16,15
+60,rewrite,if its okay with you id rather wait until the briefing,0,0,00,11,11
+61,rewrite,as of now primarily available supplies that we have in crates consist of water hospital equipment and food we can give the locals what we have readily available,1,1,11,28,23
+62,rewrite,theres not much more information i can give you it will be the basic load outs that are the norm for the humanitarian aid missions,1,0,10,25,23
+63,rewrite,with all due respect i would rather wait until the brief this afternoon,0,0,00,13,13
+64,rewrite,the locals will mostly be receiving food water and hospital equipment,1,1,11,11,11
+65,rewrite,its simply our typical humanitarian aid mission supplies nothing more nothing less,1,0,10,12,11
+66,rewrite,could you wait until i am updated is that ok,0,0,00,10,10
+67,rewrite,a lot of food water and hospital equipment are going to the locals,1,1,11,13,13
+68,rewrite,we are doing our usual dropoff of humanitarian aid and supplies,1,0,10,11,11
+69,rewrite,when we begin the brief i will release the information,0,0,00,10,9
+70,rewrite,we will be giving out supplies to the locals in the way of food water and medical supplies,1,1,11,18,16
+71,rewrite,really if its ok i would prefer to wait until the brief,0,0,00,12,12
+72,rewrite,primarily what we are giving to the locals right now are crates of supplies like food water and hospital equipment,1,1,11,20,19
+73,rewrite,it will be our basic loadout for the humanitarian aid missions as far as i know,1,0,10,16,15
+74,rewrite,i would like to wait until after the brief,0,0,00,9,9
+75,rewrite,we will be giving the locals the supplies we currently have food water and hospital equipment,0,1,01,16,14
+76,rewrite,it will entail our basic load out for humanitarian aid missions,1,0,10,11,11
+77,rewrite,if you dont mind i would rather wait until our meeting,0,0,00,11,11
+78,rewrite,right now we will be mainly providing crates of food water and hospital equipment to the locals,1,1,11,17,17
+79,rewrite,this will be a basic humanitarian aid mission,1,0,10,8,8
+80,rewrite,im going to wait until the brief if thats okay with you,0,0,00,12,12
+81,rewrite,we have with us crates of supplies like food water hospital equipment for now thats what we are giving to the locals,1,1,11,22,21
+82,rewrite,there is little to say its going to be our basic loadout for humanitarian aid missions,1,0,10,16,15
+83,rewrite,hoping it is okay with youi really prefer to just wait until the brief,0,0,00,14,14
+84,rewrite,as of right nowwe are primarily giving the locals crates full of supplies like foodwater and hospital equipment,1,1,11,18,17
+85,rewrite,all we have to share is our basic loadout for humanitarian aid missions,1,0,10,13,13
+86,rewrite,with respect it would be best to wait for the briefing,0,0,00,11,11
+87,rewrite,for the most part we will be providing food water and hospital equipment for the local population,1,1,11,17,15
+88,rewrite,the details are fairly routine  we brought the general supplies as we normally do for aid missions,1,0,10,17,15
+89,rewrite,lets wait until we hold the briefing please,0,0,00,8,8
+90,rewrite,right now we have the essentials such as hospital equipment food and water these will be for the locals,1,1,11,19,18
+91,rewrite,we brought our typical load that we distribute for our aid missions,1,0,10,12,10
+92,rewrite,if you dont mind id rather wait until the brief,0,0,00,10,10
+93,rewrite,well primarily be giving the locals crates of supplies all of which include food water and hospital equipment,1,1,11,18,17
+94,rewrite,its not an exhaustive list just your typical humanitarian aid mission loadout,1,0,10,12,12
+95,rewrite,if its ok with you id rather wait until the brief,0,0,00,11,11
+96,rewrite,currently were mostly giving the locals the crates of food water and medical equipment that we have available,1,1,11,18,17
+97,rewrite,were going to be doing our basic load out for humanitarian aid missions thats really about all there is to know,1,0,10,21,20
+98,rewrite,i would rather wait until the brief,0,0,00,7,7
+99,rewrite,we have lots of supplies like food and water that we will give to the locals,1,1,11,16,15
+100,rewrite,its basically stuff for humanitarian aid,1,0,10,6,6
+101,rewrite,if it is alright with you id like to hold off until the brief,0,0,00,14,14
+102,rewrite,there are crates full of food water and hospital equipment at our disposal currently the plan is that this is what we will be providing for the local people,1,1,11,29,27
+103,rewrite,i really dont have much more to say this is just going to be our usual humanitarian aid mission loadout,1,0,10,20,19
+104,rewrite,i would prefer to wait until the brief if thats okay,0,0,00,11,11
+105,rewrite,we have supply chests such as food water and hospital equipment as of now its primarily what we give the locals,1,1,11,21,19
+106,rewrite,theres really not much to say it will be our fundamental load  out for humanitarian missions,1,0,10,16,16
+107,rewrite,if its ok id really like to wait until the brief,0,0,00,11,11
+108,rewrite,as of now well be giving the locals supplies like food water and hospital equipment,1,1,11,15,15
+109,rewrite,theres not much to say its a basic humanitarian aid mission load out,1,0,10,13,13
+110,rewrite,i would prefer to discuss it after the brief if that is amenable to you,0,0,00,15,14
+111,rewrite,we have the basic supplies that will be what we distribute to the locals,1,0,10,14,12
+112,rewrite,there is not much to report it is typical humanitarian supplies,1,0,10,11,10
+113,rewrite,if it is okay i would rather wait until the brief happens,0,0,00,12,12
+114,rewrite,there are crates full of supplies like food water and hospital equipment available right now our objective is giving it to the locals,1,1,11,23,23
+115,rewrite,there isnt much to say basic load out for humanitarian aid missions are all like this,1,0,10,16,16
+116,rewrite,if it is ok i would prefer to wait until the brief,0,0,00,12,12
+117,rewrite,as of right now we are primarily giving the locals crates of supplies like food water and hospital equipment available,1,1,11,20,19
+118,rewrite,it is going to be our basic load out for humanitarian aid missions  there really is not much to tell,1,0,10,20,18
+119,rewrite,that information will be provided in the briefing,0,0,00,8,8
+120,rewrite,supplies include food water and medical supplies those are the primary items,1,1,11,12,11
+121,rewrite,it will be standard humantarian supplies,1,0,10,6,6
+122,rewrite,id really prefer to wait until the briefing is that okay,0,0,00,11,11
+123,rewrite,as of right now we are primarily giving the locals supplies such as food water and hospital equipment these supplies are what we currently have available in crates,1,1,11,28,24
+124,rewrite,there is not much information to say it is going to be our usual information regarding humanitarian aide missions,1,0,10,19,16
+125,rewrite,it would be best to explain further at the brief this afternoon,0,0,00,12,12
+126,rewrite,for now we have mainly brought crates of water food and hospital equipment to give to the locals,1,1,11,18,17
+127,rewrite,i dont have much information for you we have brought our standard supplies for these humanitarian missions,1,0,10,17,15
+128,rewrite,if its alright id rather just wait until the brief,0,0,00,10,10
+129,rewrite,as of right now we will be giving the locals food water and hospital equipment,1,1,11,15,15
+130,rewrite,theres not much to discuss its just a basic humanitarian aid mission,1,0,10,12,12
+131,rewrite,if itâ€™s ok with you iâ€™d like to answer that question after the mission briefing,0,0,00,15,15
+132,rewrite,right now it looks like weâ€™ll be giving the locals things like food water and hospital equipment,1,1,11,17,16
+133,rewrite,nothing other than our usual humanitarian supplies we are equipped with our basic aid mission supplies,1,0,10,16,14
+134,rewrite,if it is ok with you i would like to wait until the brief to discuss,0,0,00,16,15
+135,rewrite,right now we are primarily giving food water and some hospital equipment to the locals,1,1,11,15,15
+136,rewrite,the loadout will be the same as our basic humanitarian missions,1,0,10,11,10
+137,rewrite,if its not too much to ask i would rather wait un til the briefing,0,0,00,15,15
+138,rewrite,what we will be giving the locals is supplies like food and water along with hospital equipment,1,1,11,17,17
+139,rewrite,the really isnt that much to disclose that is what we will be primarily doing,1,0,10,15,14
+140,rewrite,if its ok id prefer to wait until the brief,0,0,00,10,10
+141,rewrite,our supply crates contain food water and hospital equipment which is primarily what we are giving the locals,1,1,11,18,18
+142,rewrite,its just going to be a basic loadout for humanitarian aid missions so there is really not much to tell,1,0,10,20,19
+143,rewrite,if you dont mind waiting for the meeting is something id rather do,0,0,00,13,13
+144,rewrite,currently our main supplies were giving to the locals are basic necessities such as things to eat drink and first aid materials,1,1,11,22,21
+145,rewrite,the details are pretty basic the supplies are typical to most refugee aid missions,1,0,10,14,12
+146,rewrite,i understand your concern but it would be best for both of us to wait until the official briefing,0,0,00,19,19
+147,rewrite,we have the essentials such as food water and hospital equipment at this time we will only be giving these things to the locals,1,1,11,24,22
+148,rewrite,i dont have much to say to you this is the basic stuff for this sort of mission,1,0,10,18,16
+149,rewrite,iâ€™d rather wait until the brief if that is alright with you,0,0,00,12,12
+150,rewrite,we have some supplies such as food and water and hospital equipment in crates those will mainly be what we are giving to the local people for now,1,1,11,28,26
+151,rewrite,there isnâ€™t much to say this will be the main supplies for the humanitanian aid missions,1,0,10,16,15
+152,rewrite,i really prefer just to wait until the brief is that okay with you,0,0,00,14,14
+153,rewrite,we have some crates with supplies like foodwater and hospital equipment that is available as of right now that will be primarily what are we are going to be giving back to the locals,1,1,11,34,29
+154,rewrite,there is really not that much to tell its going to be ours loadout for humanitarian aid missions,1,0,10,18,17
+155,rewrite,i would prefer to wait until the briefing if that is acceptable to you,0,0,00,14,13
+156,rewrite,we have basic supplies prepared at this time that is what we are planning to distribute,1,0,10,16,15
+157,rewrite,it is fairly simple it will be the typical supplies for missions like these,1,0,10,14,13
+158,rewrite,if its ok i prefer we wait until the brief,0,0,00,10,10
+159,rewrite,right now primarily what we are giving the locals is food and water and treating them with the hospital equipment we have,1,1,11,22,19
+160,rewrite,its going to be the standard basic loadout for humanitarian aid missions that we always do,1,0,10,16,16
+161,rewrite,i would rather wait for the brief,0,0,00,7,7
+162,rewrite,we do we have foodwater and hospital equipment in the crates right now which we are giving to the locals,1,1,11,20,17
+163,rewrite,there isnt much to say the humanitarian aid missions will be our basic loadout,1,0,10,14,14
+164,rewrite,can i just wait till we get briefed on the mission,0,0,00,11,11
+165,rewrite,supplies are here but this will be allocated to the locals,1,0,10,11,11
+166,rewrite,this mission is just going to be a humanitarian aid mission,1,0,10,11,10
+167,rewrite,if its ok with you i would rather wait until the briefing,0,0,00,12,12
+168,rewrite,we are giving the locals what we have based on availability such as crates of food water and hospital equipment,1,1,11,20,19
+169,rewrite,we have the usual basic loadout of humanitarian missions,1,0,10,9,9
+170,rewrite,i would rather wait until the brief if that is all right with you,0,0,00,14,14
+171,rewrite,we currently have crates of food water and hospital equipment available so these supplies will be what is given to the locals,1,1,11,22,22
+172,rewrite,there isnt much to tell you this is going to be a basic loadout mission for humanitarian aid,1,0,10,18,17
+173,rewrite,i feel like it would be best to wait until after brief,0,0,00,12,12
+174,rewrite,as of now the supplies we have available to give locals are crates of food water and hospital equipment,1,1,11,19,18
+175,rewrite,i do not have a lot more information to provide other than it will be our basic loadout for humanitarian aid missions,1,0,10,22,22
+176,rewrite,i really think its better for us to discuss it after the brief if that is alright with you,0,0,00,19,19
+177,rewrite,we currently plan to give the locals crates of food water and hospital equipment,1,1,11,14,14
+178,rewrite,our loadout is typical for humanitarian aid missions were not really doing anything new,1,0,10,14,14
+179,rewrite,id rather you wait until the brief if thats alright,0,0,00,10,10
+180,rewrite,as of right now we have crates of food water and hospital equipment that is what we are going to give the locals,1,1,11,23,21
+181,rewrite,its just your standard humanitarian aid mission,1,0,10,7,7
+182,rewrite,i think i rather wait,0,0,00,5,4
+183,rewrite,if its the same to you id rather discuss it at the briefing,0,0,00,13,12
+184,rewrite,currently we have food water and hospital equipment supplies at this point in time that is what we will be donating to the locals,1,1,11,24,23
+185,rewrite,there is not anything to say it was what we normally give out during humanitarian missions,1,0,10,16,16
+186,rewrite,is it okay with you to wait until this afternoon to discuss,0,0,00,12,11
+187,rewrite,right now we have all of the necessary supplies to survive many of which will go to the local people,1,0,10,20,17
+188,rewrite,the typical supplies for any humanitarian mission,1,0,10,7,7
+189,rewrite,i would like to wait till the briefing if that is okay,0,0,00,12,12
+190,rewrite,as of right now we will be primarily have crates of supplies like food water abd hospital equipment which we are giving to the locals,1,1,11,25,23
+191,rewrite,its going to be our basic loadout for humanitarian aid missions,1,0,10,11,11
+192,rewrite,i would rather just wait until the brief if that is alright,0,0,00,12,12
+193,rewrite,we have boxes of supplies that include food water and medical equipment available currently that will be the main thing we are giving the locals,1,1,11,25,22
+194,rewrite,there really isnt much to say its going to be our basic loadout for humanitarian aid projects,1,0,10,17,16
+195,feedback,i agree knowing some information would be helpful now but it is imperative to wait until i can give you the full details,0,0,00,23,22
+196,feedback,we want to be able to deliver aid to the local and surrounding areas because of the current needs,1,0,10,19,16
+197,feedback,i really do not have much to discuss at this time except to say that we have some aid missions to conduct,0,0,00,22,19
+198,feedback,i would prefer for you to wait until the end of brief,0,0,00,12,12
+199,feedback,i will be giving the locals supplies such as food water and hospital equipment,1,1,11,14,14
+200,feedback,there really isnt much to tell i have a basic loadout for humanitarian aid missions,1,0,10,15,15
+201,feedback,i rather wait and tell you after the end of the brief,0,0,00,12,11
+202,feedback,i will be giving you local supplies like cerealmeatsbreadwaterjuices and hospital supplies,1,1,11,12,11
+203,feedback,i have nothing much to tell you i have a basic load out for humanitarian,1,0,10,15,13
+204,feedback,commander preferably id like to wait until the end of the brief to have the discussion,0,0,00,16,13
+205,feedback,i will be providing the local individuals with basic supples such as food water and hospital equipment,1,1,11,17,17
+206,feedback,there really isnt much else to brief you on i have a basic loadout for humanitarian aid missions,1,0,10,18,18
+207,feedback,sir it would be best to wait until the end of the brief this is much more important than the supplies,0,0,00,21,19
+208,feedback,weve brought food water and hospital equipment for the locals along with some other supplies,1,1,11,15,15
+209,feedback,we did not bring much except a basic loadout for humanitarian aid missions,1,0,10,13,13
+210,feedback,just let him know that you want to wait until the end of the brief,0,0,00,15,14
+211,feedback,let him know that youre going to give the locals food water hospital equipment and other supplies,1,1,11,17,17
+212,feedback,let him know that there isnt much more to tell inform him that you have a basic loadout for humanitarian aid missions without elaborating,1,0,10,24,22
+213,feedback,i prefer to wait until the final instructions to act,0,0,00,10,9
+214,feedback,first i will give the population some food first aid and other supplies,1,1,11,13,12
+215,feedback,i will tell you that only now that i have the solution to this humanitarian mission and will not talk anymore wait,1,0,10,22,19
+216,feedback,im sorry but i would really prefer to wait until the end of the brief to discuss that,0,0,00,18,16
+217,feedback,i will be handing out supplies to the locals such as food water hospital equipment,1,1,11,15,15
+218,feedback,we have a basic loadout for humanitarian aid missions and aside from that there is not much to tell,1,0,10,19,19
+219,feedback,the united states will provide supplies to the locals such as food water and hospital equipment,1,1,11,16,15
+220,feedback,i have already told you everything you need to know the us will provide the basics for the humanitarian aid mission,1,0,10,21,18
+221,feedback,after the brief this afternoon i will be better informed to dicuss the situation,0,0,00,14,13
+222,feedback,locals will be receiving much needed survival resources aid,1,0,10,9,9
+223,feedback,at this point in time be assured the humanitarian aid mission will proceed as planned,1,0,10,15,15
+224,feedback,i think it is best to wait until another day,0,0,00,10,10
+225,feedback,the usa army will be given you local and necessary supplies,1,0,10,11,11
+226,feedback,i can provide you with no further explanation except for a basic load out for humanitarian aid missions,1,0,10,18,17
+227,feedback,id like to wait until the briefing is complete,0,0,00,9,9
+228,feedback,im busy giving locals supplies like food water and hospital stuff,1,1,11,11,11
+229,feedback,i have a basic humanitarian missions to do right now sorry,1,0,10,11,11
+230,feedback,ill be waiting until after the mission brief to discuss my gear,0,0,00,12,12
+231,feedback,i will be bringing basic supplies like food water and medical supplies,1,1,11,12,11
+232,feedback,its just a basic loadout for humanitarian aid missions with pretty standard supplies,1,0,10,13,13
+233,feedback,lets hold off talks until we are fully briefed,0,0,00,9,9
+234,feedback,medical equipment foo and water will be provided to the locals,1,1,11,11,11
+235,feedback,we have no mission details other than the basic unloading of humanitarian aid,1,0,10,13,13
+236,feedback,i would much prefer to wait until the end of the brief,0,0,00,12,11
+237,feedback,i will be distributing the local supplies such as water food and hospital equipment,1,1,11,14,14
+238,feedback,there really isnt much to reveal i have a basic load out for humanitarian aid missions which is all that i am willing to discuss,1,0,10,25,23
+239,feedback,lets put this on hold till were done here,0,0,00,9,9
+240,feedback,we will distribute food water and medical supplies to the indigenous population,1,1,11,12,12
+241,feedback,not much more to say otherwise than its just the basic loadout we would use for for any humanitarian aid mission,1,0,10,21,20
+242,feedback,with all do respect i do not feel comfortable disclosing that information until the end of the brief,0,0,00,18,16
+243,feedback,we will be contributing goods such as food water and hospital equipment to the local citizens,1,1,11,16,16
+244,feedback,there is not much information for me to disclose to you i have a basic loadout for humanitarian aid missions,1,0,10,20,18
+245,feedback,id rather wait until after we are briefed at the meeting,0,0,00,11,11
+246,feedback,ill be bringing the locals supplies like food water and hospital equipment,1,1,11,12,12
+247,feedback,there isnt a lot to talk about but i have a basic loadout for humanitarian aid missions,1,0,10,17,16
+248,feedback,id really rather wait until the end of the brief,0,0,00,10,9
+249,feedback,our plan is to provide locals with basic supplies such as food water and hospital equipment,1,1,11,16,16
+250,feedback,theres not a whole lot to tell we have a basic loadout for humanitarian aid missions that well be providing,1,0,10,20,19
+251,feedback,i would like to wait until the brief is done,0,0,00,10,10
+252,feedback,i will be supplying the locals with food water and hospital equipment,1,1,11,12,12
+253,feedback,there isnt too much to tell i have a basic load out for humanitarian aid missions,1,0,10,16,16
+254,feedback,i am going to wait until the end of the briefing,0,0,00,11,10
+255,feedback,i am giving the locals food water and hospital equipment supplies,1,1,11,11,11
+256,feedback,there is nothing else to say other than there is a basic loadout for humanitarian aid,1,0,10,16,14
+257,feedback,i will have more complete information for you after i attend this afternoons briefing,0,0,00,14,13
+258,feedback,my soldiers will be distributing food water and hospital equipment,1,1,11,10,10
+259,feedback,i currently only have limited information i do however have a basic loadout for humanitarian aid missions ,1,0,10,17,15
+260,feedback,i would prefer to wait until this afternoon sir,0,0,00,9,9
+261,feedback,my supplies for the locals include food water and medical equipment,1,1,11,11,11
+262,feedback,my supply caravan is very simple sir i brought a basic load out for humanitarian aid missions,1,0,10,17,17
+263,feedback,i strongly prefer to wait until the end of the brief to give more information,0,0,00,15,13
+264,feedback,we will be giving the locals supplies like food water and hospital equipment,1,1,11,13,13
+265,feedback,there really isnt much to tell we just have the basic load out for humanitarian aid missions,1,0,10,17,17
+266,feedback,i understand the urgency of this matter however i would prefer to wait until the end of the brief so nothing is missed,0,0,00,23,19
+267,feedback,our plan is to give the locals necessary items such as food water and hospital equipment,1,1,11,16,16
+268,feedback,there isnt much more to say we have a basic load out for humanitarian aid missions,1,0,10,16,16
+269,feedback,i think it would be best if we talk after the brief,0,0,00,12,12
+270,feedback,we will be giving the local people basic supplies like water food and medical supplies,1,1,11,15,14
+271,feedback,we are not bringing too many supplies just a basic loadout for humanitarian aid missions,1,0,10,15,15
+272,feedback,id rather we wait until the brief is over,0,0,00,9,9
+273,feedback,we will be distributing necessary supplies like food water and hospital equipment to the local people,1,1,11,16,16
+274,feedback,i dont have much detail to give you we have a basic loadout for humanitarian aid missions and thats all i can say,1,0,10,23,21
+275,feedback,lets wait until the end of the brief before i share details on the supplies,0,0,00,15,13
+276,feedback,ill be giving locals food water and hospital equipment,1,1,11,9,9
+277,feedback,all i can say is i have a basic loadout for humanitarian aid missions but theres much more i can say on that,1,0,10,23,19

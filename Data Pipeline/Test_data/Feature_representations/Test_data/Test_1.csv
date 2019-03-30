@@ -1,292 +1,292 @@
-,,Features,,
-Section,Dialogue,"Greets officer (e.g. good morning Captain Wang, good morning sir)","Doesn’t ask about welfare, (e.g. How are you doing today?)","Uses honorific (e.g. I’m honored to meet you, I’m thrilled to meet you)"
-1,i would introduce my self and then descuss inportant buisness,e,e,e
-1,Good morning,1,1,0
-1,Mornin Capt,1,1,0
-1,"Good morning, Capt. Wang. I am here to discuss with you and the platoon about important business.",1,1,0
-1,"Hello, Captain Wang. It is nice to see you this morning.",1,1,1
-1,"Good Morning, Captain Wang It is an honor to meet you. I would like to discuss some important decisions that need to be made.",1,1,1
-1,"""Good morning, Sir, I look forward to giving you any assistance you need today.""",1,1,0
-1,"Captain Wang , good morning",1,1,0
-1,"Good Morning Captain Wang, my rank may be lower than you expected, but I speak for those with much higher rank.",1,1,0
-1,"Good morning, Captain Wang. How are you doing on this beautiful day?",1,0,0
-1,I am pleased to meet you.,0,1,1
-1,"Good morning, Captain Wang.",1,1,0
-1,"Good Morning Captain Wang, it's always a pleasure to see you and I am delighted we will be working together.",1,1,1
-1,"Good morning, Captain Wang",1,1,0
-1,Good morning Captain Wang.  You may have noticed my ranking and I am fairly young.  But I can assure you that I am here to discuss important business for you and I with all of my ability to help.,1,1,0
-1,"Hello Captain Wang, it is nice to meet you.",1,1,1
-1,Good morning Captain Wang,1,0,0
-1,"Good morning, Captain.",1,1,0
-1,"Good morning, captain. I look forward to working with you, sir.",1,1,0
-1,"What an honor it is to meet you this morning, Captain Wang!",1,1,1
-1,Good morning Captain Wang sir. My name is Jerry Lockley and I am honored to make your acquantaince.,1,1,1
-1,Good Morning Captain Wang,1,1,0
-1,"Good Morning,  It is a pleasue to meet you Captain Wang. I look forward to working with you.",1,1,1
-1,"Good morning Captain Wang, I noticed that you're looking slightly dissatisfied with my ranking as a soldier but I can assure you Im perfect for the task at hand.",1,1,0
-1,Good Morning Captain Wang,1,1,0
-1,"Good morning, Captain!",1,1,0
-1,"Good morning Captain Wang, its a pleasure to meet with you today.",1,1,1
-1,Hello Sir! I am (state name and rank here) I hope your morning is going well! Give him a firm hand shake and a smile!,e,e,e
-1,"Good morning Captain Wang, sir!",1,1,0
-1,Good morning Captain Wang!,1,1,0
-1,Good morning Captain Wang. We are so glad you guys could come out and help with this project. I'm Lt. Frank and I have been well brief on this assignment. I can ask any questions you may have.,e,e,e
-1,"Captain Wang, good morning sir. I've been sent as a representative to discuss this important business, we should get to it.",1,1,0
-1,Good morning Captain Wang,1,1,0
-1,"Good morning, Captain Wang. (Chinese mandarin: Wang dui zhang zao shang hao! )",e,e,e
-1,"Good morning Captain Wang, I'm here to discuss the situation at hand.",1,1,0
-1,"Good morning, Captain Wang.",1,1,0
-1,"Good morning Captain, something wrong?",1,1,0
-1,"Good morning, Captain Wang",1,1,0
-1,"Good morning, Captain Wang",1,1,0
-1,Good Morning Captain Wang.,1,1,0
-1,Good morning Captain Wang; Reporting for Duty.,1,1,0
-1,"Good morning Captain Wang, lets get to business.",1,1,0
-1,"Hello captain Wang, it's good to see you in this fine morning.",1,1,1
-1,"Commander, Good morning, sir.",1,1,0
-1,Good Morning Captain Wang with do all respect sir let me introduce my self to you.,1,1,0
-1,good morning captain wang,1,1,0
-1,"Good morning, Captain Wang.",1,1,0
-1,"Good morning Captain, I am so happy to finally meet you.",1,1,1
-1,Good Morning Mr. Wang!,1,1,1
-1,"Good morning Captain Wang, I look forward to working with you",1,1,1
-1,"Greetings, Commander.",1,1,0
-1,"Hello, sir. How are you doing this evening?",1,0,0
-1,"Hey, man.",0,1,0
-1,Good day to you commander.,1,1,0
-1,Good day to you and also how are you today?,1,0,0
-1,This meeting should proceed.,0,1,0
-1,Hello finally nice to meet you,1,1,1
-1,Hello Sir. How are you doing today,1,0,0
-1,Greetings Sir.,1,1,0
-1,Good to meet you my friend,0,1,1
-1,Good day to you. How are you doing this fine day?,1,0,0
-1,You look very happy. Glad to see you.,0,1,1
-1,Hello. It's a pleasure to meet you.,1,1,1
-1,Hello. It's a pleasure to meet you. How are you doing?,1,0,1
-1,Hi,1,1,0
-1,Good day commander.,1,1,0
-1,Good day Commander. It is an honor to be in your presence. How are you?,1,0,1
-1,Good day,1,0,1
-1,"I am very honored to me you, Commandered.",1,1,0
-1,"I am very honored to me you, Commander. How are you?",e,e,e
-1,"Hello, I hope we can get down to business.",1,1,0
-1,"Hello, Sir, I am pleased to meet you.",1,1,1
-1,"Hello, Sir, how are you doing?",1,0,0
-1,Hello.,1,1,0
-1,"Good Morning, it's an honor to met you, Commander Yang.",e,e,e
-1,Good Morning Commander Yang. How are you today?,e,e,e
-1,Good Morning Commander,1,1,0
-1,"Hello Captain Wang, it is an honor to meet you.",1,1,1
-1,"Good morning, Captain Wang. How are you doing today sir?",1,0,0
-1,"Hello Captain Wang, is everything okay? Your face has me worried sir.",1,0,0
-1,"Hello Captain Wang, I am honored to meet you.",1,1,1
-1,"Hello Captain Wang, how are you today?",1,0,0
-1,Hello Captain Wang.,1,1,0
-1,"Good day, Captain Wang, it is a great honor to meet you.",1,1,1
-1,"Good day, Captain Wang. It is an honor to meet you. I hope you are doing well today?",1,0,1
-1,"Hello, Captain Wang.",1,1,0
-1,"Hello Captain, it is an honor to be meeting with you Sir",1,1,1
-1,"Captain Wang, good afternoon. How are you and your soldiers faring today?",1,0,0
-1,"Captain Wang, Good Morning Sir.",1,1,0
-1,It's an honor to meet you Captain Wang.,1,1,1
-1,I'm honored to meet you Captain. How are you today?,1,0,1
-1,Hello Captain Wang.,1,1,0
-1,"Nihao, Captain Wang. Pleasure to meet you.",1,1,1
-1,"Nihao, Captain Wang. Pleasure to meet you. How was your trip?",1,0,1
-1,Captain.,1,1,0
-1,"Captain Wang, Good morning.",1,1,0
-1,Glad to meet you. How are you today?,0,0,1
-1,Awesome,0,1,0
-1,"It's a pleasure to meet you, Captain Wang.",0,1,1
-1,"It's nice to meet you, Captain. How are you doing sir?",0,0,1
-1,"Greetings, Captain.",1,1,0
-1,Good Day! I am pleased to meet you Captain Wang.,1,1,1
-1,I am pleased to meet you Captain Wang. I hope you are well.,1,0,0
-1,Nice to meet you.,0,1,1
-1,"Good afternoon, Captain Wang.",1,1,0
-1,"Good afternoon, Captain Wang. How are you today?",1,0,0
-1,"Hello, Captain.",1,1,0
-1,Hello sir,1,1,0
-1,sir how is you department,0,1,0
-1,thank you sir,0,1,0
-1,Greetings Captain Wang. I'm honored that you joined us.,1,1,1
-1,Greetings Captain Wang. How are you doing today?,1,0,0
-1,Greetings Captain Wang.,1,1,0
-1,"Good morning, Captain Wang.",1,1,0
-1,"Good day, Captain Wang, how are you feeling today?",1,0,0
-1,"I don't want to be here either, Wang.",0,1,0
-1,"It's a pleasure to meet you, Captain Wang.",0,1,1
-1,"Nice to meet you, Captain Wang. How have you been?",,,
-1,"Hey, Captain.",,,
-1,"Good day, sir.",,,
-1,"Good day, sir. How are your soldiers?",,,
-1,Sir.,,,
-1,"It is good to finally meet you, Captain.",,,
-1,"Nice to meet you, Captain. How are you doing today?",,,
-1,"Hello, Captain.",1,1,0
-1,"Good evening, Captain Wang. I am honored to meet you.",1,1,1
-1,"Good evening, how have you been recently?",1,0,0
-1,Evening.,1,1,0
-1,Commander it is an honor to meet you.,0,1,1
-1,Hello Commander. It is a pleasure to meet you. I hope all is well with your company.,1,0,1
-1,Greetings commander.,1,1,0
-1,"Greetings, Captain.",1,1,0
-1,"Greetings, Captain. You seem discouraged. Is everything alright?",1,1,0
-1,Captain.,1,1,0
-1,"Sir Captain Wang, how nice it is to see you.",1,1,0
-1,"Commander Captain Wang, good day.",1,1,0
-1,Good day Captain Wang. Good to see you.,1,1,0
-1,Greetings Captain Wang.,1,1,0
-1,"Hello Captain Wang, How are you today?",1,0,0
-1,"Good morning, Captain Wang",1,1,0
-1,"Hello Captain Wang, it's a great honor meet with you to discuss these important matters.",1,1,1
-1,"Greetings, Captain Wang. It's an honor and a privilege to meet with you. How was your travel to get here?",1,0,1
-1,Captain Wang. Hi.,1,1,0
-1,Good morning Captain Wang.,1,1,0
-1,"Good morning Captain Wang, how are you?",1,0,0
-1,Captain Wang.,0,1,0
-1,Hello captain Wang,,,
-1,"Hello captain Wang.,how are you doing",,,
-1,"Hi.,i can see you are fine",,,
-1,"Apologies for my intrusion, sir.",,,
-1,Apologies for my intrusion sir. Is everything going alright for you?,,,
-1,Sir.,,,
-1,Good Morning Sir!,,,
-1,"Good morning Sir, how are you doing today?",,,
-1,"Hello, sir.",,,
-1,"Good afternoon, sir. Thank you for taking the time to meet with me.",,,
-1,"Good afternoon sir, how are you doing?",,,
-1,"Hello, sir.",,,
-1,"It is my honor to meet you, Captain Wang.",,,
-1,"It is my honor to meet you, Captain Wang. How are you today.",,,
-1,Good Day.,,,
-1,"Greetings and salutations Captain Wang, I am pleased to have you join us.",,,
-1,"Greetings Captain Wang, how are you feeling today?",,,
-1,Greetings and salutations Captain Wang!,,,
-1,Welcome Captain Wang. We are very honored to have you join our meeting today.,,,
-1,"Captain Wang, I hope you are well today.",,,
-1,Hello Captain Wang.,,,
-1,"Good Morning, Captain Wang, thank you for joining us today.",,,
-1,"Good Morning, Captain Wang. I hope you are doing well today.",,,
-1,"zÇŽo Än, Captain Wang",,,
-1,"Good Morning Captain Wang, I am pleased to meet you.",,,
-1,"Good morning Captain Wang, how are you today?",,,
-1,"Pleasant morning, doctor Wang?",,,
-1,"I am honored that you could join us this morning, Captain Wang.",,,
-1,"How are you doing this morning, Captain Wang?",,,
-1,"Captain Wang, Good morning.",,,
-1,"It is an honor to have you join me, Captain Wang.",,,
-1,"How are you doing today, Captain Wang?",,,
-1,"Good day, Captain Wang.",,,
-1,"Top of the morning to you Captain, I'm glad you've joined us.",,,
-1,"Morning Captain, hows your day?",,,
-1,"Captain Wang, hope your morning is going well.",,,
-1,"Good morning, Captain Wang! It is an honor to have you with us.",1,1,1
-1,"Good morning, Captain Wang. How are you today?",1,0,0
-1,"Good morning, Captain Wang!",1,1,0
-1,"Good morning Captain Wang, I am pleased to have this meeting with you.",1,1,1
-1,"Good Morning Captain Wang, Is everything going well for you so far?",1,0,0
-1,"Greetings, Captain Wang.",1,1,0
-1,"Captain Wong, it is my honor to have you join us on this good morning.",1,1,1
-1,"How are you doing today on this good morning, Captain Wong?",0,0,0
-1,"Captain Wong, good morning.",1,1,0
-1,"Good Morning Captain Wang, It is an honer to have you grace us with your presence.",1,1,1
-1,"Good Morning Captain Wang, how is everything today?",1,0,0
-1,Morning Captain Wang.,1,1,0
-1,"Hello Captain Wang, It's an honor to have you here.",1,1,1
-1,"Greeting Captain Wang, How goes today for you?",1,0,0
-1,"Pleasant morning, Captain Wang.",1,1,0
-1,"Captain Wang, good morning. I am honored by your presence.",1,1,1
-1,"How are you this morning, Captain Wang?",1,0,0
-1,"Captain Wang, I hope you are having a good morning.",1,0,0
-1,I am honored you joined us Captain.,0,1,1
-1,How are you this morning Captain Wang ?,0,0,0
-1,Hope you are doing good this morning Captain!,0,0,0
-1,"Good Morning, i am glad to have you with us today",1,1,1
-1,"Good'day how are you doing today, Captain Wang",1,0,0
-1,Top of the Morning to ya,1,1,0
-1,"Good morning, Captain Wang. I am honored to meet with you.",1,1,1
-1,"Good morning, Captain Wang. How is your day so far?",1,0,0
-1,"Captain Wang, good morning.",1,1,0
-1,"Good morning Captain Wang, it is an honor to have you join us.",1,1,1
-1,"Good morning Captain Wang, how is your day?",1,0,0
-1,"Hello, Captain Wang.",1,1,0
-1,it is an honor to have you join us captain wang,0,1,1
-1,how are you today caption wang,0,0,0
-1,morning captain wang,,,
-1,"Good morning Captain Wang, i am happy to have you.",,,
-1,How are you today Captain Wang?,,,
-1,Hello Captain Wang.,,,
-1,"Greetings, Captain Wang. I can't express how great it is to have you here with us.",,,
-1,"Greetings, Captain Wang. How are you fairing?",,,
-1,"Captain Wang, hello.",,,
-1,Honored to have you with us Captain Wang.,,,
-1,How are you today Captain Wang?,,,
-1,"Captain Wang, good morning.",,,
-1,"Captain Wang, I am honored to have you join us, Good Morning.",,,
-1,"Pleasant Morning today, how are you doing today, Captain Wang?",,,
-1,"Captain Wang, greetings on this fine morning.",,,
-1,"Hello Captain Wang, We are honored to have you with us this morning.",,,
-1,"Hello Captain Wang, how are you this morning?",,,
-1,Captain Wang! Good morning.,,,
-1,"Good morning, I'm honored you joined us Captain Wang.",,,
-1,"Good morning, Captain Wang. How are you?",,,
-1,"Good morning, Captain.",,,
-1,It is my pleasure to be joined by you this morning Captain Wang.,,,
-1,"Tell me Captain Wang, how are you feeling this morning?",,,
-1,"Rise and shine, Captain Wang.",,,
-1,It's a pleasure to meet you Captain Wang.,,,
-1,I hope you are well this morning Captain Wang.,,,
-1,Nice day Captain Wang.,,,
-1,"Morning Captain, it's an honor having you here with us.",,,
-1,"Morning Captain, how's it going today?",,,
-1,"Morning, Captain.",,,
-1,"Hello, Captain Wang. I am glad to meet you.",,,
-1,Hi Captain Wang.,,,
-1,Hi Captain Wang.,,,
-1,"Greetings Captain Wang, we are honored to have you join us today.",,,
-1,"Greetings Captain Wang, how is your day going?",,,
-1,"Greetings, Captain Wang.",,,
-1,I am honored to have you join us on this fine morning Captain Wang.,,,
-,"Good morning, and how are you, Captain Wang?",1,0,0
-,"Good to see you this morning, Captain Wang.",1,1,0
-,"It is an honor to have you join us here, Captain Wang. Good morning!",1,1,1
-,"A very good morning to you Captain Wang, how are you feeling today?",1,0,0
-,"Hello, Captain Wang, good morning you!",1,1,0
-,"I'm honored to have you with us this morning, Captain Wang.",0,1,1
-,"How are you fairing this morning, Captain Wang?",1,0,0
-,"I hope your morning has been good, Captain Wang.",1,0,0
-,"Good morning Captain, I am sincerely honored to have you with us.",1,1,1
-,"Good morning to you Captain Wang, how are you this morning?",1,0,0
-,"Greetings, Captain Wang.",1,1,0
-,Morning Captain Wang. It is an honor for you to be here with us.,1,1,1
-,Good day Captain Wang. How are you?,1,0,0
-,"Top of the morning, Captain Wang.",1,1,0
-,"Welcome, Captain Wang, it is an honor to have you here with us.",1,1,1
-,"Good morning, Captain Wang, how are you?",1,0,0
-,"Hello, Captain Wang.",1,1,0
-,"Captain Wang, good morning. We are honored that you would take time to join us this day.",1,1,1
-,"Good Morning. How are you today, Captain Wang?",1,0,0
-,"Hello Captain Wang, good to see you this morning.",1,1,1
-,"Captain Wang, Good Morning. I am greatly honored to be your host.",1,1,1
-,"Good Morning Captain Wang, I trust that you are well today.",1,0,0
-,"Pleasant day, Captain Wang.",1,1,0
-,"Good Morning Captain Wang, I am honored to have you with us.",1,1,1
-,"Good morning captain, How are You?",1,1,0
-,"Hi captain Wang, Good Morning.",1,1,0
-,I am happy to have you join us this morning Captain Wang.,1,1,1
-,How are doing this morning Captain Wang?,1,0,0
-,A very good morning to you Captain Wang.,1,1,0
-,"Greetings Captain Wang, it's a pleasure to have you around.",1,1,1
-,"Greetings Captain Wang, I hope you are well this morning.",1,0,0
-,How are you this morning captain Wang ?,0,0,0
-,Good day Captain Wang. It's an honor to have you here with us.,1,1,1
-,"Captain Wang, good morning. Are you doing well today?",1,0,0
-,"Captain Wang, good day to you.",1,1,0
-,"I am honored to have you join us this morning, Captain Wang.",1,1,1
-,"Good Morning. How are you doing today, Captain Wang?",1,0,0
-,"Good morning, Captain Wang.",1,1,0
-,"Good morning, im glad you're hear with us",e,e,e
-,"Good morning captain wang.,hope you are doing good",1,0,0
-,Captain wang are you okay.,1,0,0
+,,"Greets officer (e.g. good morning Captain Wang, good morning sir)",,"Doesn’t ask about welfare, (e.g. How are you doing today?)",,"Uses honorific (e.g. I’m honored to meet you, I’m thrilled to meet you)",,,,,,,
+Type,Dialogue,Label-1,Label-2,Label-1,Label-2,Label-1,Label-2,,,,,,
+context,i would introduce my self and then descuss inportant buisness,e,e,e,e,e,e,,,,User 1,User 2,
+context,Good morning,1,1,1,1,0,0,,,1,514,520,
+context,Mornin Capt,1,1,1,1,0,0,,,0,328,323,
+context,"Good morning, Capt. Wang. I am here to discuss with you and the platoon about important business.",1,1,1,1,0,0,,,e,28,27,
+context,"Hello, Captain Wang. It is nice to see you this morning.",1,1,1,1,0,1,,,Total,870,870,
+context,"Good Morning, Captain Wang It is an honor to meet you. I would like to discuss some important decisions that need to be made.",1,1,1,1,1,1,,,,,,
+context,"""Good morning, Sir, I look forward to giving you any assistance you need today.""",1,1,1,1,0,0,,,Calculation of pe,,,
+context,"Captain Wang , good morning",1,1,1,1,0,0,,,1,0.591,0.598,0.353
+context,"Good Morning Captain Wang, my rank may be lower than you expected, but I speak for those with much higher rank.",1,1,1,1,0,0,,,0,0.377,0.371,0.14
+context,"Good morning, Captain Wang. How are you doing on this beautiful day?",1,1,0,0,0,0,,,e,0.032,0.031,0.001
+context,I am pleased to meet you.,0,0,1,1,1,1,,,,1,1,0.494
+context,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+context,"Good Morning Captain Wang, it's always a pleasure to see you and I am delighted we will be working together.",1,1,1,1,0,1,,,,,,
+context,"Good morning, Captain Wang",1,1,1,1,0,0,,,,,,
+context,Good morning Captain Wang.  You may have noticed my ranking and I am fairly young.  But I can assure you that I am here to discuss important business for you and I with all of my ability to help.,1,1,1,1,0,0,,,,,,
+context,"Hello Captain Wang, it is nice to meet you.",1,1,1,1,0,1,,,,,,
+context,Good morning Captain Wang,1,1,1,0,0,0,,,,,,
+context,"Good morning, Captain.",1,1,1,1,0,0,,,,,,
+context,"Good morning, captain. I look forward to working with you, sir.",1,1,1,1,0,0,,,,,,
+context,"What an honor it is to meet you this morning, Captain Wang!",1,1,1,1,1,1,,,,,,
+context,Good morning Captain Wang sir. My name is Jerry Lockley and I am honored to make your acquantaince.,e,1,e,1,e,1,,,,,,
+context,Good Morning Captain Wang,1,1,1,1,0,0,,,,,,
+context,"Good Morning,  It is a pleasue to meet you Captain Wang. I look forward to working with you.",1,1,1,1,1,1,,,,,,
+context,"Good morning Captain Wang, I noticed that you're looking slightly dissatisfied with my ranking as a soldier but I can assure you Im perfect for the task at hand.",1,1,1,1,0,0,,,,,,
+context,Good Morning Captain Wang,1,1,1,1,0,0,,,,,,
+context,"Good morning, Captain!",1,1,1,1,0,0,,,,,,
+context,"Good morning Captain Wang, its a pleasure to meet with you today.",1,1,1,1,1,1,,,,,,
+context,Hello Sir! I am (state name and rank here) I hope your morning is going well! Give him a firm hand shake and a smile!,e,e,e,e,e,e,,,,,,
+context,"Good morning Captain Wang, sir!",1,1,1,1,1,0,,,,,,
+context,Good morning Captain Wang!,1,1,1,1,0,0,,,,,,
+context,Good morning Captain Wang. We are so glad you guys could come out and help with this project. I'm Lt. Frank and I have been well brief on this assignment. I can ask any questions you may have.,e,e,e,e,e,e,,,,,,
+context,"Captain Wang, good morning sir. I've been sent as a representative to discuss this important business, we should get to it.",1,1,1,1,0,0,,,,,,
+context,Good morning Captain Wang,1,1,1,1,0,0,,,,,,
+context,"Good morning, Captain Wang. (Chinese mandarin: Wang dui zhang zao shang hao! )",e,e,e,e,e,e,,,,,,
+context,"Good morning Captain Wang, I'm here to discuss the situation at hand.",1,1,1,1,0,0,,,,,,
+context,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+context,"Good morning Captain, something wrong?",1,1,0,1,0,0,,,,,,
+context,"Good morning, Captain Wang",1,1,1,1,0,0,,,,,,
+context,"Good morning, Captain Wang",1,1,1,1,0,0,,,,,,
+context,Good Morning Captain Wang.,1,1,1,1,0,0,,,,,,
+context,Good morning Captain Wang; Reporting for Duty.,1,1,1,1,0,0,,,,,,
+context,"Good morning Captain Wang, lets get to business.",1,1,1,1,0,0,,,,,,
+context,"Hello captain Wang, it's good to see you in this fine morning.",1,1,1,1,0,1,,,,,,
+context,"Commander, Good morning, sir.",1,1,1,1,1,0,,,,,,
+context,Good Morning Captain Wang with do all respect sir let me introduce my self to you.,1,1,1,1,0,0,,,,,,
+context,good morning captain wang,1,1,1,1,0,0,,,,,,
+context,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+context,"Good morning Captain, I am so happy to finally meet you.",1,1,1,1,1,1,,,,,,
+context,Good Morning Mr. Wang!,1,1,1,1,0,1,,,,,,
+context,"Good morning Captain Wang, I look forward to working with you",1,1,1,1,0,1,,,,,,
+feedback,"Greetings, Commander.",1,1,1,1,0,0,,,,,,
+feedback,"Hello, sir. How are you doing this evening?",1,1,0,0,0,0,,,,,,
+feedback,"Hey, man.",0,0,1,1,0,0,,,,,,
+feedback,Good day to you commander.,1,1,1,1,0,0,,,,,,
+feedback,Good day to you and also how are you today?,1,1,0,0,0,0,,,,,,
+feedback,This meeting should proceed.,0,0,1,1,0,0,,,,,,
+feedback,Hello finally nice to meet you,1,1,1,1,0,1,,,,,,
+feedback,Hello Sir. How are you doing today,1,1,0,0,0,0,,,,,,
+feedback,Greetings Sir.,1,1,1,1,0,0,,,,,,
+feedback,Good to meet you my friend,1,0,1,1,0,1,,,,,,
+feedback,Good day to you. How are you doing this fine day?,1,1,0,0,0,0,,,,,,
+feedback,You look very happy. Glad to see you.,0,0,1,1,0,1,,,,,,
+feedback,Hello. It's a pleasure to meet you.,1,1,1,1,1,1,,,,,,
+feedback,Hello. It's a pleasure to meet you. How are you doing?,1,1,0,0,1,1,,,,,,
+feedback,Hi,0,1,1,1,0,0,,,,,,
+feedback,Good day commander.,1,1,1,1,0,0,,,,,,
+feedback,Good day Commander. It is an honor to be in your presence. How are you?,1,1,0,0,1,1,,,,,,
+feedback,Good day,1,1,1,0,0,1,,,,,,
+feedback,"I am very honored to me you, Commandered.",0,1,1,1,1,0,,,,,,
+feedback,"I am very honored to me you, Commander. How are you?",0,e,0,e,1,e,,,,,,
+feedback,"Hello, I hope we can get down to business.",0,1,1,1,0,0,,,,,,
+feedback,"Hello, Sir, I am pleased to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Hello, Sir, how are you doing?",1,1,0,0,0,0,,,,,,
+feedback,Hello.,1,1,1,1,0,0,,,,,,
+feedback,"Good Morning, it's an honor to met you, Commander Yang.",e,e,e,e,e,e,,,,,,
+feedback,Good Morning Commander Yang. How are you today?,1,e,e,e,0,e,,,,,,
+feedback,Good Morning Commander,1,1,1,1,0,0,,,,,,
+feedback,"Hello Captain Wang, it is an honor to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Good morning, Captain Wang. How are you doing today sir?",1,1,0,0,0,0,,,,,,
+feedback,"Hello Captain Wang, is everything okay? Your face has me worried sir.",1,1,0,0,0,0,,,,,,
+feedback,"Hello Captain Wang, I am honored to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Hello Captain Wang, how are you today?",1,1,0,0,0,0,,,,,,
+feedback,Hello Captain Wang.,1,1,1,1,0,0,,,,,,
+feedback,"Good day, Captain Wang, it is a great honor to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Good day, Captain Wang. It is an honor to meet you. I hope you are doing well today?",1,1,0,0,0,1,,,,,,
+feedback,"Hello, Captain Wang.",1,1,1,1,0,0,,,,,,
+feedback,"Hello Captain, it is an honor to be meeting with you Sir",1,1,1,1,1,1,,,,,,
+feedback,"Captain Wang, good afternoon. How are you and your soldiers faring today?",1,1,0,0,0,0,,,,,,
+feedback,"Captain Wang, Good Morning Sir.",1,1,1,1,0,0,,,,,,
+feedback,It's an honor to meet you Captain Wang.,0,1,1,1,1,1,,,,,,
+feedback,I'm honored to meet you Captain. How are you today?,1,1,0,0,0,1,,,,,,
+feedback,Hello Captain Wang.,1,1,1,1,0,0,,,,,,
+feedback,"Nihao, Captain Wang. Pleasure to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Nihao, Captain Wang. Pleasure to meet you. How was your trip?",1,1,0,0,0,1,,,,,,
+feedback,Captain.,0,1,1,1,0,0,,,,,,
+feedback,"Captain Wang, Good morning.",1,1,1,1,0,0,,,,,,
+feedback,Glad to meet you. How are you today?,0,0,0,0,1,1,,,,,,
+feedback,Awesome,e,0,e,1,e,0,,,,,,
+feedback,"It's a pleasure to meet you, Captain Wang.",0,0,1,1,1,1,,,,,,
+feedback,"It's nice to meet you, Captain. How are you doing sir?",0,0,0,0,1,1,,,,,,
+feedback,"Greetings, Captain.",1,1,1,1,0,0,,,,,,
+feedback,Good Day! I am pleased to meet you Captain Wang.,1,1,1,1,1,1,,,,,,
+feedback,I am pleased to meet you Captain Wang. I hope you are well.,1,1,0,0,0,0,,,,,,
+feedback,Nice to meet you.,0,0,1,1,0,1,,,,,,
+feedback,"Good afternoon, Captain Wang.",1,1,1,1,0,0,,,,,,
+feedback,"Good afternoon, Captain Wang. How are you today?",1,1,0,0,0,0,,,,,,
+feedback,"Hello, Captain.",1,1,1,1,0,0,,,,,,
+feedback,Hello sir,1,1,1,1,0,0,,,,,,
+feedback,sir how is you department,1,0,0,1,0,0,,,,,,
+feedback,thank you sir,e,0,e,1,e,0,,,,,,
+feedback,Greetings Captain Wang. I'm honored that you joined us.,1,1,1,1,1,1,,,,,,
+feedback,Greetings Captain Wang. How are you doing today?,1,1,0,0,0,0,,,,,,
+feedback,Greetings Captain Wang.,1,1,1,1,0,0,,,,,,
+feedback,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+feedback,"Good day, Captain Wang, how are you feeling today?",1,1,0,0,0,0,,,,,,
+feedback,"I don't want to be here either, Wang.",0,0,1,1,0,0,,,,,,
+feedback,"It's a pleasure to meet you, Captain Wang.",0,0,1,1,1,1,,,,,,
+feedback,"Nice to meet you, Captain Wang. How have you been?",1,0,0,0,0,1,,,,,,
+feedback,"Hey, Captain.",1,1,1,1,0,0,,,,,,
+feedback,"Good day, sir.",1,1,1,1,0,0,,,,,,
+feedback,"Good day, sir. How are your soldiers?",1,1,0,0,0,0,,,,,,
+feedback,Sir.,0,0,1,1,0,0,,,,,,
+feedback,"It is good to finally meet you, Captain.",1,0,1,1,1,0,,,,,,
+feedback,"Nice to meet you, Captain. How are you doing today?",1,1,0,1,1,0,,,,,,
+feedback,"Hello, Captain.",1,1,1,1,0,0,,,,,,
+feedback,"Good evening, Captain Wang. I am honored to meet you.",1,1,1,1,1,1,,,,,,
+feedback,"Good evening, how have you been recently?",1,1,0,0,0,0,,,,,,
+feedback,Evening.,0,1,1,1,0,0,,,,,,
+feedback,Commander it is an honor to meet you.,0,0,1,1,1,1,,,,,,
+feedback,Hello Commander. It is a pleasure to meet you. I hope all is well with your company.,1,1,0,0,1,1,,,,,,
+feedback,Greetings commander.,1,1,1,1,0,0,,,,,,
+feedback,"Greetings, Captain.",1,1,1,1,0,0,,,,,,
+feedback,"Greetings, Captain. You seem discouraged. Is everything alright?",1,1,0,1,0,0,,,,,,
+feedback,Captain.,0,1,1,1,0,0,,,,,,
+feedback,"Sir Captain Wang, how nice it is to see you.",1,1,1,1,1,0,,,,,,
+feedback,"Commander Captain Wang, good day.",1,1,1,1,0,0,,,,,,
+feedback,Good day Captain Wang. Good to see you.,1,1,1,1,0,0,,,,,,
+feedback,Greetings Captain Wang.,1,1,1,1,0,0,,,,,,
+feedback,"Hello Captain Wang, How are you today?",1,1,0,0,0,0,,,,,,
+feedback,"Good morning, Captain Wang",1,1,1,1,0,0,,,,,,
+feedback,"Hello Captain Wang, it's a great honor meet with you to discuss these important matters.",1,1,1,1,1,1,,,,,,
+feedback,"Greetings, Captain Wang. It's an honor and a privilege to meet with you. How was your travel to get here?",1,1,0,0,1,1,,,,,,
+feedback,Captain Wang. Hi.,1,1,1,1,0,0,,,,,,
+feedback,Good morning Captain Wang.,1,1,1,1,0,0,,,,,,
+feedback,"Good morning Captain Wang, how are you?",1,1,0,0,0,0,,,,,,
+feedback,Captain Wang.,0,0,1,1,0,0,,,,,,
+feedback,Hello captain Wang,1,1,1,1,0,0,,,,,,
+feedback,"Hello captain Wang.,how are you doing",1,1,0,0,0,0,,,,,,
+feedback,"Hi.,i can see you are fine",1,1,0,0,0,0,,,,,,
+feedback,"Apologies for my intrusion, sir.",0,0,1,1,0,0,,,,,,
+feedback,Apologies for my intrusion sir. Is everything going alright for you?,0,0,0,0,0,0,,,,,,
+feedback,Sir.,0,0,1,1,0,0,,,,,,
+feedback,Good Morning Sir!,1,1,1,1,0,0,,,,,,
+feedback,"Good morning Sir, how are you doing today?",1,1,0,0,0,0,,,,,,
+feedback,"Hello, sir.",1,1,1,1,0,0,,,,,,
+feedback,"Good afternoon, sir. Thank you for taking the time to meet with me.",1,1,1,1,1,1,,,,,,
+feedback,"Good afternoon sir, how are you doing?",1,1,0,0,0,0,,,,,,
+feedback,"Hello, sir.",1,1,1,1,0,0,,,,,,
+feedback,"It is my honor to meet you, Captain Wang.",0,0,1,1,1,1,,,,,,
+feedback,"It is my honor to meet you, Captain Wang. How are you today.",0,0,0,0,1,1,,,,,,
+feedback,Good Day.,1,1,1,1,0,0,,,,,,
+rewrite,"Greetings and salutations Captain Wang, I am pleased to have you join us.",1,1,1,1,1,1,,,,,,
+rewrite,"Greetings Captain Wang, how are you feeling today?",1,1,0,0,0,0,,,,,,
+rewrite,Greetings and salutations Captain Wang!,1,1,1,1,0,0,,,,,,
+rewrite,Welcome Captain Wang. We are very honored to have you join our meeting today.,1,1,1,1,1,1,,,,,,
+rewrite,"Captain Wang, I hope you are well today.",1,0,0,0,0,0,,,,,,
+rewrite,Hello Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,"Good Morning, Captain Wang, thank you for joining us today.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning, Captain Wang. I hope you are doing well today.",1,1,0,0,0,0,,,,,,
+rewrite,"zÇŽo Än, Captain Wang",e,e,e,e,e,e,,,,,,
+rewrite,"Good Morning Captain Wang, I am pleased to meet you.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning Captain Wang, how are you today?",1,1,0,0,0,0,,,,,,
+rewrite,"Pleasant morning, doctor Wang?",1,1,1,1,0,0,,,,,,
+rewrite,"I am honored that you could join us this morning, Captain Wang.",0,0,1,1,1,1,,,,,,
+rewrite,"How are you doing this morning, Captain Wang?",0,0,0,0,0,0,,,,,,
+rewrite,"Captain Wang, Good morning.",1,1,1,1,0,0,,,,,,
+rewrite,"It is an honor to have you join me, Captain Wang.",0,0,1,1,1,1,,,,,,
+rewrite,"How are you doing today, Captain Wang?",0,0,0,0,0,0,,,,,,
+rewrite,"Good day, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Top of the morning to you Captain, I'm glad you've joined us.",1,1,1,1,1,1,,,,,,
+rewrite,"Morning Captain, hows your day?",1,1,0,0,0,0,,,,,,
+rewrite,"Captain Wang, hope your morning is going well.",1,0,1,0,0,0,,,,,,
+rewrite,"Good morning, Captain Wang! It is an honor to have you with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning, Captain Wang. How are you today?",1,1,0,0,0,0,,,,,,
+rewrite,"Good morning, Captain Wang!",1,1,1,1,0,0,,,,,,
+rewrite,"Good morning Captain Wang, I am pleased to have this meeting with you.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning Captain Wang, Is everything going well for you so far?",1,1,0,0,0,0,,,,,,
+rewrite,"Greetings, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Captain Wong, it is my honor to have you join us on this good morning.",1,1,1,1,1,1,,,,,,
+rewrite,"How are you doing today on this good morning, Captain Wong?",1,0,0,0,0,0,,,,,,
+rewrite,"Captain Wong, good morning.",1,1,1,1,0,0,,,,,,
+rewrite,"Good Morning Captain Wang, It is an honer to have you grace us with your presence.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning Captain Wang, how is everything today?",1,1,0,0,0,0,,,,,,
+rewrite,Morning Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,"Hello Captain Wang, It's an honor to have you here.",1,1,1,1,1,1,,,,,,
+rewrite,"Greeting Captain Wang, How goes today for you?",1,1,0,0,0,0,,,,,,
+rewrite,"Pleasant morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Captain Wang, good morning. I am honored by your presence.",1,1,1,1,1,1,,,,,,
+rewrite,"How are you this morning, Captain Wang?",0,1,0,0,0,0,,,,,,
+rewrite,"Captain Wang, I hope you are having a good morning.",1,1,1,0,0,0,,,,,,
+rewrite,I am honored you joined us Captain.,0,0,1,1,1,1,,,,,,
+rewrite,How are you this morning Captain Wang ?,0,0,0,0,0,0,,,,,,
+rewrite,Hope you are doing good this morning Captain!,1,0,0,0,0,0,,,,,,
+rewrite,"Good Morning, i am glad to have you with us today",1,1,1,1,1,1,,,,,,
+rewrite,"Good'day how are you doing today, Captain Wang",1,1,0,0,0,0,,,,,,
+rewrite,Top of the Morning to ya,1,1,1,1,0,0,,,,,,
+rewrite,"Good morning, Captain Wang. I am honored to meet with you.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning, Captain Wang. How is your day so far?",1,1,0,0,0,0,,,,,,
+rewrite,"Captain Wang, good morning.",1,1,1,1,0,0,,,,,,
+rewrite,"Good morning Captain Wang, it is an honor to have you join us.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning Captain Wang, how is your day?",1,1,0,0,0,0,,,,,,
+rewrite,"Hello, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,it is an honor to have you join us captain wang,0,0,1,1,1,1,,,,,,
+rewrite,how are you today caption wang,0,0,0,0,0,0,,,,,,
+rewrite,morning captain wang,1,1,1,1,0,0,,,,,,
+rewrite,"Good morning Captain Wang, i am happy to have you.",1,1,1,1,1,1,,,,,,
+rewrite,How are you today Captain Wang?,0,0,0,0,0,0,,,,,,
+rewrite,Hello Captain Wang.,1,1,1,1,0,1,,,,,,
+rewrite,"Greetings, Captain Wang. I can't express how great it is to have you here with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Greetings, Captain Wang. How are you fairing?",1,1,0,0,0,0,,,,,,
+rewrite,"Captain Wang, hello.",1,1,1,1,0,0,,,,,,
+rewrite,Honored to have you with us Captain Wang.,0,0,1,1,1,1,,,,,,
+rewrite,How are you today Captain Wang?,0,0,0,0,0,0,,,,,,
+rewrite,"Captain Wang, good morning.",1,1,1,1,0,0,,,,,,
+rewrite,"Captain Wang, I am honored to have you join us, Good Morning.",1,1,1,1,1,1,,,,,,
+rewrite,"Pleasant Morning today, how are you doing today, Captain Wang?",1,0,0,0,0,0,,,,,,
+rewrite,"Captain Wang, greetings on this fine morning.",1,1,1,1,0,0,,,,,,
+rewrite,"Hello Captain Wang, We are honored to have you with us this morning.",1,1,1,1,1,1,,,,,,
+rewrite,"Hello Captain Wang, how are you this morning?",1,1,0,0,0,0,,,,,,
+rewrite,Captain Wang! Good morning.,1,1,1,1,0,0,,,,,,
+rewrite,"Good morning, I'm honored you joined us Captain Wang.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning, Captain Wang. How are you?",1,1,0,0,0,0,,,,,,
+rewrite,"Good morning, Captain.",1,1,1,1,0,0,,,,,,
+rewrite,It is my pleasure to be joined by you this morning Captain Wang.,1,0,1,1,1,1,,,,,,
+rewrite,"Tell me Captain Wang, how are you feeling this morning?",1,0,0,0,0,0,,,,,,
+rewrite,"Rise and shine, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,It's a pleasure to meet you Captain Wang.,0,0,1,0,1,0,,,,,,
+rewrite,I hope you are well this morning Captain Wang.,0,0,0,0,0,0,,,,,,
+rewrite,Nice day Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,"Morning Captain, it's an honor having you here with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Morning Captain, how's it going today?",1,1,0,0,0,0,,,,,,
+rewrite,"Morning, Captain.",1,1,1,1,0,0,,,,,,
+rewrite,"Hello, Captain Wang. I am glad to meet you.",1,1,1,1,1,1,,,,,,
+rewrite,Hi Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,Hi Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,"Greetings Captain Wang, we are honored to have you join us today.",1,1,1,1,1,1,,,,,,
+rewrite,"Greetings Captain Wang, how is your day going?",1,1,0,0,0,0,,,,,,
+rewrite,"Greetings, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,I am honored to have you join us on this fine morning Captain Wang.,0,0,1,1,1,1,,,,,,
+rewrite,"Good morning, and how are you, Captain Wang?",1,1,0,0,0,0,,,,,,
+rewrite,"Good to see you this morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"It is an honor to have you join us here, Captain Wang. Good morning!",1,1,1,1,1,1,,,,,,
+rewrite,"A very good morning to you Captain Wang, how are you feeling today?",1,1,0,0,0,0,,,,,,
+rewrite,"Hello, Captain Wang, good morning you!",1,1,1,1,0,0,,,,,,
+rewrite,"I'm honored to have you with us this morning, Captain Wang.",0,0,1,1,1,1,,,,,,
+rewrite,"How are you fairing this morning, Captain Wang?",1,1,0,0,0,0,,,,,,
+rewrite,"I hope your morning has been good, Captain Wang.",1,1,1,0,0,0,,,,,,
+rewrite,"Good morning Captain, I am sincerely honored to have you with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning to you Captain Wang, how are you this morning?",1,1,0,0,0,0,,,,,,
+rewrite,"Greetings, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,Morning Captain Wang. It is an honor for you to be here with us.,1,1,1,1,1,1,,,,,,
+rewrite,Good day Captain Wang. How are you?,1,1,0,0,0,0,,,,,,
+rewrite,"Top of the morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Welcome, Captain Wang, it is an honor to have you here with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning, Captain Wang, how are you?",1,1,0,0,0,0,,,,,,
+rewrite,"Hello, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Captain Wang, good morning. We are honored that you would take time to join us this day.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning. How are you today, Captain Wang?",1,1,0,0,0,0,,,,,,
+rewrite,"Hello Captain Wang, good to see you this morning.",1,1,1,1,0,1,,,,,,
+rewrite,"Captain Wang, Good Morning. I am greatly honored to be your host.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning Captain Wang, I trust that you are well today.",1,1,0,0,0,0,,,,,,
+rewrite,"Pleasant day, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Good Morning Captain Wang, I am honored to have you with us.",1,1,1,1,1,1,,,,,,
+rewrite,"Good morning captain, How are You?",1,1,0,1,0,0,,,,,,
+rewrite,"Hi captain Wang, Good Morning.",1,1,1,1,0,0,,,,,,
+rewrite,I am happy to have you join us this morning Captain Wang.,1,1,1,1,1,1,,,,,,
+rewrite,How are doing this morning Captain Wang?,1,1,0,0,0,0,,,,,,
+rewrite,A very good morning to you Captain Wang.,1,1,1,1,0,0,,,,,,
+rewrite,"Greetings Captain Wang, it's a pleasure to have you around.",1,1,1,1,1,1,,,,,,
+rewrite,"Greetings Captain Wang, I hope you are well this morning.",1,1,0,0,0,0,,,,,,
+rewrite,How are you this morning captain Wang ?,1,0,1,0,0,0,,,,,,
+rewrite,Good day Captain Wang. It's an honor to have you here with us.,1,1,1,1,1,1,,,,,,
+rewrite,"Captain Wang, good morning. Are you doing well today?",1,1,0,0,0,0,,,,,,
+rewrite,"Captain Wang, good day to you.",1,1,1,1,0,0,,,,,,
+rewrite,"I am honored to have you join us this morning, Captain Wang.",1,1,1,1,1,1,,,,,,
+rewrite,"Good Morning. How are you doing today, Captain Wang?",1,1,0,0,0,0,,,,,,
+rewrite,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
+rewrite,"Good morning, im glad you're hear with us",1,e,1,e,0,e,,,,,,
+rewrite,"Good morning captain wang.,hope you are doing good",1,1,0,0,0,0,,,,,,
+rewrite,Captain wang are you okay.,0,1,0,0,0,0,,,,,,
