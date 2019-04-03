@@ -1,16 +1,16 @@
 ,,,Asks to speak about it in private or meet later (e.g. “I would like to talk to you in private later. I have a few questions.” ),,Does not publicly challenge his plan or imply that you disagree with his plan (e.g. does not say “I have an issue with your plan”) ,,,,,,,,,
 Assignment,Type,Dialogue,Label-1,Label-2,Label-1,Label-2,,,,,,,,
 32RIADZISS4QQR6N1TMAYF0PVIJ4SRa,rewrite,I disagree because some of your plans are flawed. For what reason do two aid stations need to be set up?,0,0,0,0,,,,,,User 1,User 2,
-32RIADZISS4QQR6N1TMAYF0PVIJ4SRb,rewrite,May I have an explanation as to why we are needing to set up two individual aid stations?,0,0,0,1,,,,,1,261,355,
-32RIADZISS4QQR6N1TMAYF0PVIJ4SRc,rewrite,I am out of questions at this moment.,0,0,1,1,,,,,0,445,341,
-32RIADZISS4QQR6N1TMAYF0PVIJ4SRd,rewrite,When I have a few questions; may I talk to you in private?,1,1,1,1,,,,,e,0,10,
-34HJIJKLP5W6IJNRVORF92KWUMFV4Pa,rewrite,My problem with your plan is do we really need to set up two aid stations?,0,0,0,0,,,,,Total,706,706,
+32RIADZISS4QQR6N1TMAYF0PVIJ4SRb,rewrite,May I have an explanation as to why we are needing to set up two individual aid stations?,0,0,0,1,,,,,1,262,355,
+32RIADZISS4QQR6N1TMAYF0PVIJ4SRc,rewrite,I am out of questions at this moment.,0,0,1,1,,,,,0,454,341,
+32RIADZISS4QQR6N1TMAYF0PVIJ4SRd,rewrite,When I have a few questions; may I talk to you in private?,1,1,1,1,,,,,e,16,10,
+34HJIJKLP5W6IJNRVORF92KWUMFV4Pa,rewrite,My problem with your plan is do we really need to set up two aid stations?,0,0,0,0,,,,,Total,732,706,
 34HJIJKLP5W6IJNRVORF92KWUMFV4Pb,rewrite,What's the explanation behind setting up two individual aid stations?,0,0,0,1,,,,,,,,
 34HJIJKLP5W6IJNRVORF92KWUMFV4Pc,rewrite,I have no questions at the moment.,0,0,1,1,,,,,Calculation of pe,,,
-34HJIJKLP5W6IJNRVORF92KWUMFV4Pd,rewrite,"Once questions are over, can we talk in private?",1,1,1,1,,,,,1,0.370,0.503,0.186
-34YB12FSQYO34CM2CXSPVVYMTYAGMEa,rewrite,why are we setting up two aid stations? i do not see the relevance.,0,0,0,0,,,,,0,0.630,0.483,0.304
-34YB12FSQYO34CM2CXSPVVYMTYAGMEb,rewrite,i want to understand why we are setting up two aid stations.,0,0,0,1,,,,,e,0.000,0.014,0.000
-34YB12FSQYO34CM2CXSPVVYMTYAGMEc,rewrite,i understand.,0,0,1,1,,,,,,1.000,1.000,0.490
+34HJIJKLP5W6IJNRVORF92KWUMFV4Pd,rewrite,"Once questions are over, can we talk in private?",1,1,1,1,,,,,1,0.358,0.503,0.180
+34YB12FSQYO34CM2CXSPVVYMTYAGMEa,rewrite,why are we setting up two aid stations? i do not see the relevance.,0,0,0,0,,,,,0,0.620,0.483,0.300
+34YB12FSQYO34CM2CXSPVVYMTYAGMEb,rewrite,i want to understand why we are setting up two aid stations.,0,0,0,1,,,,,e,0.022,0.014,0.000
+34YB12FSQYO34CM2CXSPVVYMTYAGMEc,rewrite,i understand.,0,0,1,1,,,,,,1.000,1.000,0.480
 34YB12FSQYO34CM2CXSPVVYMTYAGMEd,rewrite,can i talk to you alone when you are done taking questions?,1,1,1,1,,,,,,,,
 36H9ULYP62U7P4KMYG9FXI6TOPDFJ8a,rewrite,There are a few things I'm confused about with your plan. Is it necessary that we set up two aid stations?,0,0,0,0,,,,,,,,
 36H9ULYP62U7P4KMYG9FXI6TOPDFJ8b,rewrite,Is there any reason for setting up two individual aid stations?,0,0,0,1,,,,,,,,
@@ -353,3 +353,16 @@ Assignment,Type,Dialogue,Label-1,Label-2,Label-1,Label-2,,,,,,,,
 3VHP9MDGRNKKHQEGOOSTAETY9X4CFM,context,I understand that you want to help but I'm concerned about your plan to have two aid stations. I don't feel there's a need to have two.,0,0,0,0,,,,,,,,
 3XUHV3NRVKYJW1W744TLZTZ1XVTH5F,context,Can we chat a bit now about our different plans?,0,0,0,1,,,,,,,,
 3Z2R0DQ0JHEFDUMIWKJHGJZCL5C2EL,context,"Sir, I have some concerns about setting up two aid stations. Can we discuss those, and what I feel is a good alternative?",0,0,0,0,,,,,,,,
+30OG32W0SUBB2GBBI3H1872AW02ENN,context,I would just drop the issue because it's not a big deal,e,,e,,,,,,,,,
+32ZKVD547FN6R96HQTVWYLYJOMWB32,context,"Sir, things are progressing at a rapid pace. I have a few concerns about the plan I'd like to address before we get any further.",0,,0,,,,,,,,,
+3AAJC4I4FGSDULBMZS3M0AMBBM2ZJ6,context,"The commander has proposed an alternative plan which is setting up two aid stations, why not try it first see where the problems come out, then fix it on the spot.",0,,0,,,,,,,,,
+3C6FJU71TQTM3BCBF55HT5MKM8QYU4,context,It is imperative that we discuss this further and must insist for just a few minutes of your time. This could save us costly time in the future.,0,,0,,,,,,,,,
+3DL65MZB8DFSBCEKTD8NSW8YXWGCEV,context,We are running out of time. Please report back,0,,1,,,,,,,,,
+3EJPLAJKEMG16QWFF99XR6H6PGM6ZB,context,Ask to talk to him about it now.,e,,e,,,,,,,,,
+3IUZPWIU1O74BACZ6QJR2LS6992WKG,context,I will ask him to talk to me in private and I will tell him that there is some problem with your plan so kindly drop it.,e,,e,,,,,,,,,
+3MHW492WW0DMM9CX1SRBVW1WR5MMVS,context,"I would reschedule a meeting to make sure both us have enough time to think and plan properly, in that way communication and understanding can be clear.",e,,e,,,,,,,,,
+3PJUZCGDJ6G94DXQ4QCWYWB4G8L98I,context,His the C.O. of the operation. I will drop the issue. I will look after for the safety of my team.,e,,e,,,,,,,,,
+3SUWZRL0MYD3VV5JJMVK6WGO1ACE6C,context,"I will talk with the Chinese captain now because the fate of my soldiers is my first priority. Therefore, I will let the Chinese captain know immediately that two aid stations is not feasible for the safety of my soldiers.",e,,e,,,,,,,,,
+3X0H8UUIT1O2ZTP7BZSTT7JGQ3GWSY,context,I would ask him to talk about my problems regarding the plan now.,e,,e,,,,,,,,,
+3Y9N9SS8LYBZ66414PM2TBMJR713DU,context,"I would approach him quickly and explain how we need to discuss this immediatly.  I would explain to him the negatives involved with having two aid stations, and then offer the positives of having just one.  After that, I would give him a chance to speak about what he feels are the positives of having two, and I would do my best to be fair in weighing the choices.  If I felt that one aid station was still the best choice, I would be firm about it.",e,,e,,,,,,,,,
+3YDTZAI2WXGQW77TOA7Q2EDGGA4410,context,"With all due respect, Captain, if I can have two minutes of your time in regards to a concern I have. We might run into issues in setting up two aid stations as it may disrupt the flow of our mission.",0,,0,,,,,,,,,

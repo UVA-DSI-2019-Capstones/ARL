@@ -1,16 +1,16 @@
 ,,"Greets officer (e.g. good morning Captain Wang, good morning sir)",,"Doesn’t ask about welfare, (e.g. How are you doing today?)",,"Uses honorific (e.g. I’m honored to meet you, I’m thrilled to meet you)",,,,,,,
 Type,Dialogue,Label-1,Label-2,Label-1,Label-2,Label-1,Label-2,,,,,,
 context,i would introduce my self and then descuss inportant buisness,e,e,e,e,e,e,,,,User 1,User 2,
-context,Good morning,1,1,1,1,0,0,,,1,514,520,
-context,Mornin Capt,1,1,1,1,0,0,,,0,328,323,
-context,"Good morning, Capt. Wang. I am here to discuss with you and the platoon about important business.",1,1,1,1,0,0,,,e,28,27,
-context,"Hello, Captain Wang. It is nice to see you this morning.",1,1,1,1,0,1,,,Total,870,870,
+context,Good morning,1,1,1,1,0,0,,,1,520,520,
+context,Mornin Capt,1,1,1,1,0,0,,,0,331,323,
+context,"Good morning, Capt. Wang. I am here to discuss with you and the platoon about important business.",1,1,1,1,0,0,,,e,40,27,
+context,"Hello, Captain Wang. It is nice to see you this morning.",1,1,1,1,0,1,,,Total,891,870,
 context,"Good Morning, Captain Wang It is an honor to meet you. I would like to discuss some important decisions that need to be made.",1,1,1,1,1,1,,,,,,
 context,"""Good morning, Sir, I look forward to giving you any assistance you need today.""",1,1,1,1,0,0,,,Calculation of pe,,,
-context,"Captain Wang , good morning",1,1,1,1,0,0,,,1,0.591,0.598,0.353
-context,"Good Morning Captain Wang, my rank may be lower than you expected, but I speak for those with much higher rank.",1,1,1,1,0,0,,,0,0.377,0.371,0.14
-context,"Good morning, Captain Wang. How are you doing on this beautiful day?",1,1,0,0,0,0,,,e,0.032,0.031,0.001
-context,I am pleased to meet you.,0,0,1,1,1,1,,,,1,1,0.494
+context,"Captain Wang , good morning",1,1,1,1,0,0,,,1,0.584,0.598,0.349
+context,"Good Morning Captain Wang, my rank may be lower than you expected, but I speak for those with much higher rank.",1,1,1,1,0,0,,,0,0.371,0.371,0.138
+context,"Good morning, Captain Wang. How are you doing on this beautiful day?",1,1,0,0,0,0,,,e,0.045,0.031,0.001
+context,I am pleased to meet you.,0,0,1,1,1,1,,,,1,1,0.488
 context,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
 context,"Good Morning Captain Wang, it's always a pleasure to see you and I am delighted we will be working together.",1,1,1,1,0,1,,,,,,
 context,"Good morning, Captain Wang",1,1,1,1,0,0,,,,,,
@@ -290,3 +290,10 @@ rewrite,"Good morning, Captain Wang.",1,1,1,1,0,0,,,,,,
 rewrite,"Good morning, im glad you're hear with us",1,e,1,e,0,e,,,,,,
 rewrite,"Good morning captain wang.,hope you are doing good",1,1,0,0,0,0,,,,,,
 rewrite,Captain wang are you okay.,0,1,0,0,0,0,,,,,,
+context,i would introduce my self and then descuss inportant buisness,e,,e,,e,,,,,,,
+context,"Good Morning Captain Wang, my rank may be lower than you expected, but I speak for those with much higher rank.",1,,1,,0,,,,,,,
+context,Good morning Captain Wang.  You may have noticed my ranking and I am fairly young.  But I can assure you that I am here to discuss important business for you and I with all of my ability to help.,1,,1,,0,,,,,,,
+context,"Good morning Captain Wang, I noticed that you're looking slightly dissatisfied with my ranking as a soldier but I can assure you Im perfect for the task at hand.",1,,1,,0,,,,,,,
+context,Hello Sir! I am (state name and rank here) I hope your morning is going well! Give him a firm hand shake and a smile!,e,,e,,e,,,,,,,
+context,Good morning Captain Wang. We are so glad you guys could come out and help with this project. I'm Lt. Frank and I have been well brief on this assignment. I can ask any questions you may have.,e,,e,,e,,,,,,,
+context,"Good morning, Captain Wang. (Chinese mandarin: Wang dui zhang zao shang hao! )",e,,e,,e,,,,,,,
