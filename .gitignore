@@ -51,3 +51,7 @@ vignettes/*.pdf
 
 #ignorig R history files
 *.Rhistory
+
+#ignoring idea files
+*.idea
+
