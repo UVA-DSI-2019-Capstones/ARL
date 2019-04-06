@@ -16,6 +16,8 @@ from gensim.corpora.dictionary import Dictionary
 import pandas as pd
 from gensim.models import LdaModel
 import os
+from random import randint
+
 
 #%%
 dir = os.getcwd()
@@ -66,7 +68,12 @@ class TraineeResponse(APIView):
       json_response['probs'] = str(LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001))
       print('Probs ')
       print(LDA_2_topic.get_document_topics(bow=bow_corpus_test, minimum_probability=0.000001))
-      print(pd.DataFrame(LDA_2_topic.get_document_topics(bow = bow_corpus_test, minimum_probability=0.000001)))
+      # print(pd.DataFrame(LDA_2_topic.get_document_topics(bow = bow_corpus_test, minimum_probability=0.000001)))
+      json_response['response_score'] = randint(1, 3)
+
+      json_response['response_feedback'] = 'This is the feedback'
+
+
       return json_response
     except TraineeResponseModel.DoesNotExist:
       #The identifier doesn't exist in the database
